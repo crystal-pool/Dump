@@ -31,7 +31,7 @@ wikibase:Dump a schema:Dataset,
 		owl:Ontology ;
 	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
 	schema:softwareVersion "1.0.0" ;
-	schema:dateModified "2026-10-03T01:30:03Z"^^xsd:dateTime ;
+	schema:dateModified "2026-10-10T01:30:03Z"^^xsd:dateTime ;
 	owl:imports <http://wikiba.se/ontology-1.0.owl> .
 
 data:P2 a schema:Dataset ;
@@ -94773,8 +94773,8 @@ wdv:ccde5bf4691c9b4ab7e1ae95a31d1bcd a wikibase:TimeValue ;
 
 data:Q176 a schema:Dataset ;
 	schema:about wd:Q176 ;
-	schema:version "139220"^^xsd:integer ;
-	schema:dateModified "2026-08-14T03:15:40Z"^^xsd:dateTime ;
+	schema:version "143487"^^xsd:integer ;
+	schema:dateModified "2026-10-07T05:31:16Z"^^xsd:dateTime ;
 	wikibase:statements "145"^^xsd:integer ;
 	wikibase:sitelinks "17"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -95514,7 +95514,8 @@ wds:Q176-42E27145-FBFD-4C3F-B39B-92B3ABD86C18 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P119 wd:Q2730 ;
-	pq:P120 wd:Q4708 .
+	pq:P120 wd:Q4708,
+		wd:Q4412 .
 
 wd:Q176 p:P119 wds:Q176-97E9DDE8-E830-4FA7-92EA-6C828EB4108F .
 
@@ -316062,9 +316063,9 @@ wd:Q2435 rdfs:label "八哥羽"@zh-cn ;
 
 data:Q2436 a schema:Dataset ;
 	schema:about wd:Q2436 ;
-	schema:version "143073"^^xsd:integer ;
-	schema:dateModified "2026-10-02T12:40:43Z"^^xsd:dateTime ;
-	wikibase:statements "21"^^xsd:integer ;
+	schema:version "143281"^^xsd:integer ;
+	schema:dateModified "2026-10-06T07:44:48Z"^^xsd:dateTime ;
+	wikibase:statements "22"^^xsd:integer ;
 	wikibase:sitelinks "15"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -316166,7 +316167,8 @@ wd:Q2436 wdt:P3 wd:Q622 ;
 		wd:Q646,
 		wd:Q648,
 		wd:Q627,
-		wd:Q632 ;
+		wd:Q632,
+		wd:Q634 ;
 	wdt:P89 wd:Q4058 ;
 	wdt:P88 wd:Q4133 ;
 	wdt:P84 "Barley"@en ;
@@ -316220,7 +316222,11 @@ wds:Q2436-2f9f5780-2fba-4317-aff5-9c4ad25d0ad2 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P76 wd:Q648 ;
-	pq:P92 wd:Q757 .
+	pq:P92 wd:Q757 ;
+	pq:P93 wd:Q6587 ;
+	pq:P94 "-13"^^xsd:decimal ;
+	pqv:P94 wdv:53f745183c6e4cb160b7f5ee83d811ae ;
+	pq:P102 wd:Q4829 .
 
 wd:Q2436 p:P76 wds:Q2436-8b8e2c7b-44d5-75c0-dbfd-334c244a39db .
 
@@ -316242,6 +316248,15 @@ wds:Q2436-8c9e2054-4f91-d73a-35fc-63d8a4a28789 a wikibase:Statement,
 	pq:P92 wd:Q2149 ;
 	pq:P93 wd:Q2150 ;
 	pq:P102 wd:Q4424 .
+
+wd:Q2436 p:P76 wds:Q2436-3d751e39-4a0c-b2b6-bff1-ebd82ec95abd .
+
+wds:Q2436-3d751e39-4a0c-b2b6-bff1-ebd82ec95abd a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q634 ;
+	pq:P92 wd:Q6587 ;
+	prov:wasDerivedFrom wdref:7c94043f48605b0cbe19a59f69291034b96fd1eb .
 
 wd:Q2436 p:P89 wds:Q2436-7c7fd9a1-4158-e007-63e0-19ad1cadc841 .
 
@@ -316354,7 +316369,7 @@ wds:Q2436-9dc143e3-460f-ea8a-f740-105e476f20c3 a wikibase:Statement,
 	ps:P96 wd:Q6587 ;
 	pq:P94 "-13"^^xsd:decimal ;
 	pqv:P94 wdv:53f745183c6e4cb160b7f5ee83d811ae ;
-	pq:P102 wd:Q3551 .
+	pq:P102 wd:Q4829 .
 
 wd:Q2436 p:P95 wds:Q2436-bec5ffe6-4df8-36f7-dc61-55a816b7d32a .
 
@@ -324059,8 +324074,8 @@ wdref:a26ff709396fd2795c5e1f8a3794ae38c282ac14 a wikibase:Reference ;
 
 data:Q2470 a schema:Dataset ;
 	schema:about wd:Q2470 ;
-	schema:version "138996"^^xsd:integer ;
-	schema:dateModified "2026-08-03T21:30:54Z"^^xsd:dateTime ;
+	schema:version "143276"^^xsd:integer ;
+	schema:dateModified "2026-10-05T08:54:18Z"^^xsd:dateTime ;
 	wikibase:statements "14"^^xsd:integer ;
 	wikibase:sitelinks "9"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -324224,7 +324239,7 @@ wds:Q2470-996b9859-452b-0e16-621c-fdd1ab62edcb a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P76 wd:Q634 ;
-	pq:P92 _:ef58065dd5f2e8aaf8bea2bfdf48ef74 ;
+	pq:P92 wd:Q868 ;
 	prov:wasDerivedFrom wdref:bf97a87ccbb82b124740c1e68df50afa421db121 .
 
 wd:Q2470 p:P148 wds:Q2470-fb2fb03c-43e2-46a3-d0a1-243873d72ced .
@@ -346970,19 +346985,19 @@ wd:Q2558 rdfs:label "刺掌"@zh-cn ;
 
 data:Q2559 a schema:Dataset ;
 	schema:about wd:Q2559 ;
-	schema:version "122003"^^xsd:integer ;
-	schema:dateModified "2023-10-09T13:34:41Z"^^xsd:dateTime ;
+	schema:version "143353"^^xsd:integer ;
+	schema:dateModified "2026-10-06T21:30:56Z"^^xsd:dateTime ;
 	wikibase:statements "13"^^xsd:integer ;
 	wikibase:sitelinks "7"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q2559 a wikibase:Item .
 
-<https://warriors.fandom.com/wiki/Gooseberry> a schema:Article ;
+<https://warriors.fandom.com/wiki/Gooseberry_(TC)> a schema:Article ;
 	schema:about wd:Q2559 ;
 	schema:inLanguage "en" ;
 	schema:isPartOf <https://warriors.fandom.com/> ;
-	schema:name "Gooseberry"@en .
+	schema:name "Gooseberry (TC)"@en .
 
 <https://warriors-cats.fandom.com/ru/wiki/%D0%9A%D1%80%D1%8B%D0%B6%D0%BE%D0%B2%D0%BD%D0%B8%D1%86%D0%B0> a schema:Article ;
 	schema:about wd:Q2559 ;
@@ -531100,9 +531115,9 @@ wd:Q3325 rdfs:label "羞心"@zh-cn ;
 
 data:Q3326 a schema:Dataset ;
 	schema:about wd:Q3326 ;
-	schema:version "143108"^^xsd:integer ;
-	schema:dateModified "2026-10-02T15:56:11Z"^^xsd:dateTime ;
-	wikibase:statements "14"^^xsd:integer ;
+	schema:version "143358"^^xsd:integer ;
+	schema:dateModified "2026-10-07T01:07:08Z"^^xsd:dateTime ;
+	wikibase:statements "15"^^xsd:integer ;
 	wikibase:sitelinks "10"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -531172,7 +531187,8 @@ wd:Q3326 wdt:P3 wd:Q622 ;
 	wdt:P78 wd:Q678 ;
 	wdt:P86 wd:Q2399,
 		_:0fd9ab621228b27275f4cdb87deb4b07 ;
-	wdt:P76 wd:Q631 ;
+	wdt:P76 wd:Q631,
+		_:2090d37ca2a02e3689a9c588d069ccc0 ;
 	wdt:P83 wd:Q681,
 		wd:Q682,
 		wd:Q692 ;
@@ -531225,6 +531241,14 @@ wds:Q3326-183f14d3-8369-4e17-a764-6c16b3e968b2 a wikibase:Statement,
 	pq:P92 wd:Q158 ;
 	pq:P93 wd:Q6590 .
 
+wd:Q3326 p:P76 wds:Q3326-d495d5ac-4aba-047b-0f0d-40696d62d012 .
+
+wds:Q3326-d495d5ac-4aba-047b-0f0d-40696d62d012 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 _:2052f5cdd84923668c12ff30d32797b3 ;
+	pq:P92 wd:Q6590 .
+
 wd:Q3326 p:P83 wds:Q3326-fb62d1b6-48f0-43e4-9635-87f17ba05e45 .
 
 wds:Q3326-fb62d1b6-48f0-43e4-9635-87f17ba05e45 a wikibase:Statement,
@@ -531252,7 +531276,8 @@ wds:Q3326-6055c110-e527-4fb2-b40b-8c78877c51ab a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P83 wd:Q692 ;
 	pq:P21 wd:Q631 ;
-	pq:P92 wd:Q192 .
+	pq:P92 wd:Q192 ;
+	pq:P93 wd:Q6590 .
 
 wd:Q3326 p:P84 wds:Q3326-b571daeb-968d-4d76-b7c7-b95b85f54d29 .
 
@@ -547339,8 +547364,8 @@ wdref:931c005c25f3d521619fc21c19da27fe1608e1da a wikibase:Reference ;
 
 data:Q3394 a schema:Dataset ;
 	schema:about wd:Q3394 ;
-	schema:version "143069"^^xsd:integer ;
-	schema:dateModified "2026-10-02T12:22:19Z"^^xsd:dateTime ;
+	schema:version "143279"^^xsd:integer ;
+	schema:dateModified "2026-10-06T07:34:35Z"^^xsd:dateTime ;
 	wikibase:statements "41"^^xsd:integer ;
 	wikibase:sitelinks "12"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -547429,7 +547454,7 @@ wd:Q3394 wdt:P3 wd:Q622 ;
 		wd:Q647,
 		wd:Q632,
 		wd:Q4414,
-		_:fb5cf8845b551e773427668cb15a7cc2 ;
+		wd:Q634 ;
 	wdt:P83 wd:Q688,
 		wd:Q682,
 		wd:Q685 ;
@@ -547549,8 +547574,9 @@ wd:Q3394 p:P76 wds:Q3394-1de6e6aa-42cd-c5fb-ff48-9d927dd29ae0 .
 wds:Q3394-1de6e6aa-42cd-c5fb-ff48-9d927dd29ae0 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P76 _:372cdde3c1df584cf733a1e37b6b27be ;
-	pq:P92 wd:Q6579 .
+	ps:P76 wd:Q634 ;
+	pq:P92 wd:Q6579 ;
+	prov:wasDerivedFrom wdref:7c94043f48605b0cbe19a59f69291034b96fd1eb .
 
 wd:Q3394 p:P83 wds:Q3394-4786fa99-48db-f5bd-b580-a010d95f7eaa .
 
@@ -605120,8 +605146,8 @@ wd:Q3597 rdfs:label "小鬱金香"@zh-tw ;
 
 data:Q3598 a schema:Dataset ;
 	schema:about wd:Q3598 ;
-	schema:version "138997"^^xsd:integer ;
-	schema:dateModified "2026-08-03T21:30:59Z"^^xsd:dateTime ;
+	schema:version "143274"^^xsd:integer ;
+	schema:dateModified "2026-10-05T08:52:38Z"^^xsd:dateTime ;
 	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "9"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -605240,7 +605266,7 @@ wds:Q3598-609889c8-4d6d-0fe8-f7a5-0255508e2893 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P76 wd:Q634 ;
-	pq:P92 _:4705a0444cbb621f33d939ed3fe1c92e ;
+	pq:P92 wd:Q868 ;
 	prov:wasDerivedFrom wdref:bf97a87ccbb82b124740c1e68df50afa421db121 .
 
 wd:Q3598 p:P84 wds:Q3598-5db0003d-8000-45dc-8130-c9e8d81436d2 .
@@ -617706,19 +617732,19 @@ _:b6d0c779bbfee543cede0bb2ea479680 a owl:Restriction ;
 
 data:Q3639 a schema:Dataset ;
 	schema:about wd:Q3639 ;
-	schema:version "137053"^^xsd:integer ;
-	schema:dateModified "2026-06-22T21:30:21Z"^^xsd:dateTime ;
+	schema:version "143352"^^xsd:integer ;
+	schema:dateModified "2026-10-06T21:30:51Z"^^xsd:dateTime ;
 	wikibase:statements "5"^^xsd:integer ;
 	wikibase:sitelinks "7"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q3639 a wikibase:Item .
 
-<https://warriors.fandom.com/wiki/Jack> a schema:Article ;
+<https://warriors.fandom.com/wiki/Jack_(KP)> a schema:Article ;
 	schema:about wd:Q3639 ;
 	schema:inLanguage "en" ;
 	schema:isPartOf <https://warriors.fandom.com/> ;
-	schema:name "Jack"@en .
+	schema:name "Jack (KP)"@en .
 
 <https://warriors.huijiwiki.com/wiki/%E8%B4%BE%E7%A7%91> a schema:Article ;
 	schema:about wd:Q3639 ;
@@ -638591,8 +638617,8 @@ wd:Q4056 rdfs:label "The Silent Thaw, Chapter 24"@en ;
 
 data:Q4057 a schema:Dataset ;
 	schema:about wd:Q4057 ;
-	schema:version "142006"^^xsd:integer ;
-	schema:dateModified "2026-09-08T02:55:29Z"^^xsd:dateTime ;
+	schema:version "143530"^^xsd:integer ;
+	schema:dateModified "2026-10-09T21:30:14Z"^^xsd:dateTime ;
 	wikibase:statements "267"^^xsd:integer ;
 	wikibase:sitelinks "9"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -638617,11 +638643,11 @@ wd:Q4057 a wikibase:Item .
 	schema:isPartOf <https://lgdc.fandom.com/> ;
 	schema:name "Le serment de Plume Grise"@fr .
 
-<https://soturikissat.fandom.com/fi/wiki/Graystripe%27s_Vow> a schema:Article ;
+<https://soturikissat.fandom.com/fi/wiki/Harmaaraidan_vala> a schema:Article ;
 	schema:about wd:Q4057 ;
 	schema:inLanguage "fi" ;
 	schema:isPartOf <https://soturikissat.fandom.com/> ;
-	schema:name "Graystripe's Vow"@fi .
+	schema:name "Harmaaraidan vala"@fi .
 
 <https://warriors-cats.fandom.com/ru/wiki/%D0%9E%D0%B1%D0%B5%D1%82_%D0%9A%D1%80%D1%83%D1%82%D0%BE%D0%B1%D0%BE%D0%BA%D0%B0> a schema:Article ;
 	schema:about wd:Q4057 ;
@@ -726587,8 +726613,8 @@ wd:Q4906 rdfs:label "脊明"@zh-tw ;
 
 data:Q4907 a schema:Dataset ;
 	schema:about wd:Q4907 ;
-	schema:version "142999"^^xsd:integer ;
-	schema:dateModified "2026-09-14T06:05:20Z"^^xsd:dateTime ;
+	schema:version "143282"^^xsd:integer ;
+	schema:dateModified "2026-10-06T13:00:54Z"^^xsd:dateTime ;
 	wikibase:statements "17"^^xsd:integer ;
 	wikibase:sitelinks "7"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -726800,7 +726826,7 @@ wds:Q4907-17864d4c-439c-47ac-a9b4-2dbb13f26824 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P86 wd:Q3580 ;
-	prov:wasDerivedFrom wdref:6cfc9655ac59b1cea9c7c97a7df8facbf023fced .
+	prov:wasDerivedFrom wdref:49e7a3a197becae6a574ae5b62ee7d6773a294d5 .
 
 wd:Q4907 rdfs:label "暮光"@zh-tw ;
 	skos:prefLabel "暮光"@zh-tw ;
@@ -726827,6 +726853,9 @@ wd:Q4907 rdfs:label "暮光"@zh-tw ;
 
 wdref:6cfc9655ac59b1cea9c7c97a7df8facbf023fced a wikibase:Reference ;
 	pr:P30 wd:Q6185 .
+
+wdref:49e7a3a197becae6a574ae5b62ee7d6773a294d5 a wikibase:Reference ;
+	pr:P30 wd:Q6597 .
 
 data:Q4908 a schema:Dataset ;
 	schema:about wd:Q4908 ;
@@ -755741,9 +755770,9 @@ wd:Q5393 rdfs:label "星盡曙明"@zh-tw ;
 
 data:Q5394 a schema:Dataset ;
 	schema:about wd:Q5394 ;
-	schema:version "142541"^^xsd:integer ;
-	schema:dateModified "2026-09-11T00:46:56Z"^^xsd:dateTime ;
-	wikibase:statements "77"^^xsd:integer ;
+	schema:version "143489"^^xsd:integer ;
+	schema:dateModified "2026-10-07T05:31:24Z"^^xsd:dateTime ;
+	wikibase:statements "78"^^xsd:integer ;
 	wikibase:sitelinks "8"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -755873,7 +755902,8 @@ wd:Q5394 wdt:P3 wd:Q46 ;
 		wd:Q3129,
 		wd:Q2340,
 		wd:Q3394,
-		wd:Q3093 ;
+		wd:Q3093,
+		wd:Q2730 ;
 	p:P3 wds:Q5394-ef67face-4be7-134d-b231-0781f167c681 .
 
 wds:Q5394-ef67face-4be7-134d-b231-0781f167c681 a wikibase:Statement,
@@ -756489,6 +756519,14 @@ wds:Q5394-B1394040-3434-46F2-B64B-6B1F366F892F a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P119 wd:Q3093 ;
 	pq:P120 wd:Q4315 .
+
+wd:Q5394 p:P119 wds:Q5394-FD52ED13-B25E-438D-829F-B9699A4D909E .
+
+wds:Q5394-FD52ED13-B25E-438D-829F-B9699A4D909E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2730 ;
+	pq:P120 wd:Q4708 .
 
 wd:Q5394 rdfs:label "終極指南：升級擴充版"@zh-tw ;
 	skos:prefLabel "終極指南：升級擴充版"@zh-tw ;
@@ -809102,8 +809140,8 @@ wd:Q6067 rdfs:label "魯弗斯"@zh-tw ;
 
 data:Q6068 a schema:Dataset ;
 	schema:about wd:Q6068 ;
-	schema:version "142535"^^xsd:integer ;
-	schema:dateModified "2026-09-11T00:46:52Z"^^xsd:dateTime ;
+	schema:version "143411"^^xsd:integer ;
+	schema:dateModified "2026-10-07T02:09:45Z"^^xsd:dateTime ;
 	wikibase:statements "94"^^xsd:integer ;
 	wikibase:sitelinks "7"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -809336,7 +809374,9 @@ wds:Q6068-7CC378AA-8018-4353-A138-A8C7E74A68F7 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P119 wd:Q6231 ;
-	pq:P120 wd:Q4316 .
+	pq:P120 wd:Q4316,
+		wd:Q4711,
+		wd:Q4712 .
 
 wd:Q6068 p:P119 wds:Q6068-EB0B48D3-B9EE-49FC-8766-80037204FEB3 .
 
@@ -810028,19 +810068,19 @@ wd:Q6068 rdfs:label "長者之征"@zh-tw ;
 
 data:Q6069 a schema:Dataset ;
 	schema:about wd:Q6069 ;
-	schema:version "142744"^^xsd:integer ;
-	schema:dateModified "2026-09-14T04:56:41Z"^^xsd:dateTime ;
-	wikibase:statements "26"^^xsd:integer ;
+	schema:version "143531"^^xsd:integer ;
+	schema:dateModified "2026-10-09T21:30:27Z"^^xsd:dateTime ;
+	wikibase:statements "29"^^xsd:integer ;
 	wikibase:sitelinks "7"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6069 a wikibase:Item .
 
-<https://warriors.fandom.com/wiki/Moonpaw_(CS)> a schema:Article ;
+<https://warriors.fandom.com/wiki/Moonglow> a schema:Article ;
 	schema:about wd:Q6069 ;
 	schema:inLanguage "en" ;
 	schema:isPartOf <https://warriors.fandom.com/> ;
-	schema:name "Moonpaw (CS)"@en .
+	schema:name "Moonglow"@en .
 
 <https://warrior-cats.fandom.com/de/wiki/Mondpfote_(Staffel_9)> a schema:Article ;
 	schema:about wd:Q6069 ;
@@ -810048,23 +810088,23 @@ wd:Q6069 a wikibase:Item .
 	schema:isPartOf <https://warrior-cats.fandom.com/> ;
 	schema:name "Mondpfote (Staffel 9)"@de .
 
-<https://soturikissat.fandom.com/fi/wiki/Moonpaw> a schema:Article ;
+<https://soturikissat.fandom.com/fi/wiki/Moonglow> a schema:Article ;
 	schema:about wd:Q6069 ;
 	schema:inLanguage "fi" ;
 	schema:isPartOf <https://soturikissat.fandom.com/> ;
-	schema:name "Moonpaw"@fi .
+	schema:name "Moonglow"@fi .
 
-<https://lgdc.fandom.com/fr/wiki/Moonpaw> a schema:Article ;
+<https://lgdc.fandom.com/fr/wiki/Moonglow> a schema:Article ;
 	schema:about wd:Q6069 ;
 	schema:inLanguage "fr" ;
 	schema:isPartOf <https://lgdc.fandom.com/> ;
-	schema:name "Moonpaw"@fr .
+	schema:name "Moonglow"@fr .
 
-<https://wojownicy.fandom.com/pl/wiki/Ksi%C4%99%C5%BCycowa_%C5%81apa> a schema:Article ;
+<https://wojownicy.fandom.com/pl/wiki/Ksi%C4%99%C5%BCycowa_Po%C5%9Bwiata> a schema:Article ;
 	schema:about wd:Q6069 ;
 	schema:inLanguage "pl" ;
 	schema:isPartOf <https://wojownicy.fandom.com/> ;
-	schema:name "Księżycowa Łapa"@pl .
+	schema:name "Księżycowa Poświata"@pl .
 
 <https://warriors-cats.fandom.com/ru/wiki/%D0%9B%D1%83%D0%BD%D0%BE%D0%BB%D0%B0%D0%BF%D0%BA%D0%B0> a schema:Article ;
 	schema:about wd:Q6069 ;
@@ -810089,7 +810129,9 @@ wd:Q6069 wdt:P3 wd:Q622 ;
 		"月明"@zh-tw ;
 	wdt:P76 wd:Q627,
 		wd:Q649,
-		wd:Q627 ;
+		wd:Q627,
+		wd:Q6610,
+		wd:Q649 ;
 	wdt:P83 wd:Q681,
 		wd:Q685 ;
 	wdt:P88 wd:Q3582 ;
@@ -810097,7 +810139,8 @@ wd:Q6069 wdt:P3 wd:Q622 ;
 	wdt:P148 wd:Q5153,
 		wd:Q5155,
 		wd:Q5155,
-		wd:Q5156 ;
+		wd:Q5156,
+		wd:Q5171 ;
 	wdt:P86 wd:Q3293,
 		wd:Q3129,
 		wd:Q2544,
@@ -810204,7 +810247,7 @@ wds:Q6069-278f1f43-4663-5cbd-6a4e-adf4db5f0f05 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P76 wd:Q649 ;
 	pq:P92 wd:Q6488 ;
-	pq:P93 wd:Q6595 .
+	pq:P93 wd:Q6578 .
 
 wd:Q6069 p:P76 wds:Q6069-33683332-4503-956c-3183-9d8a85285b62 .
 
@@ -810213,6 +810256,24 @@ wds:Q6069-33683332-4503-956c-3183-9d8a85285b62 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P76 wd:Q627 ;
 	pq:P92 wd:Q6595 .
+
+wd:Q6069 p:P76 wds:Q6069-29088157-49a1-c460-3977-31847ea93410 .
+
+wds:Q6069-29088157-49a1-c460-3977-31847ea93410 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q6610 ;
+	pq:P92 wd:Q6578 ;
+	pq:P93 wd:Q6589 .
+
+wd:Q6069 p:P76 wds:Q6069-1f417fe9-473a-9c2a-e446-fb74a5b9aab2 .
+
+wds:Q6069-1f417fe9-473a-9c2a-e446-fb74a5b9aab2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q649 ;
+	pq:P92 wd:Q6589 ;
+	pq:P93 wd:Q6595 .
 
 wd:Q6069 p:P83 wds:Q6069-5ea160f8-4975-8289-b37d-699d5113f8cb .
 
@@ -810290,6 +810351,14 @@ wds:Q6069-c35cbe08-431c-ce8e-bbef-329064b387e3 a wikibase:Statement,
 	pq:P21 wd:Q5183 ;
 	pq:P149 wd:Q5332 .
 
+wd:Q6069 p:P148 wds:Q6069-de294642-4d5a-f9ae-bbdb-6226088c3af0 .
+
+wds:Q6069-de294642-4d5a-f9ae-bbdb-6226088c3af0 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5171 ;
+	pq:P149 wd:Q5239 .
+
 wd:Q6069 p:P86 wds:Q6069-5c5effe7-4c80-2d9d-7145-e18a5829c9fc .
 
 wds:Q6069-5c5effe7-4c80-2d9d-7145-e18a5829c9fc a wikibase:Statement,
@@ -810339,7 +810408,9 @@ wds:Q6069-e3d0ff08-42c6-c6e9-307d-a730555b0563 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P95 wd:Q6235 ;
 	pq:P94 "-6"^^xsd:decimal ;
-	pqv:P94 wdv:232d3ac8f8e371213de7cf81611e4c6c .
+	pqv:P94 wdv:232d3ac8f8e371213de7cf81611e4c6c ;
+	pq:P102 wd:Q3552 ;
+	pq:P103 wd:Q4822 .
 
 wd:Q6069 p:P100 wds:Q6069-553b49d8-4635-5b8d-ad2c-2326293cd4cc .
 
@@ -810365,7 +810436,7 @@ wd:Q6069 rdfs:label "月明"@zh-tw ;
 	skos:prefLabel "Лунолапка"@ru ;
 	schema:name "Лунолапка"@ru ;
 	schema:description "雷族母貓，自《長者之征》登場的角色"@zh-tw,
-		"female rogue, formerly ThunderClan cat, first appeared in The Elder's Quest"@en,
+		"female rogue, formerly ThunderClan cat, first appeared in The Elders' Quest"@en,
 		"雷族母猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "小月"@zh-tw,
 		"月掌"@zh-tw,
@@ -821943,9 +822014,9 @@ wd:Q6184 rdfs:label "逐影尋蹤"@zh-tw ;
 
 data:Q6185 a schema:Dataset ;
 	schema:about wd:Q6185 ;
-	schema:version "139472"^^xsd:integer ;
-	schema:dateModified "2026-08-14T03:43:40Z"^^xsd:dateTime ;
-	wikibase:statements "6"^^xsd:integer ;
+	schema:version "143498"^^xsd:integer ;
+	schema:dateModified "2026-10-07T05:32:07Z"^^xsd:dateTime ;
+	wikibase:statements "46"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -821968,7 +822039,47 @@ wd:Q6185 wdt:P3 wd:Q46 ;
 	wdt:P119 wd:Q2647,
 		wd:Q6069,
 		wd:Q6224,
-		wd:Q6231 ;
+		wd:Q6231,
+		wd:Q2544,
+		wd:Q3590,
+		wd:Q3582,
+		wd:Q4587,
+		wd:Q4588,
+		wd:Q2500,
+		wd:Q4402,
+		wd:Q2344,
+		wd:Q4900,
+		wd:Q2543,
+		wd:Q4902,
+		wd:Q2917,
+		wd:Q2918,
+		wd:Q6604,
+		wd:Q2353,
+		wd:Q2363,
+		wd:Q2652,
+		wd:Q6038,
+		wd:Q2602,
+		wd:Q2844,
+		wd:Q3201,
+		wd:Q4637,
+		wd:Q4908,
+		wd:Q2719,
+		wd:Q4406,
+		wd:Q3427,
+		wd:Q3429,
+		wd:Q3158,
+		wd:Q3037,
+		wd:Q4403,
+		wd:Q3486,
+		wd:Q2330,
+		wd:Q6493,
+		wd:Q2585,
+		wd:Q3351,
+		wd:Q6547,
+		wd:Q2429,
+		wd:Q3104,
+		wd:Q2810,
+		wd:Q2436 ;
 	p:P3 wds:Q6185-c382025e-434b-e9d6-80dd-b49a21f4d702 .
 
 wds:Q6185-c382025e-434b-e9d6-80dd-b49a21f4d702 a wikibase:Statement,
@@ -822022,6 +822133,329 @@ wds:Q6185-367F9067-307B-4181-AACD-3310AC43FCF4 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P119 wd:Q6231 ;
 	pq:P120 wd:Q4316 .
+
+wd:Q6185 p:P119 wds:Q6185-88DD8475-97A4-4395-A86B-454557164AE7 .
+
+wds:Q6185-88DD8475-97A4-4395-A86B-454557164AE7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2544 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6185 p:P119 wds:Q6185-C477B2F1-45F0-49C7-B2D9-DC75955AF770 .
+
+wds:Q6185-C477B2F1-45F0-49C7-B2D9-DC75955AF770 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q3590 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6185 p:P119 wds:Q6185-18E550CA-635C-4F8B-8397-EA90ACFF6888 .
+
+wds:Q6185-18E550CA-635C-4F8B-8397-EA90ACFF6888 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q3582 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6185 p:P119 wds:Q6185-C8BD2241-3A02-41D2-8757-A90784E45BB4 .
+
+wds:Q6185-C8BD2241-3A02-41D2-8757-A90784E45BB4 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q4587 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6185 p:P119 wds:Q6185-A497EDAF-8D20-420F-9A42-C351ED7C609F .
+
+wds:Q6185-A497EDAF-8D20-420F-9A42-C351ED7C609F a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q4588 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6185 p:P119 wds:Q6185-E16A3495-8AB8-4B62-A4F4-C4C2E879B636 .
+
+wds:Q6185-E16A3495-8AB8-4B62-A4F4-C4C2E879B636 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2500 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6185 p:P119 wds:Q6185-BC7012E9-0D9D-4548-B6B5-618D8917461B .
+
+wds:Q6185-BC7012E9-0D9D-4548-B6B5-618D8917461B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q4402 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6185 p:P119 wds:Q6185-70D5B476-FE18-4A41-91BD-2FB635234152 .
+
+wds:Q6185-70D5B476-FE18-4A41-91BD-2FB635234152 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2344 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6185 p:P119 wds:Q6185-608165AA-F7AA-4425-8B46-3CA2063B6C15 .
+
+wds:Q6185-608165AA-F7AA-4425-8B46-3CA2063B6C15 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q4900 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6185 p:P119 wds:Q6185-8E62CD38-D0C1-497E-97C4-459ADE261332 .
+
+wds:Q6185-8E62CD38-D0C1-497E-97C4-459ADE261332 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2543 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6185 p:P119 wds:Q6185-3E35BBBE-2CDA-44BD-877F-CDB1F11FA479 .
+
+wds:Q6185-3E35BBBE-2CDA-44BD-877F-CDB1F11FA479 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q4902 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6185 p:P119 wds:Q6185-8CEA7947-99B1-4A65-916E-CCE23810F2E6 .
+
+wds:Q6185-8CEA7947-99B1-4A65-916E-CCE23810F2E6 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2917 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6185 p:P119 wds:Q6185-44665C29-0AC0-4D62-A622-252830009CC5 .
+
+wds:Q6185-44665C29-0AC0-4D62-A622-252830009CC5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2918 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6185 p:P119 wds:Q6185-F2F7ED2E-F735-4D79-BC22-9ADA0EEF7670 .
+
+wds:Q6185-F2F7ED2E-F735-4D79-BC22-9ADA0EEF7670 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q6604 ;
+	pq:P120 wd:Q4315,
+		wd:Q4711 .
+
+wd:Q6185 p:P119 wds:Q6185-50AADD55-A882-4893-9D44-42149FE2EE37 .
+
+wds:Q6185-50AADD55-A882-4893-9D44-42149FE2EE37 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2353 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6185 p:P119 wds:Q6185-3508E634-A0E5-4437-BD3B-27A03C7EA042 .
+
+wds:Q6185-3508E634-A0E5-4437-BD3B-27A03C7EA042 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2363 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6185 p:P119 wds:Q6185-07D3D54B-63DC-4DAC-9279-7086BB712F33 .
+
+wds:Q6185-07D3D54B-63DC-4DAC-9279-7086BB712F33 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2652 ;
+	pq:P120 wd:Q4710 .
+
+wd:Q6185 p:P119 wds:Q6185-F6B1CEB8-935B-43C0-AF9C-C085AC175FC4 .
+
+wds:Q6185-F6B1CEB8-935B-43C0-AF9C-C085AC175FC4 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q6038 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6185 p:P119 wds:Q6185-C450FF9A-7348-42AE-A9E2-2CB6DD43F489 .
+
+wds:Q6185-C450FF9A-7348-42AE-A9E2-2CB6DD43F489 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2602 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6185 p:P119 wds:Q6185-45869128-1F2C-4945-A301-36177F2157FE .
+
+wds:Q6185-45869128-1F2C-4945-A301-36177F2157FE a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2844 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6185 p:P119 wds:Q6185-7801F061-21E0-425E-8AF5-0D474391F372 .
+
+wds:Q6185-7801F061-21E0-425E-8AF5-0D474391F372 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q3201 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6185 p:P119 wds:Q6185-525D8415-38DA-470C-AF74-93144DC55847 .
+
+wds:Q6185-525D8415-38DA-470C-AF74-93144DC55847 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q4637 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6185 p:P119 wds:Q6185-C70F8399-6048-4D63-9BD0-54E06EE26310 .
+
+wds:Q6185-C70F8399-6048-4D63-9BD0-54E06EE26310 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q4908 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6185 p:P119 wds:Q6185-9A9963EF-2996-4CE2-A5C2-AEEB5744EC90 .
+
+wds:Q6185-9A9963EF-2996-4CE2-A5C2-AEEB5744EC90 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2719 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6185 p:P119 wds:Q6185-EBABAD71-4642-4479-A4E6-53CDF8E219ED .
+
+wds:Q6185-EBABAD71-4642-4479-A4E6-53CDF8E219ED a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q4406 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6185 p:P119 wds:Q6185-C6B492BC-6F6B-4397-B774-BFD28DAB3DB1 .
+
+wds:Q6185-C6B492BC-6F6B-4397-B774-BFD28DAB3DB1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q3427 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6185 p:P119 wds:Q6185-248BB76A-E345-4675-9C1F-679B6D138315 .
+
+wds:Q6185-248BB76A-E345-4675-9C1F-679B6D138315 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q3429 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6185 p:P119 wds:Q6185-4F7E74E8-EDA5-4EDF-9B9D-E10A60EF8E5E .
+
+wds:Q6185-4F7E74E8-EDA5-4EDF-9B9D-E10A60EF8E5E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q3158 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6185 p:P119 wds:Q6185-9179FEEB-0955-4CE1-8BC3-38F062A33BEE .
+
+wds:Q6185-9179FEEB-0955-4CE1-8BC3-38F062A33BEE a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q3037 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6185 p:P119 wds:Q6185-2BC56C8A-8E42-4ADC-9FC2-87E5F73F37BB .
+
+wds:Q6185-2BC56C8A-8E42-4ADC-9FC2-87E5F73F37BB a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q4403 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6185 p:P119 wds:Q6185-1432FE19-EFBC-4A2E-8C85-41C786162CE2 .
+
+wds:Q6185-1432FE19-EFBC-4A2E-8C85-41C786162CE2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q3486 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6185 p:P119 wds:Q6185-2F2DEF26-338A-4F39-979A-1E44435B5169 .
+
+wds:Q6185-2F2DEF26-338A-4F39-979A-1E44435B5169 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2330 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6185 p:P119 wds:Q6185-D25B5020-DCE1-49FB-BAFD-CC35D656A587 .
+
+wds:Q6185-D25B5020-DCE1-49FB-BAFD-CC35D656A587 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q6493 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6185 p:P119 wds:Q6185-5511F67F-7689-4C4F-BB65-B3E5E5BC0EFD .
+
+wds:Q6185-5511F67F-7689-4C4F-BB65-B3E5E5BC0EFD a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2585 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6185 p:P119 wds:Q6185-61883F0D-39FF-48EC-9BA4-C0462C9EA116 .
+
+wds:Q6185-61883F0D-39FF-48EC-9BA4-C0462C9EA116 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q3351 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6185 p:P119 wds:Q6185-A45B0A79-228C-4428-AA8D-4E3ED47F1832 .
+
+wds:Q6185-A45B0A79-228C-4428-AA8D-4E3ED47F1832 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q6547 ;
+	pq:P120 wd:Q4315,
+		wd:Q4711 .
+
+wd:Q6185 p:P119 wds:Q6185-F963AF10-8A74-4D71-A79F-6E19DF0E2FDA .
+
+wds:Q6185-F963AF10-8A74-4D71-A79F-6E19DF0E2FDA a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2429 ;
+	pq:P120 wd:Q4708 .
+
+wd:Q6185 p:P119 wds:Q6185-2B0AD89E-5363-417A-BD24-0B770DA8024B .
+
+wds:Q6185-2B0AD89E-5363-417A-BD24-0B770DA8024B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q3104 ;
+	pq:P120 wd:Q4710 .
+
+wd:Q6185 p:P119 wds:Q6185-742D812D-F216-4BC3-95A4-B077D9560AD4 .
+
+wds:Q6185-742D812D-F216-4BC3-95A4-B077D9560AD4 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2810 ;
+	pq:P120 wd:Q4709 .
+
+wd:Q6185 p:P119 wds:Q6185-366A4EDB-F37D-4741-B1F9-48E253010939 .
+
+wds:Q6185-366A4EDB-F37D-4741-B1F9-48E253010939 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2436 ;
+	pq:P120 wd:Q4708,
+		wd:Q4712 .
 
 wd:Q6185 rdfs:label "Guiding Light"@en ;
 	skos:prefLabel "Guiding Light"@en ;
@@ -823541,19 +823975,19 @@ wd:Q6212 schema:description "河族貓，公佈於官網的角色，捲羽的見
 
 data:Q6213 a schema:Dataset ;
 	schema:about wd:Q6213 ;
-	schema:version "142730"^^xsd:integer ;
-	schema:dateModified "2026-09-14T04:54:14Z"^^xsd:dateTime ;
-	wikibase:statements "20"^^xsd:integer ;
+	schema:version "143502"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:06Z"^^xsd:dateTime ;
+	wikibase:statements "22"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6213 a wikibase:Item .
 
-<https://warriors.fandom.com/wiki/Goldenpaw_(CS)> a schema:Article ;
+<https://warriors.fandom.com/wiki/Goldenheart> a schema:Article ;
 	schema:about wd:Q6213 ;
 	schema:inLanguage "en" ;
 	schema:isPartOf <https://warriors.fandom.com/> ;
-	schema:name "Goldenpaw (CS)"@en .
+	schema:name "Goldenheart"@en .
 
 <https://warriors.huijiwiki.com/wiki/%E9%87%91%E5%BF%83> a schema:Article ;
 	schema:about wd:Q6213 ;
@@ -823568,7 +824002,9 @@ wd:Q6213 wdt:P3 wd:Q622 ;
 	wdt:P95 wd:Q6235 ;
 	wdt:P76 wd:Q627,
 		wd:Q649,
-		wd:Q627 ;
+		wd:Q627,
+		wd:Q6610,
+		wd:Q649 ;
 	wdt:P83 wd:Q681 ;
 	wdt:P86 wd:Q2415 ;
 	wdt:P84 "Goldenkit"@en,
@@ -823638,7 +824074,7 @@ wds:Q6213-307c3f41-4059-feee-8aae-190fb875e4fe a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P76 wd:Q649 ;
 	pq:P92 wd:Q6491 ;
-	pq:P93 wd:Q6592 .
+	pq:P93 wd:Q6578 .
 
 wd:Q6213 p:P76 wds:Q6213-0e8b20ce-400c-0858-ba83-7753fd62ef8a .
 
@@ -823647,6 +824083,24 @@ wds:Q6213-0e8b20ce-400c-0858-ba83-7753fd62ef8a a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P76 wd:Q627 ;
 	pq:P92 wd:Q6592 .
+
+wd:Q6213 p:P76 wds:Q6213-4f14a532-406f-434c-e0fa-1f6b9f034040 .
+
+wds:Q6213-4f14a532-406f-434c-e0fa-1f6b9f034040 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q6610 ;
+	pq:P92 wd:Q6578 ;
+	pq:P93 wd:Q6589 .
+
+wd:Q6213 p:P76 wds:Q6213-c38d63be-41bf-16df-be2c-c28b5a4224f3 .
+
+wds:Q6213-c38d63be-41bf-16df-be2c-c28b5a4224f3 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q649 ;
+	pq:P92 wd:Q6589 ;
+	pq:P93 wd:Q6592 .
 
 wd:Q6213 p:P83 wds:Q6213-c4220626-47c3-b290-5863-efb385c54c05 .
 
@@ -823772,7 +824226,7 @@ wd:Q6213 rdfs:label "金心"@zh-tw ;
 	skos:prefLabel "金心"@zh-hans ;
 	schema:name "金心"@zh-hans ;
 	schema:description "雷族公貓，自《長者之征》登場的角色"@zh-tw,
-		"male rogue, formerly ThunderClan cat, first appeared in The Elder's Quest"@en,
+		"male rogue, formerly ThunderClan cat, first appeared in The Elders' Quest"@en,
 		"雷族公猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "小金"@zh-tw,
 		"金掌"@zh-tw,
@@ -823783,19 +824237,19 @@ wd:Q6213 rdfs:label "金心"@zh-tw ;
 
 data:Q6214 a schema:Dataset ;
 	schema:about wd:Q6214 ;
-	schema:version "142757"^^xsd:integer ;
-	schema:dateModified "2026-09-14T05:02:45Z"^^xsd:dateTime ;
+	schema:version "143503"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:06Z"^^xsd:dateTime ;
 	wikibase:statements "18"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6214 a wikibase:Item .
 
-<https://warriors.fandom.com/wiki/Shinepaw> a schema:Article ;
+<https://warriors.fandom.com/wiki/Shinepool> a schema:Article ;
 	schema:about wd:Q6214 ;
 	schema:inLanguage "en" ;
 	schema:isPartOf <https://warriors.fandom.com/> ;
-	schema:name "Shinepaw"@en .
+	schema:name "Shinepool"@en .
 
 <https://warriors.huijiwiki.com/wiki/%E8%BE%89%E6%B1%A0> a schema:Article ;
 	schema:about wd:Q6214 ;
@@ -823993,7 +824447,7 @@ wd:Q6214 rdfs:label "輝池"@zh-tw ;
 	skos:prefLabel "辉池"@zh-hans ;
 	schema:name "辉池"@zh-hans ;
 	schema:description "雷族母貓，自《長者之征》登場的角色"@zh-tw,
-		"ThunderClan she-cat, first appeared in The Elder's Quest"@en,
+		"ThunderClan she-cat, first appeared in The Elders' Quest"@en,
 		"雷族母猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "小輝"@zh-tw,
 		"輝掌"@zh-tw,
@@ -824004,19 +824458,25 @@ wd:Q6214 rdfs:label "輝池"@zh-tw ;
 
 data:Q6215 a schema:Dataset ;
 	schema:about wd:Q6215 ;
-	schema:version "143114"^^xsd:integer ;
-	schema:dateModified "2026-10-02T21:30:17Z"^^xsd:dateTime ;
-	wikibase:statements "14"^^xsd:integer ;
-	wikibase:sitelinks "1"^^xsd:integer ;
+	schema:version "143504"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:07Z"^^xsd:dateTime ;
+	wikibase:statements "16"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6215 a wikibase:Item .
 
-<https://warriors.fandom.com/wiki/Hazelkit_(CS)> a schema:Article ;
+<https://warriors.fandom.com/wiki/Hazelpaw_(CS)> a schema:Article ;
 	schema:about wd:Q6215 ;
 	schema:inLanguage "en" ;
 	schema:isPartOf <https://warriors.fandom.com/> ;
-	schema:name "Hazelkit (CS)"@en .
+	schema:name "Hazelpaw (CS)"@en .
+
+<https://warriors.huijiwiki.com/wiki/%E6%A6%9B%E7%88%AA_(%E5%A4%A9%E7%A9%B9%E4%B9%8B%E5%8F%98)> a schema:Article ;
+	schema:about wd:Q6215 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "榛爪 (天穹之变)"@zh .
 
 wd:Q6215 wdt:P3 wd:Q622 ;
 	wdt:P78 wd:Q679 ;
@@ -824032,6 +824492,8 @@ wd:Q6215 wdt:P3 wd:Q622 ;
 	wdt:P88 wd:Q3571 ;
 	wdt:P95 wd:Q6068 ;
 	wdt:P83 wd:Q681 ;
+	wdt:P86 _:db217ebc5cf8c979fd23afa71c992f2a,
+		_:24cf4144d9e28e1a60ade1d6bda064e8 ;
 	p:P3 wds:Q6215-c223a4d2-408b-b704-d1a8-0f4e8264ce3c .
 
 wds:Q6215-c223a4d2-408b-b704-d1a8-0f4e8264ce3c a wikibase:Statement,
@@ -824060,7 +824522,7 @@ wds:Q6215-fc43ad4d-4957-fa70-5eb6-9e13966f85d8 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P89 wd:Q3583 ;
-	pq:P92 wd:Q6068 .
+	prov:wasDerivedFrom wdref:7217dca03aa34da575f0d776bdee69c7b44ce566 .
 
 wd:Q6215 p:P84 wds:Q6215-77645076-451f-d66c-735e-ef21769593ad .
 
@@ -824135,7 +824597,6 @@ wds:Q6215-07f292e8-4e14-95ad-d009-e52ad147423d a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P88 wd:Q3571 ;
-	pq:P92 wd:Q6068 ;
 	prov:wasDerivedFrom wdref:bf97a87ccbb82b124740c1e68df50afa421db121 .
 
 wd:Q6215 p:P95 wds:Q6215-01751ccc-49e4-32ae-bafa-14819621b2cd .
@@ -824144,8 +824605,8 @@ wds:Q6215-01751ccc-49e4-32ae-bafa-14819621b2cd a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P95 wd:Q6068 ;
-	pq:P94 "-2"^^xsd:decimal ;
-	pqv:P94 wdv:afd97e71c3dcdc1cc4baa11d350649f2 ;
+	pq:P94 "-1"^^xsd:decimal ;
+	pqv:P94 wdv:3865345a48a58ce7a73c54ebfe58a20b ;
 	pq:P102 wd:Q3552 ;
 	pq:P103 wd:Q4822 .
 
@@ -824158,6 +824619,22 @@ wds:Q6215-94767dc8-410e-3d6a-e94c-4f3b1b27f99b a wikibase:Statement,
 	pq:P21 wd:Q627 ;
 	pq:P92 wd:Q6590 .
 
+wd:Q6215 p:P86 wds:Q6215-020378fa-4396-1372-2798-7246c5c935bc .
+
+wds:Q6215-020378fa-4396-1372-2798-7246c5c935bc a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P86 _:a498f03b9eefa7bb031a7e908da488a0 ;
+	pq:P92 wd:Q6590 .
+
+wd:Q6215 p:P86 wds:Q6215-22c05b23-481a-756d-7d77-f3a032b63445 .
+
+wds:Q6215-22c05b23-481a-756d-7d77-f3a032b63445 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P86 _:a2324f8b59ee7a6728a8cbf02738b314 ;
+	pq:P92 wd:Q6590 .
+
 wd:Q6215 rdfs:label "榛掌"@zh-tw ;
 	skos:prefLabel "榛掌"@zh-tw ;
 	schema:name "榛掌"@zh-tw ;
@@ -824168,33 +824645,36 @@ wd:Q6215 rdfs:label "榛掌"@zh-tw ;
 	skos:prefLabel "榛爪"@zh-hans ;
 	schema:name "榛爪"@zh-hans ;
 	schema:description "雷族母貓，自《長者之征》登場的角色"@zh-tw,
-		"ThunderClan she-cat, first appeared in The Elder's Quest"@en,
+		"ThunderClan she-cat, first appeared in The Elders' Quest"@en,
 		"雷族母猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "小榛"@zh-hans,
 		"小榛"@zh-tw,
 		"Hazelkit"@en .
 
+wdref:7217dca03aa34da575f0d776bdee69c7b44ce566 a wikibase:Reference ;
+	pr:P30 wd:Q6068 .
+
 data:Q6216 a schema:Dataset ;
 	schema:about wd:Q6216 ;
-	schema:version "143113"^^xsd:integer ;
-	schema:dateModified "2026-10-02T16:07:19Z"^^xsd:dateTime ;
+	schema:version "143505"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:07Z"^^xsd:dateTime ;
 	wikibase:statements "14"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6216 a wikibase:Item .
 
-<https://warriors.fandom.com/wiki/Oakkit_(TC)> a schema:Article ;
+<https://warriors.fandom.com/wiki/Oakpaw_(TC)> a schema:Article ;
 	schema:about wd:Q6216 ;
 	schema:inLanguage "en" ;
 	schema:isPartOf <https://warriors.fandom.com/> ;
-	schema:name "Oakkit (TC)"@en .
+	schema:name "Oakpaw (TC)"@en .
 
-<https://warriors.huijiwiki.com/wiki/%E5%B0%8F%E6%A9%A1_(%E9%9B%B7%E6%97%8F)> a schema:Article ;
+<https://warriors.huijiwiki.com/wiki/%E6%A9%A1%E7%88%AA_(%E9%9B%B7%E6%97%8F)> a schema:Article ;
 	schema:about wd:Q6216 ;
 	schema:inLanguage "zh" ;
 	schema:isPartOf <https://warriors.huijiwiki.com/> ;
-	schema:name "小橡 (雷族)"@zh .
+	schema:name "橡爪 (雷族)"@zh .
 
 wd:Q6216 wdt:P3 wd:Q622 ;
 	wdt:P78 wd:Q679 ;
@@ -824238,7 +824718,7 @@ wds:Q6216-c6dafc3a-4271-2d8e-8a8e-cd00904736e5 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P89 wd:Q3583 ;
-	pq:P92 wd:Q6068 .
+	prov:wasDerivedFrom wdref:7217dca03aa34da575f0d776bdee69c7b44ce566 .
 
 wd:Q6216 p:P84 wds:Q6216-bfa99ae9-446c-1260-6e68-9d8bd7cc8a23 .
 
@@ -824315,7 +824795,6 @@ wds:Q6216-76a71943-4246-02b4-917a-5a35ba58cc02 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P88 wd:Q3571 ;
-	pq:P92 wd:Q6068 ;
 	prov:wasDerivedFrom wdref:bf97a87ccbb82b124740c1e68df50afa421db121 .
 
 wd:Q6216 p:P95 wds:Q6216-5a64cf8a-4f53-995a-39cb-e06114d16981 .
@@ -824324,8 +824803,8 @@ wds:Q6216-5a64cf8a-4f53-995a-39cb-e06114d16981 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P95 wd:Q6068 ;
-	pq:P94 "-2"^^xsd:decimal ;
-	pqv:P94 wdv:afd97e71c3dcdc1cc4baa11d350649f2 ;
+	pq:P94 "-1"^^xsd:decimal ;
+	pqv:P94 wdv:3865345a48a58ce7a73c54ebfe58a20b ;
 	pq:P102 wd:Q3552 ;
 	pq:P103 wd:Q4822 .
 
@@ -824348,7 +824827,7 @@ wd:Q6216 rdfs:label "橡掌"@zh-tw ;
 	skos:prefLabel "橡爪"@zh-hans ;
 	schema:name "橡爪"@zh-hans ;
 	schema:description "雷族母貓，自《長者之征》登場的角色"@zh-tw,
-		"ThunderClan she-cat, first appeared in The Elder's Quest"@en,
+		"ThunderClan she-cat, first appeared in The Elders' Quest"@en,
 		"雷族母猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "小橡"@zh-hans,
 		"小橡"@zh-tw,
@@ -824356,25 +824835,25 @@ wd:Q6216 rdfs:label "橡掌"@zh-tw ;
 
 data:Q6217 a schema:Dataset ;
 	schema:about wd:Q6217 ;
-	schema:version "143110"^^xsd:integer ;
-	schema:dateModified "2026-10-02T16:05:20Z"^^xsd:dateTime ;
-	wikibase:statements "14"^^xsd:integer ;
+	schema:version "143506"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:08Z"^^xsd:dateTime ;
+	wikibase:statements "15"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6217 a wikibase:Item .
 
-<https://warriors.fandom.com/wiki/Sunkit_(CS)> a schema:Article ;
+<https://warriors.fandom.com/wiki/Sunpaw_(TC)> a schema:Article ;
 	schema:about wd:Q6217 ;
 	schema:inLanguage "en" ;
 	schema:isPartOf <https://warriors.fandom.com/> ;
-	schema:name "Sunkit (CS)"@en .
+	schema:name "Sunpaw (TC)"@en .
 
-<https://warriors.huijiwiki.com/wiki/%E5%B0%8F%E6%97%A5_(%E5%A4%A9%E7%A9%B9%E4%B9%8B%E5%8F%98)> a schema:Article ;
+<https://warriors.huijiwiki.com/wiki/%E6%97%A5%E7%88%AA_(%E5%A4%A9%E7%A9%B9%E4%B9%8B%E5%8F%98)> a schema:Article ;
 	schema:about wd:Q6217 ;
 	schema:inLanguage "zh" ;
 	schema:isPartOf <https://warriors.huijiwiki.com/> ;
-	schema:name "小日 (天穹之变)"@zh .
+	schema:name "日爪 (天穹之变)"@zh .
 
 wd:Q6217 wdt:P3 wd:Q622 ;
 	wdt:P78 wd:Q678 ;
@@ -824390,6 +824869,7 @@ wd:Q6217 wdt:P3 wd:Q622 ;
 	wdt:P88 wd:Q3571 ;
 	wdt:P95 wd:Q6068 ;
 	wdt:P83 wd:Q681 ;
+	wdt:P86 _:3c8ce79a191e8549edc3a51c877a997a ;
 	p:P3 wds:Q6217-b3cd8277-4fb1-7609-7bae-45b5b2205314 .
 
 wds:Q6217-b3cd8277-4fb1-7609-7bae-45b5b2205314 a wikibase:Statement,
@@ -824418,7 +824898,7 @@ wds:Q6217-ba3dd61a-4b61-b689-cd8a-e63eaa547270 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P89 wd:Q3583 ;
-	pq:P92 wd:Q6068 .
+	prov:wasDerivedFrom wdref:7217dca03aa34da575f0d776bdee69c7b44ce566 .
 
 wd:Q6217 p:P84 wds:Q6217-8e0b17f2-4b8f-8209-2412-f29743d9cefa .
 
@@ -824492,7 +824972,6 @@ wds:Q6217-806873bb-4398-8687-245e-8cc2b847627f a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P88 wd:Q3571 ;
-	pq:P92 wd:Q6068 ;
 	prov:wasDerivedFrom wdref:bf97a87ccbb82b124740c1e68df50afa421db121 .
 
 wd:Q6217 p:P95 wds:Q6217-c76e4991-461d-9813-d135-eec610c554bf .
@@ -824501,8 +824980,8 @@ wds:Q6217-c76e4991-461d-9813-d135-eec610c554bf a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P95 wd:Q6068 ;
-	pq:P94 "-2"^^xsd:decimal ;
-	pqv:P94 wdv:afd97e71c3dcdc1cc4baa11d350649f2 ;
+	pq:P94 "-1"^^xsd:decimal ;
+	pqv:P94 wdv:3865345a48a58ce7a73c54ebfe58a20b ;
 	pq:P102 wd:Q3552 ;
 	pq:P103 wd:Q4822 .
 
@@ -824515,6 +824994,14 @@ wds:Q6217-573f1767-4671-5765-61d4-d18eb0972903 a wikibase:Statement,
 	pq:P21 wd:Q627 ;
 	pq:P92 wd:Q6590 .
 
+wd:Q6217 p:P86 wds:Q6217-00de177f-4c22-6aea-19b6-89c608b799d1 .
+
+wds:Q6217-00de177f-4c22-6aea-19b6-89c608b799d1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P86 _:4ea9c65b1709a7232b0b547538f3c65f ;
+	pq:P92 wd:Q6590 .
+
 wd:Q6217 rdfs:label "陽掌"@zh-tw ;
 	skos:prefLabel "陽掌"@zh-tw ;
 	schema:name "陽掌"@zh-tw ;
@@ -824525,7 +825012,7 @@ wd:Q6217 rdfs:label "陽掌"@zh-tw ;
 	skos:prefLabel "日爪"@zh-hans ;
 	schema:name "日爪"@zh-hans ;
 	schema:description "雷族公貓，自《長者之征》登場的角色"@zh-tw,
-		"ThunderClan tom, first appeared in The Elder's Quest"@en,
+		"ThunderClan tom, first appeared in The Elders' Quest"@en,
 		"雷族公猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "小日"@zh-hans,
 		"Sunkit"@en,
@@ -824533,8 +825020,8 @@ wd:Q6217 rdfs:label "陽掌"@zh-tw ;
 
 data:Q6218 a schema:Dataset ;
 	schema:about wd:Q6218 ;
-	schema:version "136908"^^xsd:integer ;
-	schema:dateModified "2026-03-31T21:30:23Z"^^xsd:dateTime ;
+	schema:version "143507"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:08Z"^^xsd:dateTime ;
 	wikibase:statements "17"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -824732,7 +825219,7 @@ wd:Q6218 rdfs:label "紅雲"@zh-tw ;
 	skos:prefLabel "红云"@zh-hans ;
 	schema:name "红云"@zh-hans ;
 	schema:description "影族公貓，自《長者之征》登場的角色"@zh-tw,
-		"ShadowClan tom, first appeared in The Elder's Quest"@en,
+		"ShadowClan tom, first appeared in The Elders' Quest"@en,
 		"影族公猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "紅掌"@zh-tw,
 		"Redpaw"@en,
@@ -824740,8 +825227,8 @@ wd:Q6218 rdfs:label "紅雲"@zh-tw ;
 
 data:Q6219 a schema:Dataset ;
 	schema:about wd:Q6219 ;
-	schema:version "136909"^^xsd:integer ;
-	schema:dateModified "2026-03-31T21:30:29Z"^^xsd:dateTime ;
+	schema:version "143508"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:09Z"^^xsd:dateTime ;
 	wikibase:statements "17"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -824941,7 +825428,7 @@ wd:Q6219 rdfs:label "雲杉梢"@zh-tw ;
 	skos:prefLabel "云杉梢"@zh-hans ;
 	schema:name "云杉梢"@zh-hans ;
 	schema:description "影族母貓，自《長者之征》登場的角色"@zh-tw,
-		"ShadowClan she-cat, first appeared in The Elder's Quest"@en,
+		"ShadowClan she-cat, first appeared in The Elders' Quest"@en,
 		"影族母猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "雲杉掌"@zh-tw,
 		"Sprucepaw"@en,
@@ -824949,8 +825436,8 @@ wd:Q6219 rdfs:label "雲杉梢"@zh-tw ;
 
 data:Q6220 a schema:Dataset ;
 	schema:about wd:Q6220 ;
-	schema:version "138596"^^xsd:integer ;
-	schema:dateModified "2026-07-16T09:18:26Z"^^xsd:dateTime ;
+	schema:version "143509"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:09Z"^^xsd:dateTime ;
 	wikibase:statements "15"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -825126,7 +825613,7 @@ wd:Q6220 rdfs:label "迅掌"@zh-tw ;
 	skos:prefLabel "迅爪"@zh-hans ;
 	schema:name "迅爪"@zh-hans ;
 	schema:description "影族公貓，自《長者之征》登場的角色"@zh-tw,
-		"ShadowClan tom, first appeared in The Elder's Quest"@en,
+		"ShadowClan tom, first appeared in The Elders' Quest"@en,
 		"影族公猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "小迅"@zh-tw,
 		"Quickkit"@en,
@@ -825134,8 +825621,8 @@ wd:Q6220 rdfs:label "迅掌"@zh-tw ;
 
 data:Q6221 a schema:Dataset ;
 	schema:about wd:Q6221 ;
-	schema:version "138598"^^xsd:integer ;
-	schema:dateModified "2026-07-16T09:19:50Z"^^xsd:dateTime ;
+	schema:version "143510"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:10Z"^^xsd:dateTime ;
 	wikibase:statements "15"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -825311,7 +825798,7 @@ wd:Q6221 rdfs:label "櫸掌"@zh-tw ;
 	skos:prefLabel "榉爪"@zh-hans ;
 	schema:name "榉爪"@zh-hans ;
 	schema:description "影族公貓，自《長者之征》登場的角色"@zh-tw,
-		"ShadowClan tom, first appeared in The Elder's Quest"@en,
+		"ShadowClan tom, first appeared in The Elders' Quest"@en,
 		"影族公猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "小櫸"@zh-tw,
 		"Beechkit"@en,
@@ -825319,8 +825806,8 @@ wd:Q6221 rdfs:label "櫸掌"@zh-tw ;
 
 data:Q6222 a schema:Dataset ;
 	schema:about wd:Q6222 ;
-	schema:version "138597"^^xsd:integer ;
-	schema:dateModified "2026-07-16T09:19:37Z"^^xsd:dateTime ;
+	schema:version "143511"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:10Z"^^xsd:dateTime ;
 	wikibase:statements "15"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -825495,7 +825982,7 @@ wd:Q6222 rdfs:label "池掌"@zh-tw ;
 	skos:prefLabel "池爪"@zh-hans ;
 	schema:name "池爪"@zh-hans ;
 	schema:description "影族母貓，自《長者之征》登場的角色"@zh-tw,
-		"ShadowClan she-cat, first appeared in The Elder's Quest"@en,
+		"ShadowClan she-cat, first appeared in The Elders' Quest"@en,
 		"影族母猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "小池"@zh-tw,
 		"Poolkit"@en,
@@ -825503,8 +825990,8 @@ wd:Q6222 rdfs:label "池掌"@zh-tw ;
 
 data:Q6223 a schema:Dataset ;
 	schema:about wd:Q6223 ;
-	schema:version "142571"^^xsd:integer ;
-	schema:dateModified "2026-09-13T05:22:54Z"^^xsd:dateTime ;
+	schema:version "143512"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:11Z"^^xsd:dateTime ;
 	wikibase:statements "14"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -825671,7 +826158,7 @@ wd:Q6223 rdfs:label "知更掌"@zh-tw ;
 	skos:prefLabel "知更爪"@zh-hans ;
 	schema:name "知更爪"@zh-hans ;
 	schema:description "天族母貓，自《長者之征》登場的角色"@zh-tw,
-		"SkyClan she-cat, first appeared in The Elder's Quest"@en,
+		"SkyClan she-cat, first appeared in The Elders' Quest"@en,
 		"天族母猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "小知更"@zh-tw,
 		"Robinkit"@en,
@@ -825679,19 +826166,19 @@ wd:Q6223 rdfs:label "知更掌"@zh-tw ;
 
 data:Q6224 a schema:Dataset ;
 	schema:about wd:Q6224 ;
-	schema:version "142798"^^xsd:integer ;
-	schema:dateModified "2026-09-14T05:21:27Z"^^xsd:dateTime ;
+	schema:version "143513"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:11Z"^^xsd:dateTime ;
 	wikibase:statements "22"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6224 a wikibase:Item .
 
-<https://warriors.fandom.com/wiki/Starlingpaw_(SkC)> a schema:Article ;
+<https://warriors.fandom.com/wiki/Starlingflight> a schema:Article ;
 	schema:about wd:Q6224 ;
 	schema:inLanguage "en" ;
 	schema:isPartOf <https://warriors.fandom.com/> ;
-	schema:name "Starlingpaw (SkC)"@en .
+	schema:name "Starlingflight"@en .
 
 <https://warriors.huijiwiki.com/wiki/%E6%AC%A7%E6%A4%8B%E9%A3%9E> a schema:Article ;
 	schema:about wd:Q6224 ;
@@ -825931,7 +826418,7 @@ wd:Q6224 rdfs:label "歐椋飛"@zh-tw ;
 	skos:prefLabel "欧椋飞"@zh-hans ;
 	schema:name "欧椋飞"@zh-hans ;
 	schema:description "天族公貓，自《長者之征》登場的角色"@zh-tw,
-		"SkyClan tom, first appeared in The Elder's Quest"@en,
+		"SkyClan tom, first appeared in The Elders' Quest"@en,
 		"天族公猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "小歐椋"@zh-tw,
 		"歐椋掌"@zh-tw,
@@ -825942,8 +826429,8 @@ wd:Q6224 rdfs:label "歐椋飛"@zh-tw ;
 
 data:Q6225 a schema:Dataset ;
 	schema:about wd:Q6225 ;
-	schema:version "138603"^^xsd:integer ;
-	schema:dateModified "2026-07-16T09:24:13Z"^^xsd:dateTime ;
+	schema:version "143514"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:12Z"^^xsd:dateTime ;
 	wikibase:statements "16"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -826134,7 +826621,7 @@ wd:Q6225 rdfs:label "茸尾"@zh-tw ;
 	skos:prefLabel "茸尾"@zh-hans ;
 	schema:name "茸尾"@zh-hans ;
 	schema:description "風族公貓，自《長者之征》登場的角色"@zh-tw,
-		"WindClan tom, first appeared in The Elder's Quest"@en,
+		"WindClan tom, first appeared in The Elders' Quest"@en,
 		"风族公猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "茸掌"@zh-tw,
 		"Fluffpaw"@en,
@@ -826142,8 +826629,8 @@ wd:Q6225 rdfs:label "茸尾"@zh-tw ;
 
 data:Q6226 a schema:Dataset ;
 	schema:about wd:Q6226 ;
-	schema:version "138604"^^xsd:integer ;
-	schema:dateModified "2026-07-16T09:24:34Z"^^xsd:dateTime ;
+	schema:version "143515"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:12Z"^^xsd:dateTime ;
 	wikibase:statements "16"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -826333,7 +826820,7 @@ wd:Q6226 rdfs:label "絲莢"@zh-tw ;
 	skos:prefLabel "丝荚"@zh-hans ;
 	schema:name "丝荚"@zh-hans ;
 	schema:description "風族公貓，自《長者之征》登場的角色"@zh-tw,
-		"WindClan tom, first appeared in The Elder's Quest"@en,
+		"WindClan tom, first appeared in The Elders' Quest"@en,
 		"风族公猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "絲掌"@zh-tw,
 		"Silkypaw"@en,
@@ -826341,8 +826828,8 @@ wd:Q6226 rdfs:label "絲莢"@zh-tw ;
 
 data:Q6227 a schema:Dataset ;
 	schema:about wd:Q6227 ;
-	schema:version "138858"^^xsd:integer ;
-	schema:dateModified "2026-07-30T05:19:26Z"^^xsd:dateTime ;
+	schema:version "143516"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:13Z"^^xsd:dateTime ;
 	wikibase:statements "16"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -826527,7 +827014,7 @@ wd:Q6227 rdfs:label "窸窣掌"@zh-tw ;
 	skos:prefLabel "窸窣爪"@zh-hans ;
 	schema:name "窸窣爪"@zh-hans ;
 	schema:description "風族公貓，自《長者之征》登場的角色"@zh-tw,
-		"WindClan tom, first appeared in The Elder's Quest"@en,
+		"WindClan tom, first appeared in The Elders' Quest"@en,
 		"风族公猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "小窸窣"@zh-tw,
 		"Rustlekit"@en,
@@ -826535,8 +827022,8 @@ wd:Q6227 rdfs:label "窸窣掌"@zh-tw ;
 
 data:Q6228 a schema:Dataset ;
 	schema:about wd:Q6228 ;
-	schema:version "138857"^^xsd:integer ;
-	schema:dateModified "2026-07-30T05:18:43Z"^^xsd:dateTime ;
+	schema:version "143517"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:13Z"^^xsd:dateTime ;
 	wikibase:statements "16"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -826723,7 +827210,7 @@ wd:Q6228 rdfs:label "抻掌"@zh-tw ;
 	skos:prefLabel "抻爪"@zh-hans ;
 	schema:name "抻爪"@zh-hans ;
 	schema:description "風族母貓，自《長者之征》登場的角色"@zh-tw,
-		"WindClan she-cat, first appeared in The Elder's Quest"@en,
+		"WindClan she-cat, first appeared in The Elders' Quest"@en,
 		"风族母猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "小抻"@zh-tw,
 		"Stretchkit"@en,
@@ -826731,8 +827218,8 @@ wd:Q6228 rdfs:label "抻掌"@zh-tw ;
 
 data:Q6229 a schema:Dataset ;
 	schema:about wd:Q6229 ;
-	schema:version "138856"^^xsd:integer ;
-	schema:dateModified "2026-07-30T05:17:58Z"^^xsd:dateTime ;
+	schema:version "143518"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:14Z"^^xsd:dateTime ;
 	wikibase:statements "15"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -826908,7 +827395,7 @@ wd:Q6229 rdfs:label "鷺掌"@zh-tw ;
 	skos:prefLabel "鹭爪"@zh-hans ;
 	schema:name "鹭爪"@zh-hans ;
 	schema:description "河族母貓，自《長者之征》登場的角色"@zh-tw,
-		"RiverClan she-cat, first appeared in The Elder's Quest"@en,
+		"RiverClan she-cat, first appeared in The Elders' Quest"@en,
 		"河族母猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "小鷺"@zh-tw,
 		"Heronkit"@en,
@@ -826916,8 +827403,8 @@ wd:Q6229 rdfs:label "鷺掌"@zh-tw ;
 
 data:Q6230 a schema:Dataset ;
 	schema:about wd:Q6230 ;
-	schema:version "138855"^^xsd:integer ;
-	schema:dateModified "2026-07-30T05:17:11Z"^^xsd:dateTime ;
+	schema:version "143519"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:14Z"^^xsd:dateTime ;
 	wikibase:statements "15"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -827093,7 +827580,7 @@ wd:Q6230 rdfs:label "鰻掌"@zh-tw ;
 	skos:prefLabel "鳗爪"@zh-hans ;
 	schema:name "鳗爪"@zh-hans ;
 	schema:description "河族公貓，自《長者之征》登場的角色"@zh-tw,
-		"RiverClan tom, first appeared in The Elder's Quest"@en,
+		"RiverClan tom, first appeared in The Elders' Quest"@en,
 		"河族公猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "小鰻"@zh-tw,
 		"Eelkit"@en,
@@ -827101,8 +827588,8 @@ wd:Q6230 rdfs:label "鰻掌"@zh-tw ;
 
 data:Q6231 a schema:Dataset ;
 	schema:about wd:Q6231 ;
-	schema:version "142774"^^xsd:integer ;
-	schema:dateModified "2026-09-14T05:09:05Z"^^xsd:dateTime ;
+	schema:version "143520"^^xsd:integer ;
+	schema:dateModified "2026-10-08T02:05:15Z"^^xsd:dateTime ;
 	wikibase:statements "17"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -827115,11 +827602,11 @@ wd:Q6231 a wikibase:Item .
 	schema:isPartOf <https://warriors.huijiwiki.com/> ;
 	schema:name "亮晨"@zh .
 
-<https://warriors.fandom.com/wiki/Morningkit_(TC)> a schema:Article ;
+<https://warriors.fandom.com/wiki/Brightmorning> a schema:Article ;
 	schema:about wd:Q6231 ;
 	schema:inLanguage "en" ;
 	schema:isPartOf <https://warriors.fandom.com/> ;
-	schema:name "Morningkit (TC)"@en .
+	schema:name "Brightmorning"@en .
 
 wd:Q6231 wdt:P3 wd:Q622 ;
 	wdt:P78 wd:Q679 ;
@@ -827302,7 +827789,7 @@ wd:Q6231 rdfs:label "亮晨"@zh-tw ;
 	skos:prefLabel "亮晨"@zh-hans ;
 	schema:name "亮晨"@zh-hans ;
 	schema:description "雷族母貓，自《長者使命》登場的角色"@zh-tw,
-		"ThunderClan she-cat, first appeared in The Elder's Quest"@en,
+		"ThunderClan she-cat, first appeared in The Elders' Quest"@en,
 		"雷族母猫，自《长者之征》登场的角色"@zh-hans ;
 	skos:altLabel "幻想朋友"@zh-tw,
 		"聲音"@zh-tw,
@@ -829495,9 +829982,9 @@ wd:Q6266 rdfs:label "圖像小說·新預言"@zh-tw ;
 
 data:Q6267 a schema:Dataset ;
 	schema:about wd:Q6267 ;
-	schema:version "142014"^^xsd:integer ;
-	schema:dateModified "2026-09-08T02:55:38Z"^^xsd:dateTime ;
-	wikibase:statements "23"^^xsd:integer ;
+	schema:version "143495"^^xsd:integer ;
+	schema:dateModified "2026-10-07T05:31:56Z"^^xsd:dateTime ;
+	wikibase:statements "24"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -829537,7 +830024,8 @@ wd:Q6267 wdt:P3 wd:Q116 ;
 		wd:Q713,
 		wd:Q2813,
 		wd:Q728,
-		wd:Q2436 ;
+		wd:Q2436,
+		wd:Q3008 ;
 	p:P3 wds:Q6267-949e3f37-47a2-834c-d96f-6ba08ec08604 .
 
 wds:Q6267-949e3f37-47a2-834c-d96f-6ba08ec08604 a wikibase:Statement,
@@ -829724,6 +830212,14 @@ wds:Q6267-C554AE7F-DB87-422F-8CF0-521FAC546503 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P119 wd:Q2436 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6267 p:P119 wds:Q6267-2B93D5C4-641B-4686-BAF5-28FAB8746A65 .
+
+wds:Q6267-2B93D5C4-641B-4686-BAF5-28FAB8746A65 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q3008 ;
 	pq:P120 wd:Q4315 .
 
 wd:Q6267 rdfs:label "圖像小說·新預言1"@zh-tw ;
@@ -837432,9 +837928,9 @@ wd:Q6311 rdfs:label "松鼠叢"@zh-tw ;
 
 data:Q6312 a schema:Dataset ;
 	schema:about wd:Q6312 ;
-	schema:version "142543"^^xsd:integer ;
-	schema:dateModified "2026-09-11T00:46:58Z"^^xsd:dateTime ;
-	wikibase:statements "56"^^xsd:integer ;
+	schema:version "143493"^^xsd:integer ;
+	schema:dateModified "2026-10-07T05:31:47Z"^^xsd:dateTime ;
+	wikibase:statements "64"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -837507,7 +838003,15 @@ wd:Q6312 wdt:P3 wd:Q46 ;
 		wd:Q3394,
 		wd:Q3391,
 		wd:Q3093,
-		wd:Q2900 ;
+		wd:Q2900,
+		wd:Q2544,
+		wd:Q2500,
+		wd:Q2353,
+		wd:Q2652,
+		wd:Q2844,
+		wd:Q3201,
+		wd:Q2730,
+		wd:Q3008 ;
 	p:P3 wds:Q6312-906f1b0c-40b1-a74a-f06f-b9611a563449 .
 
 wds:Q6312-906f1b0c-40b1-a74a-f06f-b9611a563449 a wikibase:Statement,
@@ -837973,6 +838477,70 @@ wds:Q6312-0DFB2412-36E2-4DC4-B76F-017CA9607B57 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P119 wd:Q2900 ;
 	pq:P120 wd:Q4315 .
+
+wd:Q6312 p:P119 wds:Q6312-90C638F8-D76D-4123-9934-7839BFBF1C2A .
+
+wds:Q6312-90C638F8-D76D-4123-9934-7839BFBF1C2A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2544 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6312 p:P119 wds:Q6312-D2872266-FAFE-43E7-A809-A5DEA2ECC399 .
+
+wds:Q6312-D2872266-FAFE-43E7-A809-A5DEA2ECC399 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2500 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6312 p:P119 wds:Q6312-C503B1F4-DAEF-46B9-BC70-A2173F9292CF .
+
+wds:Q6312-C503B1F4-DAEF-46B9-BC70-A2173F9292CF a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2353 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6312 p:P119 wds:Q6312-9A91C4E4-F3A9-4DEF-AB37-01500FBEE9DC .
+
+wds:Q6312-9A91C4E4-F3A9-4DEF-AB37-01500FBEE9DC a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2652 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6312 p:P119 wds:Q6312-03147935-76EE-476E-B32B-B600B9D58370 .
+
+wds:Q6312-03147935-76EE-476E-B32B-B600B9D58370 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2844 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6312 p:P119 wds:Q6312-32D648AF-11F8-4E00-8658-573670546D8B .
+
+wds:Q6312-32D648AF-11F8-4E00-8658-573670546D8B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q3201 ;
+	pq:P120 wd:Q4315 .
+
+wd:Q6312 p:P119 wds:Q6312-57FD97DB-C8A4-498B-B12F-F16B09E6872A .
+
+wds:Q6312-57FD97DB-C8A4-498B-B12F-F16B09E6872A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q2730 ;
+	pq:P120 wd:Q4412 .
+
+wd:Q6312 p:P119 wds:Q6312-B3A05300-4EC7-4A04-BCEA-A08A4C73A55A .
+
+wds:Q6312-B3A05300-4EC7-4A04-BCEA-A08A4C73A55A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q3008 ;
+	pq:P120 wd:Q4412 .
 
 wd:Q6312 rdfs:label "暗尾的裁決"@zh-tw ;
 	skos:prefLabel "暗尾的裁決"@zh-tw ;
@@ -845591,10 +846159,10 @@ wd:Q6415 rdfs:label "岩上奔流之雨"@zh-tw ;
 
 data:Q6416 a schema:Dataset ;
 	schema:about wd:Q6416 ;
-	schema:version "143115"^^xsd:integer ;
-	schema:dateModified "2026-10-02T21:30:22Z"^^xsd:dateTime ;
+	schema:version "143126"^^xsd:integer ;
+	schema:dateModified "2026-10-03T04:48:18Z"^^xsd:dateTime ;
 	wikibase:statements "11"^^xsd:integer ;
-	wikibase:sitelinks "1"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6416 a wikibase:Item .
@@ -845604,6 +846172,12 @@ wd:Q6416 a wikibase:Item .
 	schema:inLanguage "en" ;
 	schema:isPartOf <https://warriors.fandom.com/> ;
 	schema:name "Shykit"@en .
+
+<https://warriors.huijiwiki.com/wiki/%E5%B0%8F%E7%BE%9E> a schema:Article ;
+	schema:about wd:Q6416 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "小羞"@zh .
 
 wd:Q6416 wdt:P3 wd:Q622 ;
 	wdt:P78 wd:Q679 ;
@@ -845721,10 +846295,10 @@ wd:Q6416 rdfs:label "小羞"@zh-tw ;
 
 data:Q6417 a schema:Dataset ;
 	schema:about wd:Q6417 ;
-	schema:version "143116"^^xsd:integer ;
-	schema:dateModified "2026-10-02T21:30:27Z"^^xsd:dateTime ;
+	schema:version "143127"^^xsd:integer ;
+	schema:dateModified "2026-10-03T04:49:53Z"^^xsd:dateTime ;
 	wikibase:statements "11"^^xsd:integer ;
-	wikibase:sitelinks "1"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6417 a wikibase:Item .
@@ -845734,6 +846308,12 @@ wd:Q6417 a wikibase:Item .
 	schema:inLanguage "en" ;
 	schema:isPartOf <https://warriors.fandom.com/> ;
 	schema:name "Puffkit"@en .
+
+<https://warriors.huijiwiki.com/wiki/%E5%B0%8F%E5%99%97> a schema:Article ;
+	schema:about wd:Q6417 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "小噗"@zh .
 
 wd:Q6417 wdt:P3 wd:Q622 ;
 	wdt:P78 wd:Q679 ;
@@ -845851,10 +846431,10 @@ wd:Q6417 rdfs:label "小噗"@zh-tw ;
 
 data:Q6418 a schema:Dataset ;
 	schema:about wd:Q6418 ;
-	schema:version "143117"^^xsd:integer ;
-	schema:dateModified "2026-10-02T21:30:33Z"^^xsd:dateTime ;
+	schema:version "143125"^^xsd:integer ;
+	schema:dateModified "2026-10-03T04:47:50Z"^^xsd:dateTime ;
 	wikibase:statements "11"^^xsd:integer ;
-	wikibase:sitelinks "1"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6418 a wikibase:Item .
@@ -845864,6 +846444,12 @@ wd:Q6418 a wikibase:Item .
 	schema:inLanguage "en" ;
 	schema:isPartOf <https://warriors.fandom.com/> ;
 	schema:name "Leapkit"@en .
+
+<https://warriors.huijiwiki.com/wiki/%E5%B0%8F%E8%B7%83> a schema:Article ;
+	schema:about wd:Q6418 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "小跃"@zh .
 
 wd:Q6418 wdt:P3 wd:Q622 ;
 	wdt:P78 wd:Q678 ;
@@ -853851,9 +854437,9 @@ wd:Q6546 rdfs:label "羅勒"@zh-tw ;
 
 data:Q6547 a schema:Dataset ;
 	schema:about wd:Q6547 ;
-	schema:version "139098"^^xsd:integer ;
-	schema:dateModified "2026-08-07T21:30:18Z"^^xsd:dateTime ;
-	wikibase:statements "11"^^xsd:integer ;
+	schema:version "143462"^^xsd:integer ;
+	schema:dateModified "2026-10-07T02:24:45Z"^^xsd:dateTime ;
+	wikibase:statements "13"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -853882,6 +854468,8 @@ wd:Q6547 wdt:P78 wd:Q679 ;
 	wdt:P83 wd:Q681 ;
 	wdt:P86 _:3bd4723be7f7ecd52e64ec68bb67241d ;
 	wdt:P89 wd:Q6550 ;
+	wdt:P88 wd:Q6613 ;
+	wdt:P137 wd:Q6587 ;
 	p:P78 wds:Q6547-b9447a4f-401d-3549-aa2d-bd1c77aef37d .
 
 wds:Q6547-b9447a4f-401d-3549-aa2d-bd1c77aef37d a wikibase:Statement,
@@ -853906,7 +854494,7 @@ wds:Q6547-97379ac1-46df-3a04-8c11-fdb365fcee56 a wikibase:Statement,
 		"暗掌"@zh-tw ;
 	pq:P110 "dark" ;
 	pq:P111 "paw" ;
-	pq:P92 wd:Q6185 .
+	pq:P92 wd:Q6574 .
 
 wd:Q6547 p:P84 wds:Q6547-ac2b3413-43dd-e940-fe4b-8fed5037a89b .
 
@@ -853947,7 +854535,7 @@ wds:Q6547-b1f11b3c-477c-e06a-71e1-3ed65658ea43 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P76 wd:Q4393 ;
-	pq:P92 wd:Q6185 .
+	pq:P92 wd:Q6574 .
 
 wd:Q6547 p:P83 wds:Q6547-1248d185-4c62-1375-352b-118348961c50 .
 
@@ -853956,7 +854544,7 @@ wds:Q6547-1248d185-4c62-1375-352b-118348961c50 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P83 wd:Q681 ;
 	pq:P21 wd:Q4393 ;
-	pq:P92 wd:Q6185 .
+	pq:P92 wd:Q6574 .
 
 wd:Q6547 p:P86 wds:Q6547-29b7fd2b-47e8-d64f-91c9-b84a80239913 .
 
@@ -853964,7 +854552,7 @@ wds:Q6547-29b7fd2b-47e8-d64f-91c9-b84a80239913 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P86 _:0ced76469b9d536bb10d7479f3f9c791 ;
-	pq:P92 wd:Q6185 .
+	pq:P92 wd:Q6574 .
 
 wd:Q6547 p:P89 wds:Q6547-42773925-4e2e-648c-2e0d-ec32bc3d1cd9 .
 
@@ -853972,7 +854560,22 @@ wds:Q6547-42773925-4e2e-648c-2e0d-ec32bc3d1cd9 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P89 wd:Q6550 ;
-	prov:wasDerivedFrom wdref:6cfc9655ac59b1cea9c7c97a7df8facbf023fced .
+	prov:wasDerivedFrom wdref:ed804f6966f54afe28fa825c5941b639684e2f6b .
+
+wd:Q6547 p:P88 wds:Q6547-0dce165e-42f6-f369-a0e8-b12137a47139 .
+
+wds:Q6547-0dce165e-42f6-f369-a0e8-b12137a47139 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P88 wd:Q6613 ;
+	prov:wasDerivedFrom wdref:ed804f6966f54afe28fa825c5941b639684e2f6b .
+
+wd:Q6547 p:P137 wds:Q6547-5a60b46d-49ce-6c1b-4ac4-c702c773f11b .
+
+wds:Q6547-5a60b46d-49ce-6c1b-4ac4-c702c773f11b a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P137 wd:Q6587 .
 
 wd:Q6547 rdfs:label "暗掌"@zh-tw ;
 	skos:prefLabel "暗掌"@zh-tw ;
@@ -853987,11 +854590,14 @@ wd:Q6547 rdfs:label "暗掌"@zh-tw ;
 		"WarriorClan she-cat, first appeared in Guiding Light"@en,
 		"武士族母猫，自《明光引路》登场的角色"@zh-hans .
 
+wdref:ed804f6966f54afe28fa825c5941b639684e2f6b a wikibase:Reference ;
+	pr:P30 wd:Q6574 .
+
 data:Q6548 a schema:Dataset ;
 	schema:about wd:Q6548 ;
-	schema:version "138850"^^xsd:integer ;
-	schema:dateModified "2026-07-30T00:41:44Z"^^xsd:dateTime ;
-	wikibase:statements "11"^^xsd:integer ;
+	schema:version "143478"^^xsd:integer ;
+	schema:dateModified "2026-10-07T02:27:04Z"^^xsd:dateTime ;
+	wikibase:statements "13"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -854020,6 +854626,8 @@ wd:Q6548 wdt:P78 wd:Q678 ;
 	wdt:P83 wd:Q681 ;
 	wdt:P89 wd:Q6550 ;
 	wdt:P86 _:d1a5290a425b317ca3e2f7c61dadda7e ;
+	wdt:P137 wd:Q6587 ;
+	wdt:P88 wd:Q6613 ;
 	p:P78 wds:Q6548-6150DFA9-321D-4767-9ADB-DF68D49972F5 .
 
 wds:Q6548-6150DFA9-321D-4767-9ADB-DF68D49972F5 a wikibase:Statement,
@@ -854044,7 +854652,7 @@ wds:Q6548-9F3E38E8-C86C-4EC2-B994-98B1172A1060 a wikibase:Statement,
 		"鏽掌"@zh-tw ;
 	pq:P110 "rust" ;
 	pq:P111 "paw" ;
-	pq:P92 wd:Q6185 .
+	pq:P92 wd:Q6574 .
 
 wd:Q6548 p:P84 wds:Q6548-DDE5492E-0DFA-4253-B965-44CFD62E7C5E .
 
@@ -854084,7 +854692,7 @@ wds:Q6548-A72E6233-2140-4F3F-B8AD-5C28A3603F93 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P76 wd:Q4393 ;
-	pq:P92 wd:Q6185 .
+	pq:P92 wd:Q6574 .
 
 wd:Q6548 p:P83 wds:Q6548-B0267149-A39A-474D-A268-21CF4C2AA3BD .
 
@@ -854093,7 +854701,7 @@ wds:Q6548-B0267149-A39A-474D-A268-21CF4C2AA3BD a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P83 wd:Q681 ;
 	pq:P21 wd:Q4393 ;
-	pq:P92 wd:Q6185 .
+	pq:P92 wd:Q6574 .
 
 wd:Q6548 p:P89 wds:Q6548-668644cf-48d5-0521-e100-9567caa51c52 .
 
@@ -854109,7 +854717,22 @@ wds:Q6548-33087f2e-45ba-c4b1-9558-5a1ff328d444 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P86 _:d4c82a39d5474310a303c95e7cb13194 ;
-	pq:P92 wd:Q6185 .
+	pq:P92 wd:Q6574 .
+
+wd:Q6548 p:P137 wds:Q6548-196fc28b-43a1-91ab-a478-b8df15ae2df7 .
+
+wds:Q6548-196fc28b-43a1-91ab-a478-b8df15ae2df7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P137 wd:Q6587 .
+
+wd:Q6548 p:P88 wds:Q6548-aa88b15e-43f4-3520-7c0f-30c9d5edb240 .
+
+wds:Q6548-aa88b15e-43f4-3520-7c0f-30c9d5edb240 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P88 wd:Q6613 ;
+	prov:wasDerivedFrom wdref:ed804f6966f54afe28fa825c5941b639684e2f6b .
 
 wd:Q6548 rdfs:label "鏽掌"@zh-tw ;
 	skos:prefLabel "鏽掌"@zh-tw ;
@@ -854126,9 +854749,9 @@ wd:Q6548 rdfs:label "鏽掌"@zh-tw ;
 
 data:Q6549 a schema:Dataset ;
 	schema:about wd:Q6549 ;
-	schema:version "138849"^^xsd:integer ;
-	schema:dateModified "2026-07-30T00:41:21Z"^^xsd:dateTime ;
-	wikibase:statements "9"^^xsd:integer ;
+	schema:version "143473"^^xsd:integer ;
+	schema:dateModified "2026-10-07T02:26:37Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -854155,6 +854778,8 @@ wd:Q6549 wdt:P78 _:62fe536f086c35ffefb2f2f867eb3a30 ;
 	wdt:P83 wd:Q681 ;
 	wdt:P89 wd:Q6550 ;
 	wdt:P86 _:bcdd00cc700d69e796208c8890d208a8 ;
+	wdt:P137 wd:Q6574 ;
+	wdt:P88 wd:Q6613 ;
 	p:P78 wds:Q6549-16DB25CA-9ED0-41E3-9254-1A26F1E14BDB .
 
 wds:Q6549-16DB25CA-9ED0-41E3-9254-1A26F1E14BDB a wikibase:Statement,
@@ -854179,7 +854804,7 @@ wds:Q6549-CAF3EB5E-F3EE-4A57-8ABF-F7657E84FA62 a wikibase:Statement,
 		"刺掌"@zh-tw ;
 	pq:P110 "prickle" ;
 	pq:P111 "paw" ;
-	pq:P92 wd:Q6185 .
+	pq:P92 wd:Q6574 .
 
 wd:Q6549 p:P84 wds:Q6549-5D18CFE9-D596-4918-B3F4-3D5F893B24F1 .
 
@@ -854203,7 +854828,7 @@ wds:Q6549-22B525DD-2702-4B7D-9410-61F880F728A5 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P76 wd:Q4393 ;
-	pq:P92 wd:Q6185 .
+	pq:P92 wd:Q6574 .
 
 wd:Q6549 p:P83 wds:Q6549-DC552961-3FF9-49D8-B1C2-B822B7451D18 .
 
@@ -854212,7 +854837,7 @@ wds:Q6549-DC552961-3FF9-49D8-B1C2-B822B7451D18 a wikibase:Statement,
 	wikibase:rank wikibase:NormalRank ;
 	ps:P83 wd:Q681 ;
 	pq:P21 wd:Q4393 ;
-	pq:P92 wd:Q6185 .
+	pq:P92 wd:Q6574 .
 
 wd:Q6549 p:P89 wds:Q6549-e5e19804-4d99-820e-3010-1249582a47ae .
 
@@ -854228,7 +854853,22 @@ wds:Q6549-c8729d4d-4c4e-0a60-c220-e329306d424b a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P86 _:250d48c2bc3ff30f77aad4ffadf957b4 ;
-	pq:P92 wd:Q6185 .
+	pq:P92 wd:Q6574 .
+
+wd:Q6549 p:P137 wds:Q6549-13986657-432f-1dfb-76e3-f55c8d463c08 .
+
+wds:Q6549-13986657-432f-1dfb-76e3-f55c8d463c08 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P137 wd:Q6574 .
+
+wd:Q6549 p:P88 wds:Q6549-49d4b16c-4562-3b82-5e8a-21496592d4ba .
+
+wds:Q6549-49d4b16c-4562-3b82-5e8a-21496592d4ba a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P88 wd:Q6613 ;
+	prov:wasDerivedFrom wdref:ed804f6966f54afe28fa825c5941b639684e2f6b .
 
 wd:Q6549 rdfs:label "刺掌"@zh-tw ;
 	skos:prefLabel "刺掌"@zh-tw ;
@@ -854245,15 +854885,16 @@ wd:Q6549 rdfs:label "刺掌"@zh-tw ;
 
 data:Q6550 a schema:Dataset ;
 	schema:about wd:Q6550 ;
-	schema:version "138835"^^xsd:integer ;
-	schema:dateModified "2026-07-29T05:13:25Z"^^xsd:dateTime ;
-	wikibase:statements "2"^^xsd:integer ;
+	schema:version "143459"^^xsd:integer ;
+	schema:dateModified "2026-10-07T02:23:45Z"^^xsd:dateTime ;
+	wikibase:statements "3"^^xsd:integer ;
 	wikibase:sitelinks "0"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6550 a wikibase:Item ;
 	wdt:P3 wd:Q622 ;
 	wdt:P78 wd:Q679 ;
+	wdt:P100 wd:Q6613 ;
 	p:P3 wds:Q6550-68061675-420f-e5ea-fd6b-ee72c571013d .
 
 wds:Q6550-68061675-420f-e5ea-fd6b-ee72c571013d a wikibase:Statement,
@@ -854267,6 +854908,14 @@ wds:Q6550-f490b235-4d03-5fa8-da6c-f2a63320f1e1 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
 	ps:P78 wd:Q679 .
+
+wd:Q6550 p:P100 wds:Q6550-c5a35248-4932-0ab8-9435-05a2a0b79125 .
+
+wds:Q6550-c5a35248-4932-0ab8-9435-05a2a0b79125 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P100 wd:Q6613 ;
+	prov:wasDerivedFrom wdref:ed804f6966f54afe28fa825c5941b639684e2f6b .
 
 wd:Q6550 schema:description "母貓，暗掌、鏽掌和刺掌的母親"@zh-tw,
 		"she-cat, mother of Darkpaw, Rustpaw, Pricklepaw"@en,
@@ -857654,10 +858303,10 @@ wd:Q6598 rdfs:label "Guiding Light, Chapter 24"@en ;
 
 data:Q6599 a schema:Dataset ;
 	schema:about wd:Q6599 ;
-	schema:version "143000"^^xsd:integer ;
-	schema:dateModified "2026-09-16T12:18:13Z"^^xsd:dateTime ;
-	wikibase:statements "5"^^xsd:integer ;
-	wikibase:sitelinks "1"^^xsd:integer ;
+	schema:version "143288"^^xsd:integer ;
+	schema:dateModified "2026-10-06T13:52:45Z"^^xsd:dateTime ;
+	wikibase:statements "10"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6599 a wikibase:Item .
@@ -857668,11 +858317,22 @@ wd:Q6599 a wikibase:Item .
 	schema:isPartOf <https://warriors.huijiwiki.com/> ;
 	schema:name "珍珠"@zh .
 
+<https://warriors.fandom.com/wiki/Pearl> a schema:Article ;
+	schema:about wd:Q6599 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://warriors.fandom.com/> ;
+	schema:name "Pearl"@en .
+
 wd:Q6599 wdt:P3 wd:Q622 ;
-	wdt:P78 _:c9da6181bc493481e35cf34eb69f1e49 ;
+	wdt:P78 wd:Q679 ;
 	wdt:P84 "Peral"@en,
 		"珍珠"@zh-cn,
 		"珍珠"@zh-tw ;
+	wdt:P148 wd:Q5153,
+		wd:Q5155,
+		wd:Q5152 ;
+	wdt:P76 wd:Q6610 ;
+	wdt:P137 wd:Q6589 ;
 	p:P3 wds:Q6599-5f056421-48c9-b736-18a1-1f3af4d44f41 .
 
 wds:Q6599-5f056421-48c9-b736-18a1-1f3af4d44f41 a wikibase:Statement,
@@ -857685,7 +858345,7 @@ wd:Q6599 p:P78 wds:Q6599-84b3ae62-46dd-fd17-3655-bc3e625e9db1 .
 wds:Q6599-84b3ae62-46dd-fd17-3655-bc3e625e9db1 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P78 _:c5ef31c33af7009c89313028fdf2a991 .
+	ps:P78 wd:Q679 .
 
 wd:Q6599 p:P84 wds:Q6599-50E40214-EA34-4A07-87A8-8E5EAD0ADA29 .
 
@@ -857713,6 +858373,46 @@ wds:Q6599-735CE33C-D1EA-4D6E-949A-2E1F30BE417E a wikibase:Statement,
 	ps:P84 "珍珠"@zh-tw ;
 	pq:P102 wd:Q4865 .
 
+wd:Q6599 p:P148 wds:Q6599-ca4224eb-499b-a028-0ba2-ec5d7a629e83 .
+
+wds:Q6599-ca4224eb-499b-a028-0ba2-ec5d7a629e83 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5153 ;
+	pq:P150 wd:Q5187 ;
+	pq:P151 wd:Q5260 .
+
+wd:Q6599 p:P148 wds:Q6599-a102ec3d-4f72-a9ae-b2ae-e2294fded5c3 .
+
+wds:Q6599-a102ec3d-4f72-a9ae-b2ae-e2294fded5c3 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5155 ;
+	pq:P150 _:58c16b34f2c51f1490a3d4edbb552b6a .
+
+wd:Q6599 p:P148 wds:Q6599-32601487-4251-aca9-849a-82d890caebe0 .
+
+wds:Q6599-32601487-4251-aca9-849a-82d890caebe0 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5152 ;
+	pq:P149 wd:Q5224 .
+
+wd:Q6599 p:P76 wds:Q6599-d45312f8-4ebb-171f-0406-76d17ffccaef .
+
+wds:Q6599-d45312f8-4ebb-171f-0406-76d17ffccaef a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q6610 ;
+	pq:P92 wd:Q6578 .
+
+wd:Q6599 p:P137 wds:Q6599-ebea9d08-448c-cca9-ed67-e95e1152c611 .
+
+wds:Q6599-ebea9d08-448c-cca9-ed67-e95e1152c611 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P137 wd:Q6589 .
+
 wd:Q6599 rdfs:label "珍珠"@zh-tw ;
 	skos:prefLabel "珍珠"@zh-tw ;
 	schema:name "珍珠"@zh-tw ;
@@ -857722,16 +858422,16 @@ wd:Q6599 rdfs:label "珍珠"@zh-tw ;
 	rdfs:label "珍珠"@zh-hans ;
 	skos:prefLabel "珍珠"@zh-hans ;
 	schema:name "珍珠"@zh-hans ;
-	schema:description "貓，自《明光引路》登場的角色"@zh-tw,
-		"a cat, first appeared in Guiding Light"@en,
-		"猫，自《明光引路》登场的角色"@zh-hans .
+	schema:description "倉庫族母貓，自《明光引路》登場的角色"@zh-tw,
+		"WarehouseClan  she-cat, first appeared in Guiding Light"@en,
+		"仓库族母猫，自《明光引路》登场的角色"@zh-hans .
 
 data:Q6600 a schema:Dataset ;
 	schema:about wd:Q6600 ;
-	schema:version "143003"^^xsd:integer ;
-	schema:dateModified "2026-09-16T12:22:06Z"^^xsd:dateTime ;
-	wikibase:statements "5"^^xsd:integer ;
-	wikibase:sitelinks "1"^^xsd:integer ;
+	schema:version "143321"^^xsd:integer ;
+	schema:dateModified "2026-10-06T14:08:51Z"^^xsd:dateTime ;
+	wikibase:statements "12"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6600 a wikibase:Item .
@@ -857742,11 +858442,24 @@ wd:Q6600 a wikibase:Item .
 	schema:isPartOf <https://warriors.huijiwiki.com/> ;
 	schema:name "弗里达"@zh .
 
+<https://warriors.fandom.com/wiki/Frida> a schema:Article ;
+	schema:about wd:Q6600 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://warriors.fandom.com/> ;
+	schema:name "Frida"@en .
+
 wd:Q6600 wdt:P3 wd:Q622 ;
-	wdt:P78 _:cdaa20c0bed4a6dc45c171a435601a4c ;
+	wdt:P78 wd:Q679 ;
 	wdt:P84 "Frida"@en,
 		"弗里达"@zh-cn,
 		"芙烈達"@zh-tw ;
+	wdt:P148 wd:Q5153,
+		wd:Q5155,
+		wd:Q5152 ;
+	wdt:P76 wd:Q6610 ;
+	wdt:P89 wd:Q6611 ;
+	wdt:P88 wd:Q6612 ;
+	wdt:P137 wd:Q6589 ;
 	p:P3 wds:Q6600-A6FBABEC-52B8-4CF1-A65D-2C2CFC604FCE .
 
 wds:Q6600-A6FBABEC-52B8-4CF1-A65D-2C2CFC604FCE a wikibase:Statement,
@@ -857759,7 +858472,7 @@ wd:Q6600 p:P78 wds:Q6600-18ec36e9-4188-baed-34a7-67220f15d4c0 .
 wds:Q6600-18ec36e9-4188-baed-34a7-67220f15d4c0 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P78 _:d03f9818185940ce5ad922c82d386179 .
+	ps:P78 wd:Q679 .
 
 wd:Q6600 p:P84 wds:Q6600-F0B3F84A-639C-4484-AA97-E423C5D6A3A4 .
 
@@ -857787,6 +858500,63 @@ wds:Q6600-8CAE9207-5A5F-4BDE-AE7C-9D5D4633D595 a wikibase:Statement,
 	ps:P84 "芙烈達"@zh-tw ;
 	pq:P102 wd:Q4865 .
 
+wd:Q6600 p:P148 wds:Q6600-256a8d51-4da4-1e98-1840-308975667233 .
+
+wds:Q6600-256a8d51-4da4-1e98-1840-308975667233 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5153 ;
+	pq:P150 wd:Q5255 ;
+	pq:P151 wd:Q5202 ;
+	pq:P149 wd:Q5311 .
+
+wd:Q6600 p:P148 wds:Q6600-ef7112c8-4b0d-8b6a-910a-0560bd1eac1d .
+
+wds:Q6600-ef7112c8-4b0d-8b6a-910a-0560bd1eac1d a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5155 ;
+	pq:P150 _:ba54d0fe78ff62aed1099c79d77aceff .
+
+wd:Q6600 p:P148 wds:Q6600-490ab6b3-4178-6f88-3cd9-ef04d0ddc195 .
+
+wds:Q6600-490ab6b3-4178-6f88-3cd9-ef04d0ddc195 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5152 ;
+	pq:P149 wd:Q5224 .
+
+wd:Q6600 p:P76 wds:Q6600-18e3c947-4dcb-61df-1ae9-878114840625 .
+
+wds:Q6600-18e3c947-4dcb-61df-1ae9-878114840625 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q6610 ;
+	pq:P92 wd:Q6578 .
+
+wd:Q6600 p:P89 wds:Q6600-cc2a2e57-4c50-e1d2-1470-63ac72c3034c .
+
+wds:Q6600-cc2a2e57-4c50-e1d2-1470-63ac72c3034c a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P89 wd:Q6611 ;
+	prov:wasDerivedFrom wdref:8a82d2f848f2db83973cb9bd4e86cd12fd2fd7c5 .
+
+wd:Q6600 p:P88 wds:Q6600-8a15748e-47c4-1330-485f-e0ee6f58fd14 .
+
+wds:Q6600-8a15748e-47c4-1330-485f-e0ee6f58fd14 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P88 wd:Q6612 ;
+	prov:wasDerivedFrom wdref:8a82d2f848f2db83973cb9bd4e86cd12fd2fd7c5 .
+
+wd:Q6600 p:P137 wds:Q6600-ed541893-4555-ab41-9551-7b8b64813150 .
+
+wds:Q6600-ed541893-4555-ab41-9551-7b8b64813150 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P137 wd:Q6589 .
+
 wd:Q6600 rdfs:label "芙烈達"@zh-tw ;
 	skos:prefLabel "芙烈達"@zh-tw ;
 	schema:name "芙烈達"@zh-tw ;
@@ -857796,16 +858566,19 @@ wd:Q6600 rdfs:label "芙烈達"@zh-tw ;
 	rdfs:label "弗里达"@zh-hans ;
 	skos:prefLabel "弗里达"@zh-hans ;
 	schema:name "弗里达"@zh-hans ;
-	schema:description "貓，自《明光引路》登場的角色"@zh-tw,
-		"a cat, first appeared in Guiding Light"@en,
-		"猫，自《明光引路》登场的角色"@zh-hans .
+	schema:description "倉庫族母貓，自《明光引路》登場的角色"@zh-tw,
+		"WarehouseClan she-cat, first appeared in Guiding Light"@en,
+		"仓库族母猫，自《明光引路》登场的角色"@zh-hans .
+
+wdref:8a82d2f848f2db83973cb9bd4e86cd12fd2fd7c5 a wikibase:Reference ;
+	pr:P30 wd:Q6589 .
 
 data:Q6601 a schema:Dataset ;
 	schema:about wd:Q6601 ;
-	schema:version "143006"^^xsd:integer ;
-	schema:dateModified "2026-09-16T12:24:56Z"^^xsd:dateTime ;
-	wikibase:statements "5"^^xsd:integer ;
-	wikibase:sitelinks "1"^^xsd:integer ;
+	schema:version "143322"^^xsd:integer ;
+	schema:dateModified "2026-10-06T14:09:04Z"^^xsd:dateTime ;
+	wikibase:statements "12"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6601 a wikibase:Item .
@@ -857816,11 +858589,24 @@ wd:Q6601 a wikibase:Item .
 	schema:isPartOf <https://warriors.huijiwiki.com/> ;
 	schema:name "多洛蕾丝"@zh .
 
+<https://warriors.fandom.com/wiki/Dolores> a schema:Article ;
+	schema:about wd:Q6601 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://warriors.fandom.com/> ;
+	schema:name "Dolores"@en .
+
 wd:Q6601 wdt:P3 wd:Q622 ;
-	wdt:P78 _:f1dd6a75279e28d509bdf5878577f490 ;
+	wdt:P78 wd:Q679 ;
 	wdt:P84 "Dolores"@en,
 		"多洛蕾丝"@zh-cn,
 		"朵洛莉絲"@zh-tw ;
+	wdt:P148 wd:Q5153,
+		wd:Q5155,
+		wd:Q5152 ;
+	wdt:P76 wd:Q6610 ;
+	wdt:P88 wd:Q6612 ;
+	wdt:P89 wd:Q6611 ;
+	wdt:P137 wd:Q6589 ;
 	p:P3 wds:Q6601-F4CE1765-2066-4911-9ECD-29C86AF67880 .
 
 wds:Q6601-F4CE1765-2066-4911-9ECD-29C86AF67880 a wikibase:Statement,
@@ -857833,7 +858619,7 @@ wd:Q6601 p:P78 wds:Q6601-E25B3EC5-4D8A-411B-B3ED-689DA7E67273 .
 wds:Q6601-E25B3EC5-4D8A-411B-B3ED-689DA7E67273 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P78 _:242b910f6bf5a282c21d613cc3e15667 .
+	ps:P78 wd:Q679 .
 
 wd:Q6601 p:P84 wds:Q6601-A4BA24B8-5339-46A8-A5DF-6AD177393EA2 .
 
@@ -857861,6 +858647,63 @@ wds:Q6601-D77799C1-251A-41EC-A4F6-B5F4D557A1BF a wikibase:Statement,
 	ps:P84 "朵洛莉絲"@zh-tw ;
 	pq:P102 wd:Q4865 .
 
+wd:Q6601 p:P148 wds:Q6601-4bac272f-4b5a-e912-e30f-ae9cc1845746 .
+
+wds:Q6601-4bac272f-4b5a-e912-e30f-ae9cc1845746 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5153 ;
+	pq:P150 wd:Q5255 ;
+	pq:P151 wd:Q5202 ;
+	pq:P149 wd:Q5311 .
+
+wd:Q6601 p:P148 wds:Q6601-539f8c2c-4d84-5415-c2fb-8356fdfdcf9d .
+
+wds:Q6601-539f8c2c-4d84-5415-c2fb-8356fdfdcf9d a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5155 ;
+	pq:P150 _:8c8436a682e92156e086c98e3dd48813 .
+
+wd:Q6601 p:P148 wds:Q6601-e78d6ad9-4e51-52cc-c36c-940d1bbe6293 .
+
+wds:Q6601-e78d6ad9-4e51-52cc-c36c-940d1bbe6293 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5152 ;
+	pq:P149 wd:Q5224 .
+
+wd:Q6601 p:P76 wds:Q6601-3170fffb-4f9f-83de-30c5-7b8af9f4def0 .
+
+wds:Q6601-3170fffb-4f9f-83de-30c5-7b8af9f4def0 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q6610 ;
+	pq:P92 wd:Q6578 .
+
+wd:Q6601 p:P88 wds:Q6601-3e41b049-4a5d-a315-c36f-3dc7699d8548 .
+
+wds:Q6601-3e41b049-4a5d-a315-c36f-3dc7699d8548 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P88 wd:Q6612 ;
+	prov:wasDerivedFrom wdref:8a82d2f848f2db83973cb9bd4e86cd12fd2fd7c5 .
+
+wd:Q6601 p:P89 wds:Q6601-726860cb-4065-2323-825b-fea3e347b7a2 .
+
+wds:Q6601-726860cb-4065-2323-825b-fea3e347b7a2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P89 wd:Q6611 ;
+	prov:wasDerivedFrom wdref:8a82d2f848f2db83973cb9bd4e86cd12fd2fd7c5 .
+
+wd:Q6601 p:P137 wds:Q6601-de57f714-4198-915e-1c4d-0ce13ace62fa .
+
+wds:Q6601-de57f714-4198-915e-1c4d-0ce13ace62fa a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P137 wd:Q6589 .
+
 wd:Q6601 rdfs:label "朵洛莉絲"@zh-tw ;
 	skos:prefLabel "朵洛莉絲"@zh-tw ;
 	schema:name "朵洛莉絲"@zh-tw ;
@@ -857870,16 +858713,16 @@ wd:Q6601 rdfs:label "朵洛莉絲"@zh-tw ;
 	rdfs:label "多洛蕾丝"@zh-hans ;
 	skos:prefLabel "多洛蕾丝"@zh-hans ;
 	schema:name "多洛蕾丝"@zh-hans ;
-	schema:description "貓，自《明光引路》登場的角色"@zh-tw,
-		"a cat, first appeared in Guiding Light"@en,
-		"猫，自《明光引路》登场的角色"@zh-hans .
+	schema:description "倉庫族母貓，自《明光引路》登場的角色"@zh-tw,
+		"WarehouseClan she-cat, first appeared in Guiding Light"@en,
+		"仓库族母猫，自《明光引路》登场的角色"@zh-hans .
 
 data:Q6602 a schema:Dataset ;
 	schema:about wd:Q6602 ;
-	schema:version "143008"^^xsd:integer ;
-	schema:dateModified "2026-09-16T12:33:13Z"^^xsd:dateTime ;
-	wikibase:statements "6"^^xsd:integer ;
-	wikibase:sitelinks "1"^^xsd:integer ;
+	schema:version "143326"^^xsd:integer ;
+	schema:dateModified "2026-10-06T14:16:50Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6602 a wikibase:Item .
@@ -857890,12 +858733,23 @@ wd:Q6602 a wikibase:Item .
 	schema:isPartOf <https://warriors.huijiwiki.com/> ;
 	schema:name "醋栗"@zh .
 
+<https://warriors.fandom.com/wiki/Gooseberry_(Lo)> a schema:Article ;
+	schema:about wd:Q6602 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://warriors.fandom.com/> ;
+	schema:name "Gooseberry (Lo)"@en .
+
 wd:Q6602 wdt:P3 wd:Q622 ;
-	wdt:P78 _:25235181a1c5b285fad5bf893c3067c4 ;
+	wdt:P78 wd:Q679 ;
 	wdt:P84 "Gooseberry"@en,
 		"醋栗"@zh-cn,
 		"醋栗"@zh-tw ;
 	wdt:P100 wd:Q6603 ;
+	wdt:P148 wd:Q5153,
+		wd:Q5155 ;
+	wdt:P76 wd:Q6610 ;
+	wdt:P83 wd:Q685 ;
+	wdt:P137 wd:Q6589 ;
 	p:P3 wds:Q6602-2228AD32-BE70-4A6F-81F1-14C6701E9349 .
 
 wds:Q6602-2228AD32-BE70-4A6F-81F1-14C6701E9349 a wikibase:Statement,
@@ -857908,7 +858762,7 @@ wd:Q6602 p:P78 wds:Q6602-97B3D194-3ACE-4E28-821F-9BD62AF23494 .
 wds:Q6602-97B3D194-3ACE-4E28-821F-9BD62AF23494 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P78 _:1e92739b0831ee3694acdc23ffc4b4fe .
+	ps:P78 wd:Q679 .
 
 wd:Q6602 p:P84 wds:Q6602-4C8B57CE-065E-4D40-92D0-15E2AF6B4EDD .
 
@@ -857944,6 +858798,48 @@ wds:Q6602-fc82be6a-4e36-e9f3-52e8-79c4920514da a wikibase:Statement,
 	ps:P100 wd:Q6603 ;
 	pq:P92 wd:Q6581 .
 
+wd:Q6602 p:P148 wds:Q6602-2805bd12-4389-a73c-3c75-9a67c41d402f .
+
+wds:Q6602-2805bd12-4389-a73c-3c75-9a67c41d402f a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5153 ;
+	pq:P150 wd:Q5192 ;
+	pq:P149 wd:Q5231,
+		wd:Q5229 .
+
+wd:Q6602 p:P148 wds:Q6602-f790e404-41f5-56ca-fe45-6cbec068b605 .
+
+wds:Q6602-f790e404-41f5-56ca-fe45-6cbec068b605 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5155 ;
+	pq:P150 _:8701b6aa7244905c1dbb4f9a3f2406a1 .
+
+wd:Q6602 p:P76 wds:Q6602-4bff3770-4b49-184f-9f5f-efd2a33c32d1 .
+
+wds:Q6602-4bff3770-4b49-184f-9f5f-efd2a33c32d1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q6610 ;
+	pq:P92 wd:Q6581 .
+
+wd:Q6602 p:P83 wds:Q6602-d09f493c-4fa6-bc69-e256-d1e78b94090b .
+
+wds:Q6602-d09f493c-4fa6-bc69-e256-d1e78b94090b a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P83 wd:Q685 ;
+	pq:P21 wd:Q6610 ;
+	prov:wasDerivedFrom wdref:bbde54de13fcaabbb0889bac6ea46d693544af1d .
+
+wd:Q6602 p:P137 wds:Q6602-be3c8988-4fbb-5b83-d5ea-4e86d3eec01c .
+
+wds:Q6602-be3c8988-4fbb-5b83-d5ea-4e86d3eec01c a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P137 wd:Q6589 .
+
 wd:Q6602 rdfs:label "醋栗"@zh-tw ;
 	skos:prefLabel "醋栗"@zh-tw ;
 	schema:name "醋栗"@zh-tw ;
@@ -857953,16 +858849,19 @@ wd:Q6602 rdfs:label "醋栗"@zh-tw ;
 	rdfs:label "醋栗"@zh-hans ;
 	skos:prefLabel "醋栗"@zh-hans ;
 	schema:name "醋栗"@zh-hans ;
-	schema:description "貓，自《明光引路》登場的角色"@zh-tw,
-		"a cat, first appeared in Guiding Light"@en,
-		"猫，自《明光引路》登场的角色"@zh-hans .
+	schema:description "倉庫族母貓，自《明光引路》登場的角色"@zh-tw,
+		"WarehouseClan she-cat, first appeared in Guiding Light"@en,
+		"仓库族母猫，自《明光引路》登场的角色"@zh-hans .
+
+wdref:bbde54de13fcaabbb0889bac6ea46d693544af1d a wikibase:Reference ;
+	pr:P30 wd:Q6581 .
 
 data:Q6603 a schema:Dataset ;
 	schema:about wd:Q6603 ;
-	schema:version "143007"^^xsd:integer ;
-	schema:dateModified "2026-09-16T12:25:27Z"^^xsd:dateTime ;
-	wikibase:statements "6"^^xsd:integer ;
-	wikibase:sitelinks "1"^^xsd:integer ;
+	schema:version "143325"^^xsd:integer ;
+	schema:dateModified "2026-10-06T14:16:39Z"^^xsd:dateTime ;
+	wikibase:statements "12"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6603 a wikibase:Item .
@@ -857973,12 +858872,24 @@ wd:Q6603 a wikibase:Item .
 	schema:isPartOf <https://warriors.huijiwiki.com/> ;
 	schema:name "跳蚤"@zh .
 
+<https://warriors.fandom.com/wiki/Flea> a schema:Article ;
+	schema:about wd:Q6603 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://warriors.fandom.com/> ;
+	schema:name "Flea"@en .
+
 wd:Q6603 wdt:P3 wd:Q622 ;
-	wdt:P78 _:19c6bd81efa4919d7264eae68d143e36 ;
+	wdt:P78 wd:Q678 ;
 	wdt:P84 "Flea"@en,
 		"跳蚤"@zh-cn,
 		"跳蚤"@zh-tw ;
 	wdt:P100 wd:Q6602 ;
+	wdt:P148 wd:Q5153,
+		wd:Q5155,
+		wd:Q5152,
+		wd:Q5156 ;
+	wdt:P76 wd:Q6610 ;
+	wdt:P137 wd:Q6589 ;
 	p:P3 wds:Q6603-345FA6A6-1750-4259-B2B7-294A5A6F5C7C .
 
 wds:Q6603-345FA6A6-1750-4259-B2B7-294A5A6F5C7C a wikibase:Statement,
@@ -857991,7 +858902,7 @@ wd:Q6603 p:P78 wds:Q6603-140A8106-7B5E-42E2-8E8B-7FBEE38BA9E7 .
 wds:Q6603-140A8106-7B5E-42E2-8E8B-7FBEE38BA9E7 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P78 _:dfae62b36b301313d9d85f360145122e .
+	ps:P78 wd:Q678 .
 
 wd:Q6603 p:P84 wds:Q6603-834A9503-8BAD-436A-BD97-F2B99D9CE368 .
 
@@ -858027,6 +858938,62 @@ wds:Q6603-6e3bee20-4c73-4cb3-7987-dff644aff489 a wikibase:Statement,
 	ps:P100 wd:Q6602 ;
 	pq:P92 wd:Q6581 .
 
+wd:Q6603 p:P148 wds:Q6603-99c62afe-49af-cd7e-c482-d83e5bd78639 .
+
+wds:Q6603-99c62afe-49af-cd7e-c482-d83e5bd78639 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5153 ;
+	pq:P150 wd:Q5186 ;
+	pq:P151 wd:Q5306,
+		wd:Q5260 ;
+	pq:P149 wd:Q5232 .
+
+wd:Q6603 p:P148 wds:Q6603-1f06a200-482f-8db4-2fd2-140c775d6efe .
+
+wds:Q6603-1f06a200-482f-8db4-2fd2-140c775d6efe a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5155 ;
+	pq:P150 _:b33f83fcb528094a008ac46e55e55df3 ;
+	pq:P133 "+1"^^xsd:decimal ;
+	pqv:P133 wdv:1c9e02c1631d3fd5ec9a9fe9aa1fde65 ;
+	pq:P149 wd:Q5207 .
+
+wd:Q6603 p:P148 wds:Q6603-67257aee-4301-c361-224f-288adb9efdd1 .
+
+wds:Q6603-67257aee-4301-c361-224f-288adb9efdd1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5152 ;
+	pq:P149 wd:Q5292,
+		wd:Q5209 .
+
+wd:Q6603 p:P148 wds:Q6603-fc5fdd0a-4882-eaba-ae0c-bafe08fa6828 .
+
+wds:Q6603-fc5fdd0a-4882-eaba-ae0c-bafe08fa6828 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5156 ;
+	pq:P154 wd:Q5300 ;
+	pq:P133 "+2"^^xsd:decimal ;
+	pqv:P133 wdv:45430454bd0f3bc0d9093c52b6acfc2b .
+
+wd:Q6603 p:P76 wds:Q6603-0054d54b-496f-40f7-900a-a16676dab0ab .
+
+wds:Q6603-0054d54b-496f-40f7-900a-a16676dab0ab a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q6610 ;
+	pq:P92 wd:Q6581 .
+
+wd:Q6603 p:P137 wds:Q6603-a2f6bb3c-4397-9dee-9136-7dff72ffdcb2 .
+
+wds:Q6603-a2f6bb3c-4397-9dee-9136-7dff72ffdcb2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P137 wd:Q6589 .
+
 wd:Q6603 rdfs:label "跳蚤"@zh-tw ;
 	skos:prefLabel "跳蚤"@zh-tw ;
 	schema:name "跳蚤"@zh-tw ;
@@ -858036,16 +859003,16 @@ wd:Q6603 rdfs:label "跳蚤"@zh-tw ;
 	rdfs:label "跳蚤"@zh-hans ;
 	skos:prefLabel "跳蚤"@zh-hans ;
 	schema:name "跳蚤"@zh-hans ;
-	schema:description "貓，自《明光引路》登場的角色"@zh-tw,
-		"a cat, first appeared in Guiding Light"@en,
-		"猫，自《明光引路》登场的角色"@zh-hans .
+	schema:description "倉庫族公貓，自《明光引路》登場的角色"@zh-tw,
+		"WarehouseClan tom, first appeared in Guiding Light"@en,
+		"仓库族公猫，自《明光引路》登场的角色"@zh-hans .
 
 data:Q6604 a schema:Dataset ;
 	schema:about wd:Q6604 ;
-	schema:version "143009"^^xsd:integer ;
-	schema:dateModified "2026-09-16T12:34:30Z"^^xsd:dateTime ;
-	wikibase:statements "7"^^xsd:integer ;
-	wikibase:sitelinks "1"^^xsd:integer ;
+	schema:version "143329"^^xsd:integer ;
+	schema:dateModified "2026-10-06T14:23:12Z"^^xsd:dateTime ;
+	wikibase:statements "13"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6604 a wikibase:Item .
@@ -858056,13 +859023,25 @@ wd:Q6604 a wikibase:Item .
 	schema:isPartOf <https://warriors.huijiwiki.com/> ;
 	schema:name "瓶子"@zh .
 
+<https://warriors.fandom.com/wiki/Bottle> a schema:Article ;
+	schema:about wd:Q6604 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://warriors.fandom.com/> ;
+	schema:name "Bottle"@en .
+
 wd:Q6604 wdt:P3 wd:Q622 ;
-	wdt:P78 _:13eff8c0e8c4fde277dac6d3a5e9f6cd ;
+	wdt:P78 wd:Q678 ;
 	wdt:P84 "Bottle"@en,
 		"瓶子"@zh-cn,
 		"瓶子"@zh-tw ;
 	wdt:P88 wd:Q6603 ;
 	wdt:P89 wd:Q6602 ;
+	wdt:P148 wd:Q5153,
+		wd:Q5155 ;
+	wdt:P76 wd:Q6610 ;
+	wdt:P83 wd:Q681 ;
+	wdt:P86 wd:Q6069 ;
+	wdt:P137 wd:Q6589 ;
 	p:P3 wds:Q6604-0085F018-57AD-4FA7-97EF-3B5AAF950D3A .
 
 wds:Q6604-0085F018-57AD-4FA7-97EF-3B5AAF950D3A a wikibase:Statement,
@@ -858075,7 +859054,7 @@ wd:Q6604 p:P78 wds:Q6604-44B854BA-6887-4805-A41A-8D94669BD0A5 .
 wds:Q6604-44B854BA-6887-4805-A41A-8D94669BD0A5 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P78 _:aab8cbdfd6c1dc37baf370fe280d2fbd .
+	ps:P78 wd:Q678 .
 
 wd:Q6604 p:P84 wds:Q6604-36DCFF18-2A5E-454D-86CA-B7B83A4DD06F .
 
@@ -858119,6 +859098,56 @@ wds:Q6604-52a3ab26-422f-bef1-faa9-4adcd4115d7f a wikibase:Statement,
 	ps:P89 wd:Q6602 ;
 	pq:P92 wd:Q6581 .
 
+wd:Q6604 p:P148 wds:Q6604-fe602d46-423c-54f0-2085-86c1bada79dd .
+
+wds:Q6604-fe602d46-423c-54f0-2085-86c1bada79dd a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5153 ;
+	pq:P150 wd:Q5192 ;
+	pq:P149 wd:Q5229 .
+
+wd:Q6604 p:P148 wds:Q6604-140462b1-419c-3600-a125-464830736906 .
+
+wds:Q6604-140462b1-419c-3600-a125-464830736906 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5155 ;
+	pq:P150 _:601e1a95cb1801a6b3bd617958778688 .
+
+wd:Q6604 p:P76 wds:Q6604-bcf27587-4de9-14f6-7467-553fd395858b .
+
+wds:Q6604-bcf27587-4de9-14f6-7467-553fd395858b a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q6610 ;
+	pq:P92 wd:Q6581 .
+
+wd:Q6604 p:P83 wds:Q6604-c212f37d-41ad-c9d5-4e94-c861c1ec9b3b .
+
+wds:Q6604-c212f37d-41ad-c9d5-4e94-c861c1ec9b3b a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P83 wd:Q681 ;
+	pq:P21 wd:Q6610 ;
+	pq:P92 wd:Q6581 .
+
+wd:Q6604 p:P86 wds:Q6604-e17d9c8e-4b4c-c12d-c909-22810cba30ec .
+
+wds:Q6604-e17d9c8e-4b4c-c12d-c909-22810cba30ec a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P86 wd:Q6069 ;
+	pq:P102 wd:Q3554 ;
+	pq:P92 wd:Q6581 .
+
+wd:Q6604 p:P137 wds:Q6604-148a179e-4db0-fc65-6a51-7cf370aa5698 .
+
+wds:Q6604-148a179e-4db0-fc65-6a51-7cf370aa5698 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P137 wd:Q6589 .
+
 wd:Q6604 rdfs:label "瓶子"@zh-tw ;
 	skos:prefLabel "瓶子"@zh-tw ;
 	schema:name "瓶子"@zh-tw ;
@@ -858128,16 +859157,16 @@ wd:Q6604 rdfs:label "瓶子"@zh-tw ;
 	rdfs:label "瓶子"@zh-hans ;
 	skos:prefLabel "瓶子"@zh-hans ;
 	schema:name "瓶子"@zh-hans ;
-	schema:description "貓，自《明光引路》登場的角色"@zh-tw,
-		"a cat, first appeared in Guiding Light"@en,
-		"猫，自《明光引路》登场的角色"@zh-hans .
+	schema:description "倉庫族公貓，自《明光引路》登場的角色"@zh-tw,
+		"WarehouseClan tom, first appeared in Guiding Light"@en,
+		"仓库族公猫，自《明光引路》登场的角色"@zh-hans .
 
 data:Q6605 a schema:Dataset ;
 	schema:about wd:Q6605 ;
-	schema:version "143010"^^xsd:integer ;
-	schema:dateModified "2026-09-16T12:35:25Z"^^xsd:dateTime ;
-	wikibase:statements "7"^^xsd:integer ;
-	wikibase:sitelinks "1"^^xsd:integer ;
+	schema:version "143330"^^xsd:integer ;
+	schema:dateModified "2026-10-06T14:23:18Z"^^xsd:dateTime ;
+	wikibase:statements "13"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6605 a wikibase:Item .
@@ -858148,13 +859177,25 @@ wd:Q6605 a wikibase:Item .
 	schema:isPartOf <https://warriors.huijiwiki.com/> ;
 	schema:name "泡沫"@zh .
 
+<https://warriors.fandom.com/wiki/Foam> a schema:Article ;
+	schema:about wd:Q6605 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://warriors.fandom.com/> ;
+	schema:name "Foam"@en .
+
 wd:Q6605 wdt:P3 wd:Q622 ;
-	wdt:P78 _:eefc7e9d7bbf88c3913cda5ab321693c ;
+	wdt:P78 wd:Q679 ;
 	wdt:P84 "Foam"@en,
 		"泡沫"@zh-cn,
 		"泡沫"@zh-tw ;
 	wdt:P88 wd:Q6603 ;
 	wdt:P89 wd:Q6602 ;
+	wdt:P148 wd:Q5153,
+		wd:Q5155 ;
+	wdt:P76 wd:Q6610 ;
+	wdt:P83 wd:Q681 ;
+	wdt:P86 wd:Q6213 ;
+	wdt:P137 wd:Q6589 ;
 	p:P3 wds:Q6605-10D7E7B4-DA48-4312-8C59-4D59C571E573 .
 
 wds:Q6605-10D7E7B4-DA48-4312-8C59-4D59C571E573 a wikibase:Statement,
@@ -858167,7 +859208,7 @@ wd:Q6605 p:P78 wds:Q6605-FE6268EF-6CEA-44B1-8AEB-DCD7DDAAD304 .
 wds:Q6605-FE6268EF-6CEA-44B1-8AEB-DCD7DDAAD304 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P78 _:fe10fd2bc7320d42b402096909fc1f7c .
+	ps:P78 wd:Q679 .
 
 wd:Q6605 p:P84 wds:Q6605-B5910B48-B6B9-4864-B813-581C645030BD .
 
@@ -858211,6 +859252,57 @@ wds:Q6605-1C2B528F-0EFF-4E80-B173-ACE9B0941650 a wikibase:Statement,
 	ps:P89 wd:Q6602 ;
 	pq:P92 wd:Q6581 .
 
+wd:Q6605 p:P148 wds:Q6605-3ad91d5f-4e5f-c32b-a3da-55976a1c1e46 .
+
+wds:Q6605-3ad91d5f-4e5f-c32b-a3da-55976a1c1e46 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5153 ;
+	pq:P150 wd:Q5186 ;
+	pq:P151 wd:Q5306,
+		wd:Q5260 .
+
+wd:Q6605 p:P148 wds:Q6605-28811a53-4879-aba0-f1e3-a64556f69f14 .
+
+wds:Q6605-28811a53-4879-aba0-f1e3-a64556f69f14 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5155 ;
+	pq:P150 _:f257ff7fe8512f7d446e960bbbf214f9 .
+
+wd:Q6605 p:P76 wds:Q6605-e60dc1f3-4888-5834-4f94-4135c345310f .
+
+wds:Q6605-e60dc1f3-4888-5834-4f94-4135c345310f a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q6610 ;
+	pq:P92 wd:Q6581 .
+
+wd:Q6605 p:P83 wds:Q6605-92ab9b15-4f4f-9821-43c0-4c0c2ba1da8c .
+
+wds:Q6605-92ab9b15-4f4f-9821-43c0-4c0c2ba1da8c a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P83 wd:Q681 ;
+	pq:P21 wd:Q6610 ;
+	pq:P92 wd:Q6581 .
+
+wd:Q6605 p:P86 wds:Q6605-11b8ad2a-41b8-8463-43c5-aadac78b1ddf .
+
+wds:Q6605-11b8ad2a-41b8-8463-43c5-aadac78b1ddf a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P86 wd:Q6213 ;
+	pq:P102 wd:Q3554 ;
+	pq:P92 wd:Q6581 .
+
+wd:Q6605 p:P137 wds:Q6605-920693ea-4024-5844-22a6-e34a6f177268 .
+
+wds:Q6605-920693ea-4024-5844-22a6-e34a6f177268 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P137 wd:Q6589 .
+
 wd:Q6605 rdfs:label "泡沫"@zh-tw ;
 	skos:prefLabel "泡沫"@zh-tw ;
 	schema:name "泡沫"@zh-tw ;
@@ -858220,16 +859312,16 @@ wd:Q6605 rdfs:label "泡沫"@zh-tw ;
 	rdfs:label "泡沫"@zh-hans ;
 	skos:prefLabel "泡沫"@zh-hans ;
 	schema:name "泡沫"@zh-hans ;
-	schema:description "貓，自《明光引路》登場的角色"@zh-tw,
-		"a cat, first appeared in Guiding Light"@en,
-		"猫，自《明光引路》登场的角色"@zh-hans .
+	schema:description "倉庫族母貓，自《明光引路》登場的角色"@zh-tw,
+		"WarehouseClan she-cat, first appeared in Guiding Light"@en,
+		"仓库族母猫，自《明光引路》登场的角色"@zh-hans .
 
 data:Q6606 a schema:Dataset ;
 	schema:about wd:Q6606 ;
-	schema:version "143011"^^xsd:integer ;
-	schema:dateModified "2026-09-16T12:37:13Z"^^xsd:dateTime ;
-	wikibase:statements "5"^^xsd:integer ;
-	wikibase:sitelinks "1"^^xsd:integer ;
+	schema:version "143341"^^xsd:integer ;
+	schema:dateModified "2026-10-06T14:30:19Z"^^xsd:dateTime ;
+	wikibase:statements "11"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6606 a wikibase:Item .
@@ -858240,11 +859332,23 @@ wd:Q6606 a wikibase:Item .
 	schema:isPartOf <https://warriors.huijiwiki.com/> ;
 	schema:name "粉粉"@zh .
 
+<https://warriors.fandom.com/wiki/Pinky> a schema:Article ;
+	schema:about wd:Q6606 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://warriors.fandom.com/> ;
+	schema:name "Pinky"@en .
+
 wd:Q6606 wdt:P3 wd:Q622 ;
-	wdt:P78 _:4fc3e9b17458739f1c39362ed5c7249f ;
+	wdt:P78 wd:Q679 ;
 	wdt:P84 "Pinky"@en,
 		"粉粉"@zh-cn,
 		"粉粉"@zh-tw ;
+	wdt:P148 wd:Q5153,
+		wd:Q5155,
+		wd:Q5160,
+		wd:Q5172 ;
+	wdt:P76 wd:Q6610 ;
+	wdt:P137 wd:Q6589 ;
 	p:P3 wds:Q6606-2457B887-83B1-475C-9C50-D5971667592E .
 
 wds:Q6606-2457B887-83B1-475C-9C50-D5971667592E a wikibase:Statement,
@@ -858257,7 +859361,7 @@ wd:Q6606 p:P78 wds:Q6606-4C8B31AF-7AD2-4447-9DF9-EFD3E66E9B3D .
 wds:Q6606-4C8B31AF-7AD2-4447-9DF9-EFD3E66E9B3D a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P78 _:9f12914ddf154d2015534f202cf2ef44 .
+	ps:P78 wd:Q679 .
 
 wd:Q6606 p:P84 wds:Q6606-7168E5D1-08B7-41DC-8D3A-F88E07AAD2A1 .
 
@@ -858285,6 +859389,57 @@ wds:Q6606-F93B7309-B005-4619-9983-65547919628D a wikibase:Statement,
 	ps:P84 "粉粉"@zh-tw ;
 	pq:P102 wd:Q4865 .
 
+wd:Q6606 p:P148 wds:Q6606-cd293ae8-43ab-a0e7-577e-9536a726f756 .
+
+wds:Q6606-cd293ae8-43ab-a0e7-577e-9536a726f756 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5153 ;
+	pq:P150 wd:Q5197 ;
+	pq:P151 wd:Q5202 ;
+	pq:P149 wd:Q5311 .
+
+wd:Q6606 p:P148 wds:Q6606-4d6ca81d-4a49-6809-f7d2-b29945853343 .
+
+wds:Q6606-4d6ca81d-4a49-6809-f7d2-b29945853343 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5155 ;
+	pq:P150 _:7a9c50b3fa2e0b79ec86176180ea5b98 .
+
+wd:Q6606 p:P148 wds:Q6606-f985dc38-4346-152b-4500-3986b72d00ca .
+
+wds:Q6606-f985dc38-4346-152b-4500-3986b72d00ca a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5160 ;
+	pq:P154 wd:Q5295 .
+
+wd:Q6606 p:P148 wds:Q6606-8baf126d-4ccc-b7a6-48db-9074c3e540b3 .
+
+wds:Q6606-8baf126d-4ccc-b7a6-48db-9074c3e540b3 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5172 ;
+	pq:P133 "+1"^^xsd:decimal ;
+	pqv:P133 wdv:1c9e02c1631d3fd5ec9a9fe9aa1fde65 ;
+	pq:P154 wd:Q5295 .
+
+wd:Q6606 p:P76 wds:Q6606-698b2cf4-41e1-89d8-7b2b-36cd5f57ea18 .
+
+wds:Q6606-698b2cf4-41e1-89d8-7b2b-36cd5f57ea18 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q6610 ;
+	pq:P92 wd:Q6581 .
+
+wd:Q6606 p:P137 wds:Q6606-0de880a9-46f4-133c-4040-1902af7dfab4 .
+
+wds:Q6606-0de880a9-46f4-133c-4040-1902af7dfab4 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P137 wd:Q6589 .
+
 wd:Q6606 rdfs:label "粉粉"@zh-tw ;
 	skos:prefLabel "粉粉"@zh-tw ;
 	schema:name "粉粉"@zh-tw ;
@@ -858294,16 +859449,16 @@ wd:Q6606 rdfs:label "粉粉"@zh-tw ;
 	rdfs:label "粉粉"@zh-hans ;
 	skos:prefLabel "粉粉"@zh-hans ;
 	schema:name "粉粉"@zh-hans ;
-	schema:description "貓，自《明光引路》登場的角色"@zh-tw,
-		"a cat, first appeared in Guiding Light"@en,
-		"猫，自《明光引路》登场的角色"@zh-hans .
+	schema:description "倉庫族母貓，自《明光引路》登場的角色"@zh-tw,
+		"WarehouseClan she-cat, first appeared in Guiding Light"@en,
+		"仓库族母猫，自《明光引路》登场的角色"@zh-hans .
 
 data:Q6607 a schema:Dataset ;
 	schema:about wd:Q6607 ;
-	schema:version "143012"^^xsd:integer ;
-	schema:dateModified "2026-09-16T12:44:58Z"^^xsd:dateTime ;
-	wikibase:statements "5"^^xsd:integer ;
-	wikibase:sitelinks "1"^^xsd:integer ;
+	schema:version "143333"^^xsd:integer ;
+	schema:dateModified "2026-10-06T14:24:50Z"^^xsd:dateTime ;
+	wikibase:statements "10"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6607 a wikibase:Item .
@@ -858314,11 +859469,22 @@ wd:Q6607 a wikibase:Item .
 	schema:isPartOf <https://warriors.huijiwiki.com/> ;
 	schema:name "杰克 (天穹之变)"@zh .
 
+<https://warriors.fandom.com/wiki/Jack_(Lo)> a schema:Article ;
+	schema:about wd:Q6607 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://warriors.fandom.com/> ;
+	schema:name "Jack (Lo)"@en .
+
 wd:Q6607 wdt:P3 wd:Q622 ;
-	wdt:P78 _:2664aff4d1b2271234ba2e19ae205150 ;
+	wdt:P78 wd:Q678 ;
 	wdt:P84 "Jack"@en,
 		"杰克"@zh-cn,
 		"傑克"@zh-tw ;
+	wdt:P148 wd:Q5153,
+		wd:Q5155,
+		wd:Q5155 ;
+	wdt:P76 wd:Q6610 ;
+	wdt:P137 wd:Q6589 ;
 	p:P3 wds:Q6607-51C5110E-9199-4A36-B459-082EB952A3D6 .
 
 wds:Q6607-51C5110E-9199-4A36-B459-082EB952A3D6 a wikibase:Statement,
@@ -858331,7 +859497,7 @@ wd:Q6607 p:P78 wds:Q6607-24A59460-3968-41A6-BE03-B2364C787417 .
 wds:Q6607-24A59460-3968-41A6-BE03-B2364C787417 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P78 _:95221fdf433dafe7a14996377d6684c5 .
+	ps:P78 wd:Q678 .
 
 wd:Q6607 p:P84 wds:Q6607-7C8241CE-32DF-4916-A594-E018EFCEC181 .
 
@@ -858359,6 +859525,49 @@ wds:Q6607-742FE6CC-B30E-4597-BDA8-4A5463FA96A4 a wikibase:Statement,
 	ps:P84 "傑克"@zh-tw ;
 	pq:P102 wd:Q4865 .
 
+wd:Q6607 p:P148 wds:Q6607-c847e1c3-42a3-c806-9791-f29485ab37c0 .
+
+wds:Q6607-c847e1c3-42a3-c806-9791-f29485ab37c0 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5153 ;
+	pq:P150 wd:Q5186 .
+
+wd:Q6607 p:P148 wds:Q6607-db896fc0-4c34-74cc-affd-26fdfbf88677 .
+
+wds:Q6607-db896fc0-4c34-74cc-affd-26fdfbf88677 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5155 ;
+	pq:P150 _:08f50c04c3563612ccb6fef9ebe7a201 .
+
+wd:Q6607 p:P148 wds:Q6607-3b328b61-48b1-5cba-0aaa-8b21b03151d5 .
+
+wds:Q6607-3b328b61-48b1-5cba-0aaa-8b21b03151d5 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5155 ;
+	pq:P21 wd:Q5179 ;
+	pq:P133 "+1"^^xsd:decimal ;
+	pqv:P133 wdv:1c9e02c1631d3fd5ec9a9fe9aa1fde65 ;
+	pq:P151 wd:Q5205 ;
+	pq:P152 wd:Q5185 .
+
+wd:Q6607 p:P76 wds:Q6607-f83c754a-4c46-75bf-dede-64d6047185c7 .
+
+wds:Q6607-f83c754a-4c46-75bf-dede-64d6047185c7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q6610 ;
+	pq:P92 wd:Q6581 .
+
+wd:Q6607 p:P137 wds:Q6607-95e9196b-43db-1383-6573-da3a39be2e9d .
+
+wds:Q6607-95e9196b-43db-1383-6573-da3a39be2e9d a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P137 wd:Q6589 .
+
 wd:Q6607 rdfs:label "傑克"@zh-tw ;
 	skos:prefLabel "傑克"@zh-tw ;
 	schema:name "傑克"@zh-tw ;
@@ -858368,16 +859577,16 @@ wd:Q6607 rdfs:label "傑克"@zh-tw ;
 	rdfs:label "杰克"@zh-hans ;
 	skos:prefLabel "杰克"@zh-hans ;
 	schema:name "杰克"@zh-hans ;
-	schema:description "貓，自《明光引路》登場的角色"@zh-tw,
-		"a cat, first appeared in Guiding Light"@en,
-		"猫，自《明光引路》登场的角色"@zh-hans .
+	schema:description "倉庫族公貓，自《明光引路》登場的角色"@zh-tw,
+		"WarehouseClan tom, first appeared in Guiding Light"@en,
+		"仓库族公猫，自《明光引路》登场的角色"@zh-hans .
 
 data:Q6608 a schema:Dataset ;
 	schema:about wd:Q6608 ;
-	schema:version "143013"^^xsd:integer ;
-	schema:dateModified "2026-09-16T12:46:46Z"^^xsd:dateTime ;
-	wikibase:statements "5"^^xsd:integer ;
-	wikibase:sitelinks "1"^^xsd:integer ;
+	schema:version "143334"^^xsd:integer ;
+	schema:dateModified "2026-10-06T14:24:58Z"^^xsd:dateTime ;
+	wikibase:statements "10"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6608 a wikibase:Item .
@@ -858388,11 +859597,22 @@ wd:Q6608 a wikibase:Item .
 	schema:isPartOf <https://warriors.huijiwiki.com/> ;
 	schema:name "珀涅罗珀"@zh .
 
+<https://warriors.fandom.com/wiki/Penelope> a schema:Article ;
+	schema:about wd:Q6608 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://warriors.fandom.com/> ;
+	schema:name "Penelope"@en .
+
 wd:Q6608 wdt:P3 wd:Q622 ;
-	wdt:P78 _:be9232f5c60005e3f5c8389b1e008691 ;
+	wdt:P78 wd:Q679 ;
 	wdt:P84 "Penelope"@en,
 		"珀涅罗珀"@zh-cn,
 		"潘妮洛普"@zh-tw ;
+	wdt:P148 wd:Q5153,
+		wd:Q5155,
+		wd:Q5167 ;
+	wdt:P76 wd:Q6610 ;
+	wdt:P137 wd:Q6589 ;
 	p:P3 wds:Q6608-AACCDA17-7185-43D3-87E4-DD0AF1411EA0 .
 
 wds:Q6608-AACCDA17-7185-43D3-87E4-DD0AF1411EA0 a wikibase:Statement,
@@ -858405,7 +859625,7 @@ wd:Q6608 p:P78 wds:Q6608-BBF68BE2-655F-4F1E-9C50-6498A6B521B2 .
 wds:Q6608-BBF68BE2-655F-4F1E-9C50-6498A6B521B2 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P78 _:a6d614e1cde41552e7a75c60af7aa81c .
+	ps:P78 wd:Q679 .
 
 wd:Q6608 p:P84 wds:Q6608-23EB6E50-8B91-4059-B428-79763109E374 .
 
@@ -858433,6 +859653,45 @@ wds:Q6608-BDFB261F-34E3-4192-8CAB-9E9E4D979C87 a wikibase:Statement,
 	ps:P84 "潘妮洛普"@zh-tw ;
 	pq:P102 wd:Q4865 .
 
+wd:Q6608 p:P148 wds:Q6608-114bd0cf-45c2-02c5-f0dc-0cf569407ae2 .
+
+wds:Q6608-114bd0cf-45c2-02c5-f0dc-0cf569407ae2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5153 ;
+	pq:P150 wd:Q5193 .
+
+wd:Q6608 p:P148 wds:Q6608-2c288141-4d5a-b762-c303-e4a2b5b8966e .
+
+wds:Q6608-2c288141-4d5a-b762-c303-e4a2b5b8966e a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5155 ;
+	pq:P150 _:fa6c4333654a66893432e9da39f23481 .
+
+wd:Q6608 p:P148 wds:Q6608-5b8f13d5-4775-28a7-8e8d-3ffc3f72c40d .
+
+wds:Q6608-5b8f13d5-4775-28a7-8e8d-3ffc3f72c40d a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5167 ;
+	pq:P150 wd:Q5214 .
+
+wd:Q6608 p:P76 wds:Q6608-af3e2be0-495a-6112-5e86-cefbada92396 .
+
+wds:Q6608-af3e2be0-495a-6112-5e86-cefbada92396 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q6610 ;
+	pq:P92 wd:Q6581 .
+
+wd:Q6608 p:P137 wds:Q6608-108c56b5-48a9-8a22-6e1b-af142ec07d30 .
+
+wds:Q6608-108c56b5-48a9-8a22-6e1b-af142ec07d30 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P137 wd:Q6589 .
+
 wd:Q6608 rdfs:label "潘妮洛普"@zh-tw ;
 	skos:prefLabel "潘妮洛普"@zh-tw ;
 	schema:name "潘妮洛普"@zh-tw ;
@@ -858442,16 +859701,16 @@ wd:Q6608 rdfs:label "潘妮洛普"@zh-tw ;
 	rdfs:label "珀涅罗珀"@zh-hans ;
 	skos:prefLabel "珀涅罗珀"@zh-hans ;
 	schema:name "珀涅罗珀"@zh-hans ;
-	schema:description "貓，自《明光引路》登場的角色"@zh-tw,
-		"a cat, first appeared in Guiding Light"@en,
-		"猫，自《明光引路》登场的角色"@zh-hans .
+	schema:description "倉庫族母貓，自《明光引路》登場的角色"@zh-tw,
+		"WarehouseClan she-cat, first appeared in Guiding Light"@en,
+		"仓库族母猫，自《明光引路》登场的角色"@zh-hans .
 
 data:Q6609 a schema:Dataset ;
 	schema:about wd:Q6609 ;
-	schema:version "143014"^^xsd:integer ;
-	schema:dateModified "2026-09-16T12:47:39Z"^^xsd:dateTime ;
-	wikibase:statements "5"^^xsd:integer ;
-	wikibase:sitelinks "1"^^xsd:integer ;
+	schema:version "143500"^^xsd:integer ;
+	schema:dateModified "2026-10-07T09:20:40Z"^^xsd:dateTime ;
+	wikibase:statements "9"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6609 a wikibase:Item .
@@ -858462,11 +859721,21 @@ wd:Q6609 a wikibase:Item .
 	schema:isPartOf <https://warriors.huijiwiki.com/> ;
 	schema:name "汉克"@zh .
 
+<https://warriors.fandom.com/wiki/Hank> a schema:Article ;
+	schema:about wd:Q6609 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://warriors.fandom.com/> ;
+	schema:name "Hank"@en .
+
 wd:Q6609 wdt:P3 wd:Q622 ;
-	wdt:P78 _:714227bd52991720278262eb44e1a07f ;
+	wdt:P78 wd:Q678 ;
 	wdt:P84 "Hank"@en,
 		"汉克"@zh-cn,
 		"漢克"@zh-tw ;
+	wdt:P137 wd:Q6589 ;
+	wdt:P148 wd:Q5153,
+		wd:Q5155 ;
+	wdt:P76 wd:Q6610 ;
 	p:P3 wds:Q6609-9949FB07-B4F1-4A67-B27B-BEB9A8A94250 .
 
 wds:Q6609-9949FB07-B4F1-4A67-B27B-BEB9A8A94250 a wikibase:Statement,
@@ -858479,7 +859748,7 @@ wd:Q6609 p:P78 wds:Q6609-373BEE4B-57B5-49F0-A4AD-80E980700B50 .
 wds:Q6609-373BEE4B-57B5-49F0-A4AD-80E980700B50 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P78 _:ff53a44e24425ee86629dc0e4fc7db01 .
+	ps:P78 wd:Q678 .
 
 wd:Q6609 p:P84 wds:Q6609-FD62DF10-E6B3-4B63-80F3-D00B60856327 .
 
@@ -858507,6 +859776,38 @@ wds:Q6609-8EA50D49-DC7A-425D-8CF0-EB4279858797 a wikibase:Statement,
 	ps:P84 "漢克"@zh-tw ;
 	pq:P102 wd:Q4865 .
 
+wd:Q6609 p:P137 wds:Q6609-c6cea09e-4e25-afec-6fa6-f6f831704abd .
+
+wds:Q6609-c6cea09e-4e25-afec-6fa6-f6f831704abd a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P137 wd:Q6589 .
+
+wd:Q6609 p:P148 wds:Q6609-614cba27-479c-d413-a91c-4cdc9d2ff748 .
+
+wds:Q6609-614cba27-479c-d413-a91c-4cdc9d2ff748 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5153 ;
+	pq:P150 wd:Q5192 .
+
+wd:Q6609 p:P148 wds:Q6609-e487fb6f-4121-f6e7-02bf-4075358b4c21 .
+
+wds:Q6609-e487fb6f-4121-f6e7-02bf-4075358b4c21 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P148 wd:Q5155 ;
+	pq:P150 _:f0c6e61175e7425d6cf819e7160d0482 .
+
+wd:Q6609 p:P76 wds:Q6609-66652d79-4111-6f74-1dbb-5b82edbbee26 .
+
+wds:Q6609-66652d79-4111-6f74-1dbb-5b82edbbee26 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q6610 ;
+	pq:P92 _:634e49c98cb565f5fe4823086ea8d3bf ;
+	prov:wasDerivedFrom wdref:bbde54de13fcaabbb0889bac6ea46d693544af1d .
+
 wd:Q6609 rdfs:label "漢克"@zh-tw ;
 	skos:prefLabel "漢克"@zh-tw ;
 	schema:name "漢克"@zh-tw ;
@@ -858516,6 +859817,229 @@ wd:Q6609 rdfs:label "漢克"@zh-tw ;
 	rdfs:label "汉克"@zh-hans ;
 	skos:prefLabel "汉克"@zh-hans ;
 	schema:name "汉克"@zh-hans ;
-	schema:description "貓，自《明光引路》登場的角色"@zh-tw,
-		"a cat, first appeared in Guiding Light"@en,
-		"猫，自《明光引路》登场的角色"@zh-hans .
+	schema:description "倉庫族公貓，自《明光引路》登場的角色"@zh-tw,
+		"WarehouseClan tom, first appeared in Guiding Light"@en,
+		"仓库族公猫，自《明光引路》登场的角色"@zh-hans .
+
+data:Q6610 a schema:Dataset ;
+	schema:about wd:Q6610 ;
+	schema:version "143189"^^xsd:integer ;
+	schema:dateModified "2026-10-04T13:42:37Z"^^xsd:dateTime ;
+	wikibase:statements "1"^^xsd:integer ;
+	wikibase:sitelinks "1"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6610 a wikibase:Item .
+
+<https://warriors.huijiwiki.com/wiki/%E4%BB%93%E5%BA%93%E6%97%8F> a schema:Article ;
+	schema:about wd:Q6610 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "仓库族"@zh .
+
+wd:Q6610 wdt:P3 wd:Q633 ;
+	p:P3 wds:Q6610-028393f6-4d63-5547-f24a-49867f374a54 .
+
+wds:Q6610-028393f6-4d63-5547-f24a-49867f374a54 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q633 .
+
+wd:Q6610 rdfs:label "倉庫族"@zh-tw ;
+	skos:prefLabel "倉庫族"@zh-tw ;
+	schema:name "倉庫族"@zh-tw ;
+	rdfs:label "WarehouseClan"@en ;
+	skos:prefLabel "WarehouseClan"@en ;
+	schema:name "WarehouseClan"@en ;
+	rdfs:label "仓库族"@zh-hans ;
+	skos:prefLabel "仓库族"@zh-hans ;
+	schema:name "仓库族"@zh-hans ;
+	schema:description "《貓戰士》的《明光引路》中的一個貓群"@zh-tw,
+		"a group of cats in Guiding Light of Warriors series"@en,
+		"《猫武士》的《明光引路》中的一个猫群"@zh-hans .
+
+data:Q6611 a schema:Dataset ;
+	schema:about wd:Q6611 ;
+	schema:version "143309"^^xsd:integer ;
+	schema:dateModified "2026-10-06T14:05:56Z"^^xsd:dateTime ;
+	wikibase:statements "3"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6611 a wikibase:Item ;
+	wdt:P3 wd:Q622 ;
+	wdt:P78 wd:Q679 ;
+	wdt:P100 wd:Q6612 ;
+	p:P3 wds:Q6611-6aa72023-4403-45e7-90ce-e0eaaf2c37b7 .
+
+wds:Q6611-6aa72023-4403-45e7-90ce-e0eaaf2c37b7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q622 .
+
+wd:Q6611 p:P78 wds:Q6611-db0421fc-458f-309d-4400-6d3d9c9b6360 .
+
+wds:Q6611-db0421fc-458f-309d-4400-6d3d9c9b6360 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 wd:Q679 .
+
+wd:Q6611 p:P100 wds:Q6611-f883a3b0-492a-fc5b-7d6a-b723fcfc3a15 .
+
+wds:Q6611-f883a3b0-492a-fc5b-7d6a-b723fcfc3a15 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P100 wd:Q6612 ;
+	prov:wasDerivedFrom wdref:8a82d2f848f2db83973cb9bd4e86cd12fd2fd7c5 .
+
+wd:Q6611 schema:description "母貓，朵洛莉絲和芙烈達的母親"@zh-tw,
+		"she-cat, mother of Dolores and Frida"@en,
+		"母猫，多洛蕾丝和弗里达的母亲"@zh-hans ;
+	skos:altLabel "朵洛莉絲的母親"@zh-tw,
+		"芙烈達的母親"@zh-tw,
+		"Mother of Dolores"@en,
+		"Mother of Frida"@en,
+		"多洛蕾丝的母亲"@zh-hans,
+		"弗里达的母亲"@zh-hans .
+
+data:Q6612 a schema:Dataset ;
+	schema:about wd:Q6612 ;
+	schema:version "143312"^^xsd:integer ;
+	schema:dateModified "2026-10-06T14:06:26Z"^^xsd:dateTime ;
+	wikibase:statements "3"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6612 a wikibase:Item ;
+	wdt:P3 wd:Q622 ;
+	wdt:P78 wd:Q678 ;
+	wdt:P100 wd:Q6611 ;
+	p:P3 wds:Q6612-4f303ccb-4fce-8008-bbcd-b534136e122f .
+
+wds:Q6612-4f303ccb-4fce-8008-bbcd-b534136e122f a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q622 .
+
+wd:Q6612 p:P78 wds:Q6612-706657c4-4671-d279-3b5c-67ee567ef6b9 .
+
+wds:Q6612-706657c4-4671-d279-3b5c-67ee567ef6b9 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 wd:Q678 .
+
+wd:Q6612 p:P100 wds:Q6612-792388c2-4a88-5717-b946-90dba2e8b2df .
+
+wds:Q6612-792388c2-4a88-5717-b946-90dba2e8b2df a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P100 wd:Q6611 ;
+	prov:wasDerivedFrom wdref:8a82d2f848f2db83973cb9bd4e86cd12fd2fd7c5 .
+
+wd:Q6612 schema:description "公貓，朵洛莉絲和芙烈達的父親"@zh-tw,
+		"tom, father of Dolores and Frida"@en,
+		"公猫，多洛蕾丝和弗里达的父亲"@zh-hans ;
+	skos:altLabel "朵洛莉絲的父親"@zh-tw,
+		"芙烈達的父親"@zh-tw,
+		"Father of Dolores"@en,
+		"Father of Frida"@en,
+		"多洛蕾丝的父亲"@zh-hans,
+		"弗里达的父亲"@zh-hans .
+
+data:Q6613 a schema:Dataset ;
+	schema:about wd:Q6613 ;
+	schema:version "143460"^^xsd:integer ;
+	schema:dateModified "2026-10-07T02:24:01Z"^^xsd:dateTime ;
+	wikibase:statements "3"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6613 a wikibase:Item ;
+	wdt:P3 wd:Q622 ;
+	wdt:P78 wd:Q678 ;
+	wdt:P100 wd:Q6550 ;
+	p:P3 wds:Q6613-5F9DE8C6-B8D7-412E-96CA-C9935D74AB2E .
+
+wds:Q6613-5F9DE8C6-B8D7-412E-96CA-C9935D74AB2E a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q622 .
+
+wd:Q6613 p:P78 wds:Q6613-8689d220-4294-3162-af41-4558e85a17d7 .
+
+wds:Q6613-8689d220-4294-3162-af41-4558e85a17d7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 wd:Q678 .
+
+wd:Q6613 p:P100 wds:Q6613-8c3c58fe-4eb2-ad4a-7392-f6fbb6e02e26 .
+
+wds:Q6613-8c3c58fe-4eb2-ad4a-7392-f6fbb6e02e26 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P100 wd:Q6550 ;
+	prov:wasDerivedFrom wdref:ed804f6966f54afe28fa825c5941b639684e2f6b .
+
+wd:Q6613 schema:description "公貓，暗掌、鏽掌和刺掌的父親"@zh-tw,
+		"tom, father of Darkpaw, Rustpaw, Pricklepaw"@en,
+		"公猫，暗爪、锈爪和刺爪的父亲"@zh-hans ;
+	skos:altLabel "暗掌的父親"@zh-tw,
+		"鏽掌的父親"@zh-tw,
+		"刺掌的父親"@zh-tw,
+		"father of Darkpaw"@en,
+		"father of Rustpaw"@en,
+		"father of Pricklepaw"@en,
+		"暗爪的父亲"@zh-hans,
+		"锈爪的父亲"@zh-hans,
+		"刺爪的父亲"@zh-hans .
+
+data:Q6614 a schema:Dataset ;
+	schema:about wd:Q6614 ;
+	schema:version "143529"^^xsd:integer ;
+	schema:dateModified "2026-10-09T13:15:01Z"^^xsd:dateTime ;
+	wikibase:statements "2"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6614 a wikibase:Item .
+
+<https://warriors.huijiwiki.com/wiki/%E4%B9%94%E6%B2%BB> a schema:Article ;
+	schema:about wd:Q6614 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "乔治"@zh .
+
+<https://warriors.fandom.com/wiki/George> a schema:Article ;
+	schema:about wd:Q6614 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://warriors.fandom.com/> ;
+	schema:name "George"@en .
+
+wd:Q6614 wdt:P3 wd:Q4252 ;
+	wdt:P78 wd:Q678 ;
+	p:P3 wds:Q6614-e33cac56-4c9f-4442-239a-e8185c913ed9 .
+
+wds:Q6614-e33cac56-4c9f-4442-239a-e8185c913ed9 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q4252 .
+
+wd:Q6614 p:P78 wds:Q6614-524a8b27-4dd6-9727-448c-1d3394d6f8f9 .
+
+wds:Q6614-524a8b27-4dd6-9727-448c-1d3394d6f8f9 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 wd:Q678 .
+
+wd:Q6614 rdfs:label "喬治"@zh-tw ;
+	skos:prefLabel "喬治"@zh-tw ;
+	schema:name "喬治"@zh-tw ;
+	rdfs:label "George"@en ;
+	skos:prefLabel "George"@en ;
+	schema:name "George"@en ;
+	rdfs:label "乔治"@zh-hans ;
+	skos:prefLabel "乔治"@zh-hans ;
+	schema:name "乔治"@zh-hans ;
+	schema:description "公狗，自《明光引路》登場的角色"@zh-tw,
+		"male dog, first appeared in Guiding Light"@en,
+		"公狗，自《明光引路》登场的角色"@zh-hans .
