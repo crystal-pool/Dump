@@ -31,7 +31,7 @@ wikibase:Dump a schema:Dataset,
 		owl:Ontology ;
 	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
 	schema:softwareVersion "1.0.0" ;
-	schema:dateModified "2026-10-10T01:30:03Z"^^xsd:dateTime ;
+	schema:dateModified "2026-10-17T01:30:03Z"^^xsd:dateTime ;
 	owl:imports <http://wikiba.se/ontology-1.0.owl> .
 
 data:P2 a schema:Dataset ;
@@ -164642,19 +164642,19 @@ wd:Q479 rdfs:label "赵振中"@zh-cn ;
 
 data:Q480 a schema:Dataset ;
 	schema:about wd:Q480 ;
-	schema:version "35494"^^xsd:integer ;
-	schema:dateModified "2020-02-02T12:59:19Z"^^xsd:dateTime ;
+	schema:version "143568"^^xsd:integer ;
+	schema:dateModified "2026-10-15T21:30:20Z"^^xsd:dateTime ;
 	wikibase:statements "1"^^xsd:integer ;
 	wikibase:sitelinks "1"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q480 a wikibase:Item .
 
-<https://warriors.huijiwiki.com/wiki/%E8%AC%9D%E9%9B%85%E6%96%87> a schema:Article ;
+<https://warriors.huijiwiki.com/wiki/%E8%B0%A2%E9%9B%85%E6%96%87> a schema:Article ;
 	schema:about wd:Q480 ;
 	schema:inLanguage "zh" ;
 	schema:isPartOf <https://warriors.huijiwiki.com/> ;
-	schema:name "謝雅文"@zh .
+	schema:name "谢雅文"@zh .
 
 wd:Q480 wdt:P3 wd:Q9 ;
 	p:P3 wds:Q480-ad0e1a24-ae40-4322-84cf-c1ed0428a91f .
@@ -308092,8 +308092,8 @@ wd:Q2401 rdfs:label "鼬须"@zh-cn ;
 
 data:Q2402 a schema:Dataset ;
 	schema:about wd:Q2402 ;
-	schema:version "126332"^^xsd:integer ;
-	schema:dateModified "2024-04-01T13:24:08Z"^^xsd:dateTime ;
+	schema:version "143558"^^xsd:integer ;
+	schema:dateModified "2026-10-11T05:35:14Z"^^xsd:dateTime ;
 	wikibase:statements "18"^^xsd:integer ;
 	wikibase:sitelinks "11"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -308249,7 +308249,8 @@ wds:Q2402-881be6fe-4dff-3b16-4cfb-7be56feb0b6e a wikibase:Statement,
 	ps:P83 wd:Q681 ;
 	pq:P21 wd:Q628 ;
 	pq:P92 wd:Q1857 ;
-	pq:P93 wd:Q1857 .
+	pq:P93 wd:Q1857 ;
+	pq:P53 "1" .
 
 wd:Q2402 p:P83 wds:Q2402-258b1657-22ee-48c6-bace-42eaae65047a .
 
@@ -308260,7 +308261,7 @@ wds:Q2402-258b1657-22ee-48c6-bace-42eaae65047a a wikibase:Statement,
 	pq:P92 wd:Q1857 ;
 	pq:P93 wd:Q1857 ;
 	pq:P21 wd:Q628 ;
-	pq:P102 wd:Q3554 .
+	pq:P53 "2" .
 
 wd:Q2402 p:P84 wds:Q2402-8da937b2-a204-4f22-a6bb-bdba455579ba .
 
@@ -308273,7 +308274,8 @@ wds:Q2402-8da937b2-a204-4f22-a6bb-bdba455579ba a wikibase:Statement,
 	pq:P111 "kit" ;
 	pq:P110 "badger" ;
 	pq:P92 wd:Q1856 ;
-	pq:P93 wd:Q1857 .
+	pq:P93 wd:Q1857 ;
+	pq:P53 "1" .
 
 wd:Q2402 p:P84 wds:Q2402-efb924ea-8775-44e2-bdde-bfb775b30890 .
 
@@ -308286,7 +308288,8 @@ wds:Q2402-efb924ea-8775-44e2-bdde-bfb775b30890 a wikibase:Statement,
 	pq:P111 "paw" ;
 	pq:P110 "badger" ;
 	pq:P92 wd:Q1857 ;
-	pq:P93 wd:Q1857 .
+	pq:P93 wd:Q1857 ;
+	pq:P53 "2" .
 
 wd:Q2402 p:P84 wds:Q2402-d4573253-b3c4-440d-b0fa-d633029e8387 .
 
@@ -308299,7 +308302,7 @@ wds:Q2402-d4573253-b3c4-440d-b0fa-d633029e8387 a wikibase:Statement,
 	pq:P111 "fang" ;
 	pq:P110 "badger" ;
 	pq:P92 wd:Q1857 ;
-	pq:P93 wd:Q1857 .
+	pq:P53 "3" .
 
 wd:Q2402 p:P96 wds:Q2402-1154dbe3-593c-4127-a4a1-d8d70bf051dc .
 
@@ -400160,8 +400163,8 @@ wd:Q2768 rdfs:label "刺尾"@zh-cn ;
 
 data:Q2769 a schema:Dataset ;
 	schema:about wd:Q2769 ;
-	schema:version "126700"^^xsd:integer ;
-	schema:dateModified "2024-04-01T13:29:02Z"^^xsd:dateTime ;
+	schema:version "143559"^^xsd:integer ;
+	schema:dateModified "2026-10-11T06:23:34Z"^^xsd:dateTime ;
 	wikibase:statements "24"^^xsd:integer ;
 	wikibase:sitelinks "9"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -400346,7 +400349,8 @@ wds:Q2769-f1154ecf-440a-42b8-8356-800a8a7e070e a wikibase:Statement,
 		"燧牙"@zh-tw,
 		"燧牙"@zh-cn,
 		"褐牙"@zh-cn,
-		"堅牙"@zh-tw ;
+		"堅牙"@zh-tw,
+		"石牙"@zh-tw ;
 	pq:P111 "fang" ;
 	pq:P110 "flint" ;
 	pq:P92 wd:Q1852 .
@@ -539894,8 +539898,8 @@ wd:Q3362 rdfs:label "岩石"@zh-cn ;
 
 data:Q3363 a schema:Dataset ;
 	schema:about wd:Q3363 ;
-	schema:version "116361"^^xsd:integer ;
-	schema:dateModified "2023-02-20T01:15:41Z"^^xsd:dateTime ;
+	schema:version "143567"^^xsd:integer ;
+	schema:dateModified "2026-10-15T21:30:14Z"^^xsd:dateTime ;
 	wikibase:statements "23"^^xsd:integer ;
 	wikibase:sitelinks "11"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -539950,11 +539954,11 @@ wd:Q3363 a wikibase:Item .
 	schema:isPartOf <https://wojownicy.fandom.com/> ;
 	schema:name "Skała, na Której Zbiera się Śnieg"@pl .
 
-<https://warriors.huijiwiki.com/wiki/%E9%9D%9C%E6%B0%B4%E4%B8%8B%E7%9A%84%E5%B2%A9%E7%9F%B3> a schema:Article ;
+<https://warriors.huijiwiki.com/wiki/%E9%9D%99%E6%B0%B4%E4%B8%8B%E7%9A%84%E5%B2%A9%E7%9F%B3> a schema:Article ;
 	schema:about wd:Q3363 ;
 	schema:inLanguage "zh" ;
 	schema:isPartOf <https://warriors.huijiwiki.com/> ;
-	schema:name "靜水下的岩石"@zh .
+	schema:name "静水下的岩石"@zh .
 
 <https://valecnici.fandom.com/cs/wiki/K%C3%A1men_pod_stojatou_vodou> a schema:Article ;
 	schema:about wd:Q3363 ;
@@ -540190,9 +540194,9 @@ wds:Q3363-acc0cf77-48eb-df14-dff7-084acfcae3a9 a wikibase:Statement,
 	pq:P149 wd:Q5210,
 		wd:Q5320 .
 
-wd:Q3363 rdfs:label "靜水下的岩石"@zh-cn ;
-	skos:prefLabel "靜水下的岩石"@zh-cn ;
-	schema:name "靜水下的岩石"@zh-cn ;
+wd:Q3363 rdfs:label "静水下的岩石"@zh-cn ;
+	skos:prefLabel "静水下的岩石"@zh-cn ;
+	schema:name "静水下的岩石"@zh-cn ;
 	rdfs:label "靜水下的岩石"@zh-tw ;
 	skos:prefLabel "靜水下的岩石"@zh-tw ;
 	schema:name "靜水下的岩石"@zh-tw ;
@@ -683502,8 +683506,8 @@ wd:Q4393 rdfs:label "戰士部族"@zh-tw ;
 
 data:Q4394 a schema:Dataset ;
 	schema:about wd:Q4394 ;
-	schema:version "138406"^^xsd:integer ;
-	schema:dateModified "2026-07-03T21:30:20Z"^^xsd:dateTime ;
+	schema:version "143548"^^xsd:integer ;
+	schema:dateModified "2026-10-10T04:25:21Z"^^xsd:dateTime ;
 	wikibase:statements "17"^^xsd:integer ;
 	wikibase:sitelinks "7"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -683564,7 +683568,7 @@ wd:Q4394 wdt:P78 wd:Q678 ;
 	wdt:P100 wd:Q4397 ;
 	wdt:P84 "Honeysuckle"@en,
 		"Fang"@en ;
-	wdt:P137 wd:Q4972 ;
+	wdt:P137 wd:Q6587 ;
 	wdt:P95 wd:Q4551 ;
 	wdt:P148 wd:Q5153,
 		wd:Q5155,
@@ -683679,7 +683683,7 @@ wd:Q4394 p:P137 wds:Q4394-09a3f86a-4b28-713c-5476-edb4e712261e .
 wds:Q4394-09a3f86a-4b28-713c-5476-edb4e712261e a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P137 wd:Q4972 .
+	ps:P137 wd:Q6587 .
 
 wd:Q4394 p:P95 wds:Q4394-a4aab007-4abc-5795-b6f9-5ce6ac7fb2d3 .
 
@@ -684063,8 +684067,8 @@ wd:Q4397 rdfs:label "水仙"@zh-tw ;
 
 data:Q4398 a schema:Dataset ;
 	schema:about wd:Q4398 ;
-	schema:version "138483"^^xsd:integer ;
-	schema:dateModified "2026-07-04T21:30:41Z"^^xsd:dateTime ;
+	schema:version "143550"^^xsd:integer ;
+	schema:dateModified "2026-10-10T04:25:34Z"^^xsd:dateTime ;
 	wikibase:statements "10"^^xsd:integer ;
 	wikibase:sitelinks "8"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -684124,7 +684128,7 @@ wd:Q4398 wdt:P3 wd:Q622 ;
 	wdt:P76 wd:Q647,
 		wd:Q4393 ;
 	wdt:P83 wd:Q684 ;
-	wdt:P137 wd:Q4972 ;
+	wdt:P137 wd:Q6587 ;
 	wdt:P84 "Petunia"@en ;
 	wdt:P148 wd:Q5153,
 		wd:Q5155,
@@ -684174,7 +684178,7 @@ wd:Q4398 p:P137 wds:Q4398-fa356e89-47fc-870c-0154-1b70b25a582c .
 wds:Q4398-fa356e89-47fc-870c-0154-1b70b25a582c a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P137 wd:Q4972 .
+	ps:P137 wd:Q6587 .
 
 wd:Q4398 p:P84 wds:Q4398-d0073efa-43ec-bb34-9e29-f490fd1c69ea .
 
@@ -684245,8 +684249,8 @@ wd:Q4398 rdfs:label "矮牽牛"@zh-tw ;
 
 data:Q4399 a schema:Dataset ;
 	schema:about wd:Q4399 ;
-	schema:version "138634"^^xsd:integer ;
-	schema:dateModified "2026-07-20T00:39:17Z"^^xsd:dateTime ;
+	schema:version "143549"^^xsd:integer ;
+	schema:dateModified "2026-10-10T04:25:28Z"^^xsd:dateTime ;
 	wikibase:statements "13"^^xsd:integer ;
 	wikibase:sitelinks "9"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -684315,7 +684319,7 @@ wd:Q4399 wdt:P3 wd:Q622 ;
 	wdt:P84 "Monkey"@en,
 		"Monkeystar"@en,
 		"猴子"@zh-cn ;
-	wdt:P137 wd:Q4972 ;
+	wdt:P137 wd:Q6587 ;
 	wdt:P148 wd:Q5153,
 		wd:Q5155,
 		wd:Q5169,
@@ -684396,7 +684400,7 @@ wd:Q4399 p:P137 wds:Q4399-23264e7c-4f70-8545-f414-f4d362b66b7e .
 wds:Q4399-23264e7c-4f70-8545-f414-f4d362b66b7e a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P137 wd:Q4972 .
+	ps:P137 wd:Q6587 .
 
 wd:Q4399 p:P148 wds:Q4399-98f99f3c-4a19-960f-40fc-395826a71ea8 .
 
@@ -684473,8 +684477,8 @@ wd:Q4399 rdfs:label "猴星"@zh-tw ;
 
 data:Q4400 a schema:Dataset ;
 	schema:about wd:Q4400 ;
-	schema:version "138482"^^xsd:integer ;
-	schema:dateModified "2026-07-04T21:30:36Z"^^xsd:dateTime ;
+	schema:version "143538"^^xsd:integer ;
+	schema:dateModified "2026-10-10T04:20:08Z"^^xsd:dateTime ;
 	wikibase:statements "12"^^xsd:integer ;
 	wikibase:sitelinks "7"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -684669,8 +684673,8 @@ wd:Q4400 rdfs:label "蟲蟲"@zh-tw ;
 
 data:Q4401 a schema:Dataset ;
 	schema:about wd:Q4401 ;
-	schema:version "138479"^^xsd:integer ;
-	schema:dateModified "2026-07-04T21:30:20Z"^^xsd:dateTime ;
+	schema:version "143545"^^xsd:integer ;
+	schema:dateModified "2026-10-10T04:24:58Z"^^xsd:dateTime ;
 	wikibase:statements "9"^^xsd:integer ;
 	wikibase:sitelinks "7"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -684724,7 +684728,7 @@ wd:Q4401 wdt:P3 wd:Q622 ;
 	wdt:P76 wd:Q647,
 		wd:Q4393 ;
 	wdt:P84 "Fireface"@en ;
-	wdt:P137 wd:Q4552 ;
+	wdt:P137 wd:Q6587 ;
 	wdt:P148 wd:Q5153,
 		wd:Q5155,
 		wd:Q5160 ;
@@ -684776,7 +684780,7 @@ wd:Q4401 p:P137 wds:Q4401-198b8a73-4244-b2c0-86a5-1493dcb1b05a .
 wds:Q4401-198b8a73-4244-b2c0-86a5-1493dcb1b05a a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P137 wd:Q4552 .
+	ps:P137 wd:Q6587 .
 
 wd:Q4401 p:P148 wds:Q4401-b81b0772-4b97-17b3-2728-8dfbb65c2750 .
 
@@ -684836,8 +684840,8 @@ wd:Q4401 rdfs:label "火臉"@zh-tw ;
 
 data:Q4402 a schema:Dataset ;
 	schema:about wd:Q4402 ;
-	schema:version "138484"^^xsd:integer ;
-	schema:dateModified "2026-07-04T21:30:47Z"^^xsd:dateTime ;
+	schema:version "143547"^^xsd:integer ;
+	schema:dateModified "2026-10-10T04:25:14Z"^^xsd:dateTime ;
 	wikibase:statements "9"^^xsd:integer ;
 	wikibase:sitelinks "7"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -684891,7 +684895,7 @@ wd:Q4402 wdt:P3 wd:Q622 ;
 	wdt:P76 wd:Q647,
 		wd:Q4393 ;
 	wdt:P84 "Bigteeth"@en ;
-	wdt:P137 wd:Q4972 ;
+	wdt:P137 wd:Q6587 ;
 	wdt:P148 wd:Q5153,
 		wd:Q5155,
 		wd:Q5158 ;
@@ -684943,7 +684947,7 @@ wd:Q4402 p:P137 wds:Q4402-82addca9-460a-19cb-d159-0759b5df3801 .
 wds:Q4402-82addca9-460a-19cb-d159-0759b5df3801 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P137 wd:Q4972 .
+	ps:P137 wd:Q6587 .
 
 wd:Q4402 p:P148 wds:Q4402-aabde4e6-4646-3598-7704-33f47011778b .
 
@@ -685004,8 +685008,8 @@ wd:Q4402 rdfs:label "大牙"@zh-tw ;
 
 data:Q4403 a schema:Dataset ;
 	schema:about wd:Q4403 ;
-	schema:version "138485"^^xsd:integer ;
-	schema:dateModified "2026-07-04T21:30:52Z"^^xsd:dateTime ;
+	schema:version "143546"^^xsd:integer ;
+	schema:dateModified "2026-10-10T04:25:04Z"^^xsd:dateTime ;
 	wikibase:statements "9"^^xsd:integer ;
 	wikibase:sitelinks "7"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -685060,7 +685064,7 @@ wd:Q4403 wdt:P3 wd:Q622 ;
 		wd:Q4393 ;
 	wdt:P84 "Clawwhistle"@en,
 		"爪哨"@zh-tw ;
-	wdt:P137 wd:Q4552 ;
+	wdt:P137 wd:Q6587 ;
 	wdt:P148 wd:Q5153,
 		wd:Q5155 ;
 	p:P3 wds:Q4403-0594ea71-448c-9084-96c5-8767e06990c5 .
@@ -685119,7 +685123,7 @@ wd:Q4403 p:P137 wds:Q4403-7dbd72d7-4040-3314-3839-b43c91a2724a .
 wds:Q4403-7dbd72d7-4040-3314-3839-b43c91a2724a a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P137 wd:Q4552 .
+	ps:P137 wd:Q6587 .
 
 wd:Q4403 p:P148 wds:Q4403-138cc691-4154-b7bd-be45-fdc807a7875a .
 
@@ -685516,8 +685520,8 @@ wd:Q4405 rdfs:label "百合"@zh-tw ;
 
 data:Q4406 a schema:Dataset ;
 	schema:about wd:Q4406 ;
-	schema:version "138851"^^xsd:integer ;
-	schema:dateModified "2026-07-30T00:42:19Z"^^xsd:dateTime ;
+	schema:version "143560"^^xsd:integer ;
+	schema:dateModified "2026-10-12T07:54:41Z"^^xsd:dateTime ;
 	wikibase:statements "9"^^xsd:integer ;
 	wikibase:sitelinks "7"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -685571,7 +685575,7 @@ wd:Q4406 wdt:P3 wd:Q622 ;
 	wdt:P76 wd:Q647,
 		wd:Q4393 ;
 	wdt:P84 "Buttercup"@en ;
-	wdt:P137 wd:Q4553 ;
+	wdt:P137 wd:Q6574 ;
 	wdt:P148 wd:Q5153,
 		wd:Q5155,
 		wd:Q5152 ;
@@ -685621,7 +685625,7 @@ wd:Q4406 p:P137 wds:Q4406-851291b1-4d6e-1b81-d6d0-4068abbe4dbc .
 wds:Q4406-851291b1-4d6e-1b81-d6d0-4068abbe4dbc a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P137 wd:Q4553 .
+	ps:P137 wd:Q6574 .
 
 wd:Q4406 p:P148 wds:Q4406-d4869653-419c-39ee-816e-6ba88ad03867 .
 
@@ -810068,8 +810072,8 @@ wd:Q6068 rdfs:label "長者之征"@zh-tw ;
 
 data:Q6069 a schema:Dataset ;
 	schema:about wd:Q6069 ;
-	schema:version "143531"^^xsd:integer ;
-	schema:dateModified "2026-10-09T21:30:27Z"^^xsd:dateTime ;
+	schema:version "143565"^^xsd:integer ;
+	schema:dateModified "2026-10-12T21:30:27Z"^^xsd:dateTime ;
 	wikibase:statements "29"^^xsd:integer ;
 	wikibase:sitelinks "7"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -810106,11 +810110,11 @@ wd:Q6069 a wikibase:Item .
 	schema:isPartOf <https://wojownicy.fandom.com/> ;
 	schema:name "Księżycowa Poświata"@pl .
 
-<https://warriors-cats.fandom.com/ru/wiki/%D0%9B%D1%83%D0%BD%D0%BE%D0%BB%D0%B0%D0%BF%D0%BA%D0%B0> a schema:Article ;
+<https://warriors-cats.fandom.com/ru/wiki/%D0%9B%D1%83%D0%BD%D0%BE%D1%81%D0%B2%D0%B5%D1%82%D0%B8%D0%BA> a schema:Article ;
 	schema:about wd:Q6069 ;
 	schema:inLanguage "ru" ;
 	schema:isPartOf <https://warriors-cats.fandom.com/> ;
-	schema:name "Лунолапка"@ru .
+	schema:name "Луносветик"@ru .
 
 <https://warriors.huijiwiki.com/wiki/%E6%9C%88%E6%98%8E> a schema:Article ;
 	schema:about wd:Q6069 ;
@@ -822014,9 +822018,9 @@ wd:Q6184 rdfs:label "逐影尋蹤"@zh-tw ;
 
 data:Q6185 a schema:Dataset ;
 	schema:about wd:Q6185 ;
-	schema:version "143498"^^xsd:integer ;
-	schema:dateModified "2026-10-07T05:32:07Z"^^xsd:dateTime ;
-	wikibase:statements "46"^^xsd:integer ;
+	schema:version "143563"^^xsd:integer ;
+	schema:dateModified "2026-10-12T08:29:35Z"^^xsd:dateTime ;
+	wikibase:statements "47"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -822079,7 +822083,8 @@ wd:Q6185 wdt:P3 wd:Q46 ;
 		wd:Q2429,
 		wd:Q3104,
 		wd:Q2810,
-		wd:Q2436 ;
+		wd:Q2436,
+		wd:Q6221 ;
 	p:P3 wds:Q6185-c382025e-434b-e9d6-80dd-b49a21f4d702 .
 
 wds:Q6185-c382025e-434b-e9d6-80dd-b49a21f4d702 a wikibase:Statement,
@@ -822456,6 +822461,15 @@ wds:Q6185-366A4EDB-F37D-4741-B1F9-48E253010939 a wikibase:Statement,
 	ps:P119 wd:Q2436 ;
 	pq:P120 wd:Q4708,
 		wd:Q4712 .
+
+wd:Q6185 p:P119 wds:Q6185-B75E21A7-1588-4760-B379-3C025B907DCD .
+
+wds:Q6185-B75E21A7-1588-4760-B379-3C025B907DCD a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P119 wd:Q6221 ;
+	pq:P120 wd:Q4412,
+		wd:Q4708 .
 
 wd:Q6185 rdfs:label "Guiding Light"@en ;
 	skos:prefLabel "Guiding Light"@en ;
@@ -825621,8 +825635,8 @@ wd:Q6220 rdfs:label "迅掌"@zh-tw ;
 
 data:Q6221 a schema:Dataset ;
 	schema:about wd:Q6221 ;
-	schema:version "143510"^^xsd:integer ;
-	schema:dateModified "2026-10-08T02:05:10Z"^^xsd:dateTime ;
+	schema:version "143564"^^xsd:integer ;
+	schema:dateModified "2026-10-12T09:09:23Z"^^xsd:dateTime ;
 	wikibase:statements "15"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -825649,7 +825663,7 @@ wd:Q6221 wdt:P3 wd:Q622 ;
 		"小櫸"@zh-tw,
 		"Beechpaw"@en,
 		"榉爪"@zh-cn,
-		"迅掌"@zh-tw ;
+		"櫸掌"@zh-tw ;
 	wdt:P148 wd:Q5153,
 		wd:Q5155 ;
 	wdt:P76 wd:Q628 ;
@@ -825732,7 +825746,7 @@ wd:Q6221 p:P84 wds:Q6221-5ee7f826-4b63-f78e-1e73-2fc55c5c9de6 .
 wds:Q6221-5ee7f826-4b63-f78e-1e73-2fc55c5c9de6 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P84 "迅掌"@zh-tw ;
+	ps:P84 "櫸掌"@zh-tw ;
 	pq:P102 wd:Q4865 .
 
 wd:Q6221 p:P148 wds:Q6221-31912df1-4836-b806-dc44-c4ae8b366500 .
@@ -854437,8 +854451,8 @@ wd:Q6546 rdfs:label "羅勒"@zh-tw ;
 
 data:Q6547 a schema:Dataset ;
 	schema:about wd:Q6547 ;
-	schema:version "143462"^^xsd:integer ;
-	schema:dateModified "2026-10-07T02:24:45Z"^^xsd:dateTime ;
+	schema:version "143544"^^xsd:integer ;
+	schema:dateModified "2026-10-10T04:24:52Z"^^xsd:dateTime ;
 	wikibase:statements "13"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -854595,8 +854609,8 @@ wdref:ed804f6966f54afe28fa825c5941b639684e2f6b a wikibase:Reference ;
 
 data:Q6548 a schema:Dataset ;
 	schema:about wd:Q6548 ;
-	schema:version "143478"^^xsd:integer ;
-	schema:dateModified "2026-10-07T02:27:04Z"^^xsd:dateTime ;
+	schema:version "143543"^^xsd:integer ;
+	schema:dateModified "2026-10-10T04:24:32Z"^^xsd:dateTime ;
 	wikibase:statements "13"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
