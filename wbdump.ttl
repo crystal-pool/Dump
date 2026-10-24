@@ -31,7 +31,7 @@ wikibase:Dump a schema:Dataset,
 		owl:Ontology ;
 	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
 	schema:softwareVersion "1.0.0" ;
-	schema:dateModified "2026-10-17T01:30:03Z"^^xsd:dateTime ;
+	schema:dateModified "2026-10-24T01:30:02Z"^^xsd:dateTime ;
 	owl:imports <http://wikiba.se/ontology-1.0.owl> .
 
 data:P2 a schema:Dataset ;
@@ -27989,8 +27989,8 @@ wdref:ad77c073f9c1856f09b44e30e8783323263c4059 a wikibase:Reference ;
 
 data:Q52 a schema:Dataset ;
 	schema:about wd:Q52 ;
-	schema:version "132387"^^xsd:integer ;
-	schema:dateModified "2025-03-31T05:28:29Z"^^xsd:dateTime ;
+	schema:version "143569"^^xsd:integer ;
+	schema:dateModified "2026-10-20T21:30:28Z"^^xsd:dateTime ;
 	wikibase:statements "2"^^xsd:integer ;
 	wikibase:sitelinks "7"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -28009,11 +28009,11 @@ wd:Q52 a wikibase:Item .
 	schema:isPartOf <https://warriors.huijiwiki.com/> ;
 	schema:name "新预言"@zh .
 
-<https://warrior-cats.fandom.com/de/wiki/Die_neue_Prophezeiung> a schema:Article ;
+<https://warrior-cats.fandom.com/de/wiki/Die_neue_Prophezeiung_(Romane)> a schema:Article ;
 	schema:about wd:Q52 ;
 	schema:inLanguage "de" ;
 	schema:isPartOf <https://warrior-cats.fandom.com/> ;
-	schema:name "Die neue Prophezeiung"@de .
+	schema:name "Die neue Prophezeiung (Romane)"@de .
 
 <https://soturikissat.fandom.com/fi/wiki/Uusi_profetia> a schema:Article ;
 	schema:about wd:Q52 ;
@@ -514177,8 +514177,8 @@ wd:Q3251 rdfs:label "小鲈鱼"@zh-cn ;
 
 data:Q3253 a schema:Dataset ;
 	schema:about wd:Q3253 ;
-	schema:version "119333"^^xsd:integer ;
-	schema:dateModified "2023-06-23T05:29:47Z"^^xsd:dateTime ;
+	schema:version "143573"^^xsd:integer ;
+	schema:dateModified "2026-10-21T21:30:19Z"^^xsd:dateTime ;
 	wikibase:statements "13"^^xsd:integer ;
 	wikibase:sitelinks "7"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -514191,11 +514191,11 @@ wd:Q3253 a wikibase:Item .
 	schema:isPartOf <https://warriors.huijiwiki.com/> ;
 	schema:name "小斑 (宠物猫)"@zh .
 
-<https://warriors.fandom.com/wiki/Patch_(KP)> a schema:Article ;
+<https://warriors.fandom.com/wiki/Patch_(TS)> a schema:Article ;
 	schema:about wd:Q3253 ;
 	schema:inLanguage "en" ;
 	schema:isPartOf <https://warriors.fandom.com/> ;
-	schema:name "Patch (KP)"@en .
+	schema:name "Patch (TS)"@en .
 
 <https://lgdc.fandom.com/fr/wiki/F%C3%A9lix> a schema:Article ;
 	schema:about wd:Q3253 ;
