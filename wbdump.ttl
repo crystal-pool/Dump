@@ -31,7 +31,7 @@ wikibase:Dump a schema:Dataset,
 		owl:Ontology ;
 	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
 	schema:softwareVersion "1.0.0" ;
-	schema:dateModified "2026-10-24T01:30:02Z"^^xsd:dateTime ;
+	schema:dateModified "2026-10-31T01:30:03Z"^^xsd:dateTime ;
 	owl:imports <http://wikiba.se/ontology-1.0.owl> .
 
 data:P2 a schema:Dataset ;
@@ -2509,8 +2509,8 @@ wdref:3da9f528c39599ce253d269f8ea4e9cf3524552e a wikibase:Reference ;
 
 data:P3 a schema:Dataset ;
 	schema:about wd:P3 ;
-	schema:version "139120"^^xsd:integer ;
-	schema:dateModified "2026-08-08T00:37:10Z"^^xsd:dateTime ;
+	schema:version "143728"^^xsd:integer ;
+	schema:dateModified "2026-10-28T02:48:30Z"^^xsd:dateTime ;
 	wikibase:statements "12"^^xsd:integer .
 
 wd:P3 a wikibase:Property ;
@@ -2650,7 +2650,8 @@ wds:P3-5D61EC93-5A24-4C4E-A720-96D98101EDB4 a wikibase:Statement,
 		wd:Q4421,
 		wd:Q4269,
 		wd:Q4627,
-		wd:Q4626 ;
+		wd:Q4626,
+		wd:Q6627 ;
 	prov:wasDerivedFrom wdref:dd9ee0a820ab64bbc87dd0b0670dafa0b0d94f2f .
 
 wd:P3 p:P3 wds:P3-DD1E97E4-018D-4570-A72C-8111C0549D3D .
@@ -855202,8 +855203,8 @@ wdref:0b970d227b3b5a093334f40e381d8b587481cb7d a wikibase:Reference ;
 
 data:Q6555 a schema:Dataset ;
 	schema:about wd:Q6555 ;
-	schema:version "139162"^^xsd:integer ;
-	schema:dateModified "2026-08-10T14:14:26Z"^^xsd:dateTime ;
+	schema:version "143661"^^xsd:integer ;
+	schema:dateModified "2026-10-28T01:46:01Z"^^xsd:dateTime ;
 	wikibase:statements "5"^^xsd:integer ;
 	wikibase:sitelinks "1"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -855218,7 +855219,7 @@ wd:Q6555 a wikibase:Item .
 
 wd:Q6555 wdt:P3 wd:Q622 ;
 	wdt:P78 wd:Q678 ;
-	wdt:P98 wd:Q4374 ;
+	wdt:P98 wd:Q3540 ;
 	wdt:P76 wd:Q627 ;
 	wdt:P83 wd:Q688 ;
 	p:P3 wds:Q6555-3dcda3a5-48e4-9f8d-6d57-5d2c3d3e6c33 .
@@ -855240,7 +855241,7 @@ wd:Q6555 p:P98 wds:Q6555-36e606f3-4c8a-94e4-1651-127940caa385 .
 wds:Q6555-36e606f3-4c8a-94e4-1651-127940caa385 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P98 wd:Q4374 ;
+	ps:P98 wd:Q3540 ;
 	pq:P163 wd:Q621 ;
 	prov:wasDerivedFrom wdref:ea1a2b4341f005c43aa672fd3f39c98e8a85e514 .
 
@@ -855279,8 +855280,8 @@ wdref:ea1a2b4341f005c43aa672fd3f39c98e8a85e514 a wikibase:Reference ;
 
 data:Q6556 a schema:Dataset ;
 	schema:about wd:Q6556 ;
-	schema:version "141541"^^xsd:integer ;
-	schema:dateModified "2026-08-17T07:31:53Z"^^xsd:dateTime ;
+	schema:version "143662"^^xsd:integer ;
+	schema:dateModified "2026-10-28T01:46:14Z"^^xsd:dateTime ;
 	wikibase:statements "5"^^xsd:integer ;
 	wikibase:sitelinks "1"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -855295,7 +855296,7 @@ wd:Q6556 a wikibase:Item .
 
 wd:Q6556 wdt:P3 wd:Q622 ;
 	wdt:P78 wd:Q678 ;
-	wdt:P98 wd:Q4374 ;
+	wdt:P98 wd:Q3540 ;
 	wdt:P76 wd:Q628 ;
 	wdt:P83 wd:Q682 ;
 	p:P3 wds:Q6556-9D87D9DF-80F6-46ED-B167-47FA5A9BFEF7 .
@@ -855317,7 +855318,7 @@ wd:Q6556 p:P98 wds:Q6556-A337ED67-E22F-4E0C-A550-8FC3308480A6 .
 wds:Q6556-A337ED67-E22F-4E0C-A550-8FC3308480A6 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P98 wd:Q4374 ;
+	ps:P98 wd:Q3540 ;
 	pq:P163 wd:Q3102 ;
 	prov:wasDerivedFrom wdref:5135afc135df2eb564e06af8b19907a1aa12c4bd .
 
@@ -855356,8 +855357,8 @@ wdref:5135afc135df2eb564e06af8b19907a1aa12c4bd a wikibase:Reference ;
 
 data:Q6557 a schema:Dataset ;
 	schema:about wd:Q6557 ;
-	schema:version "141542"^^xsd:integer ;
-	schema:dateModified "2026-08-17T07:32:09Z"^^xsd:dateTime ;
+	schema:version "143663"^^xsd:integer ;
+	schema:dateModified "2026-10-28T01:46:19Z"^^xsd:dateTime ;
 	wikibase:statements "5"^^xsd:integer ;
 	wikibase:sitelinks "1"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -855372,7 +855373,7 @@ wd:Q6557 a wikibase:Item .
 
 wd:Q6557 wdt:P3 wd:Q622 ;
 	wdt:P78 wd:Q678 ;
-	wdt:P98 wd:Q4374 ;
+	wdt:P98 wd:Q3540 ;
 	wdt:P76 wd:Q628 ;
 	wdt:P83 wd:Q688 ;
 	p:P3 wds:Q6557-72F5C9F6-398E-417A-9AF3-4E3D453B8B20 .
@@ -855394,7 +855395,7 @@ wd:Q6557 p:P98 wds:Q6557-086B05B5-600F-4FD0-8E43-731049BA0A04 .
 wds:Q6557-086B05B5-600F-4FD0-8E43-731049BA0A04 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P98 wd:Q4374 ;
+	ps:P98 wd:Q3540 ;
 	pq:P163 wd:Q2658 ;
 	prov:wasDerivedFrom wdref:5135afc135df2eb564e06af8b19907a1aa12c4bd .
 
@@ -855430,8 +855431,8 @@ wd:Q6557 rdfs:label "黑星"@zh-tw ;
 
 data:Q6558 a schema:Dataset ;
 	schema:about wd:Q6558 ;
-	schema:version "141540"^^xsd:integer ;
-	schema:dateModified "2026-08-17T07:31:33Z"^^xsd:dateTime ;
+	schema:version "143664"^^xsd:integer ;
+	schema:dateModified "2026-10-28T01:46:26Z"^^xsd:dateTime ;
 	wikibase:statements "5"^^xsd:integer ;
 	wikibase:sitelinks "1"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -855446,7 +855447,7 @@ wd:Q6558 a wikibase:Item .
 
 wd:Q6558 wdt:P3 wd:Q622 ;
 	wdt:P78 wd:Q679 ;
-	wdt:P98 wd:Q4374 ;
+	wdt:P98 wd:Q3540 ;
 	wdt:P76 wd:Q631 ;
 	wdt:P83 wd:Q686 ;
 	p:P3 wds:Q6558-44CB8B17-E31E-4971-8C21-27AF1838AF5A .
@@ -855468,7 +855469,7 @@ wd:Q6558 p:P98 wds:Q6558-AA099783-BAFD-4EF3-BD89-6C1EDD305418 .
 wds:Q6558-AA099783-BAFD-4EF3-BD89-6C1EDD305418 a wikibase:Statement,
 		wikibase:BestRank ;
 	wikibase:rank wikibase:NormalRank ;
-	ps:P98 wd:Q4374 ;
+	ps:P98 wd:Q3540 ;
 	pq:P163 wd:Q2730 ;
 	prov:wasDerivedFrom wdref:e906e1d9c5a6518329ace2a483206b49d752233c .
 
@@ -860057,3 +860058,925 @@ wd:Q6614 rdfs:label "喬治"@zh-tw ;
 	schema:description "公狗，自《明光引路》登場的角色"@zh-tw,
 		"male dog, first appeared in Guiding Light"@en,
 		"公狗，自《明光引路》登场的角色"@zh-hans .
+
+data:Q6615 a schema:Dataset ;
+	schema:about wd:Q6615 ;
+	schema:version "143693"^^xsd:integer ;
+	schema:dateModified "2026-10-28T02:03:50Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
+	wikibase:sitelinks "1"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6615 a wikibase:Item .
+
+<https://warriors.huijiwiki.com/wiki/%E4%BA%AE%E5%BF%83/%E7%8C%AB%E6%AD%A6%E5%A3%AB%EF%BC%9A%E6%A3%AE%E6%9E%97%E6%97%8F%E7%BE%A4> a schema:Article ;
+	schema:about wd:Q6615 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "亮心/猫武士：森林族群"@zh .
+
+wd:Q6615 wdt:P3 wd:Q622 ;
+	wdt:P78 wd:Q679 ;
+	wdt:P98 wd:Q3540 ;
+	wdt:P76 wd:Q627 ;
+	wdt:P83 wd:Q692 ;
+	p:P3 wds:Q6615-e751e25b-47f2-28c6-7623-9ed60f804852 .
+
+wds:Q6615-e751e25b-47f2-28c6-7623-9ed60f804852 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q622 .
+
+wd:Q6615 p:P78 wds:Q6615-d44ad675-41ed-4abf-4446-d32b5f454e7b .
+
+wds:Q6615-d44ad675-41ed-4abf-4446-d32b5f454e7b a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 wd:Q679 .
+
+wd:Q6615 p:P98 wds:Q6615-9050c403-493d-8d71-575e-a963fa30b72d .
+
+wds:Q6615-9050c403-493d-8d71-575e-a963fa30b72d a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P98 wd:Q3540 ;
+	pq:P163 wd:Q2844 .
+
+wd:Q6615 p:P76 wds:Q6615-f9735005-4984-a264-aebe-a27a02e424bc .
+
+wds:Q6615-f9735005-4984-a264-aebe-a27a02e424bc a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q627 ;
+	prov:wasDerivedFrom wdref:0b970d227b3b5a093334f40e381d8b587481cb7d .
+
+wd:Q6615 p:P83 wds:Q6615-16251b16-40a1-2631-5987-f7c4972a887e .
+
+wds:Q6615-16251b16-40a1-2631-5987-f7c4972a887e a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P83 wd:Q692 ;
+	pq:P21 wd:Q627 ;
+	prov:wasDerivedFrom wdref:0b970d227b3b5a093334f40e381d8b587481cb7d .
+
+wd:Q6615 rdfs:label "亮心"@zh-tw ;
+	skos:prefLabel "亮心"@zh-tw ;
+	schema:name "亮心"@zh-tw ;
+	rdfs:label "Brightheart"@en ;
+	skos:prefLabel "Brightheart"@en ;
+	schema:name "Brightheart"@en ;
+	rdfs:label "亮心"@zh-hans ;
+	skos:prefLabel "亮心"@zh-hans ;
+	schema:name "亮心"@zh-hans ;
+	schema:description "《貓戰士：森林部族》宇宙的雷族母貓，對應自《荒野新生》登場的同名角色"@zh-tw,
+		"ThunderClan she-cat from the Warrior Cats: Clans of the Forest universe, counterpart of the same-named character first appearing in Into the Wild"@en,
+		"《猫武士：森林族群》宇宙的雷族母猫，对应自《呼唤野性》登场的同名角色"@zh-hans .
+
+data:Q6616 a schema:Dataset ;
+	schema:about wd:Q6616 ;
+	schema:version "143694"^^xsd:integer ;
+	schema:dateModified "2026-10-28T02:05:36Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
+	wikibase:sitelinks "1"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6616 a wikibase:Item .
+
+<https://warriors.huijiwiki.com/wiki/%E4%BA%91%E5%B0%BE/%E7%8C%AB%E6%AD%A6%E5%A3%AB%EF%BC%9A%E6%A3%AE%E6%9E%97%E6%97%8F%E7%BE%A4> a schema:Article ;
+	schema:about wd:Q6616 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "云尾/猫武士：森林族群"@zh .
+
+wd:Q6616 wdt:P3 wd:Q622 ;
+	wdt:P78 wd:Q678 ;
+	wdt:P98 wd:Q6553 ;
+	wdt:P76 wd:Q627 ;
+	wdt:P83 wd:Q692 ;
+	p:P3 wds:Q6616-E210288C-C80F-4099-8C80-52643B37DF9D .
+
+wds:Q6616-E210288C-C80F-4099-8C80-52643B37DF9D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q622 .
+
+wd:Q6616 p:P78 wds:Q6616-14405A01-66A4-47D1-9224-F7D4852D1F53 .
+
+wds:Q6616-14405A01-66A4-47D1-9224-F7D4852D1F53 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 wd:Q678 .
+
+wd:Q6616 p:P98 wds:Q6616-01FE3B71-95F1-4ED9-8003-983DFBFC0039 .
+
+wds:Q6616-01FE3B71-95F1-4ED9-8003-983DFBFC0039 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P98 wd:Q6553 ;
+	pq:P163 wd:Q3485 .
+
+wd:Q6616 p:P76 wds:Q6616-9A7ED74E-CC21-42DD-9E56-10A6D772E3E8 .
+
+wds:Q6616-9A7ED74E-CC21-42DD-9E56-10A6D772E3E8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q627 ;
+	prov:wasDerivedFrom wdref:0b970d227b3b5a093334f40e381d8b587481cb7d .
+
+wd:Q6616 p:P83 wds:Q6616-1a5d5995-4f12-f119-92f5-667d2843836d .
+
+wds:Q6616-1a5d5995-4f12-f119-92f5-667d2843836d a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P83 wd:Q692 ;
+	pq:P21 wd:Q627 ;
+	prov:wasDerivedFrom wdref:0b970d227b3b5a093334f40e381d8b587481cb7d .
+
+wd:Q6616 rdfs:label "雲尾"@zh-tw ;
+	skos:prefLabel "雲尾"@zh-tw ;
+	schema:name "雲尾"@zh-tw ;
+	rdfs:label "Cloudtail"@en ;
+	skos:prefLabel "Cloudtail"@en ;
+	schema:name "Cloudtail"@en ;
+	rdfs:label "云尾"@zh-hans ;
+	skos:prefLabel "云尾"@zh-hans ;
+	schema:name "云尾"@zh-hans ;
+	schema:description "《貓戰士：森林部族》宇宙的雷族公貓，對應自《寒冰烈火》登場的同名角色"@zh-tw,
+		"ThunderClan tom from the Warrior Cats: Clans of the Forest universe, counterpart of the same-named character first appearing in Fire and Ice"@en,
+		"《猫武士：森林族群》宇宙的雷族公猫，对应自《烈火寒冰》登场的同名角色"@zh-hans .
+
+data:Q6617 a schema:Dataset ;
+	schema:about wd:Q6617 ;
+	schema:version "143699"^^xsd:integer ;
+	schema:dateModified "2026-10-28T02:20:08Z"^^xsd:dateTime ;
+	wikibase:statements "3"^^xsd:integer ;
+	wikibase:sitelinks "1"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6617 a wikibase:Item .
+
+<https://warriors.huijiwiki.com/wiki/%E8%93%9D%E6%98%9F/%E7%8C%AB%E6%AD%A6%E5%A3%AB%EF%BC%9A%E6%A3%AE%E6%9E%97%E6%97%8F%E7%BE%A4> a schema:Article ;
+	schema:about wd:Q6617 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "蓝星/猫武士：森林族群"@zh .
+
+wd:Q6617 wdt:P3 wd:Q622 ;
+	wdt:P78 wd:Q679 ;
+	wdt:P98 wd:Q6553 ;
+	p:P3 wds:Q6617-F1819F80-0EE8-48A4-8025-2310185066DF .
+
+wds:Q6617-F1819F80-0EE8-48A4-8025-2310185066DF a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q622 .
+
+wd:Q6617 p:P78 wds:Q6617-9A112FAD-9527-4153-9468-E315AF538C8A .
+
+wds:Q6617-9A112FAD-9527-4153-9468-E315AF538C8A a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 wd:Q679 .
+
+wd:Q6617 p:P98 wds:Q6617-9A3969F3-2A50-450D-90DC-8951C4FCB707 .
+
+wds:Q6617-9A3969F3-2A50-450D-90DC-8951C4FCB707 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P98 wd:Q6553 ;
+	pq:P163 wd:Q713 .
+
+wd:Q6617 rdfs:label "藍星"@zh-tw ;
+	skos:prefLabel "藍星"@zh-tw ;
+	schema:name "藍星"@zh-tw ;
+	rdfs:label "Bluestar"@en ;
+	skos:prefLabel "Bluestar"@en ;
+	schema:name "Bluestar"@en ;
+	rdfs:label "蓝星"@zh-hans ;
+	skos:prefLabel "蓝星"@zh-hans ;
+	schema:name "蓝星"@zh-hans ;
+	schema:description "《貓戰士：森林部族》宇宙的雷族母貓，對應自《荒野新生》登場的同名角色"@zh-tw,
+		"ThunderClan she-cat from the Warrior Cats: Clans of the Forest universe, counterpart of the same-named character first appearing in Into the Wild"@en,
+		"《猫武士：森林族群》宇宙的雷族母猫，对应自《呼唤野性》登场的同名角色"@zh-hans .
+
+data:Q6618 a schema:Dataset ;
+	schema:about wd:Q6618 ;
+	schema:version "143695"^^xsd:integer ;
+	schema:dateModified "2026-10-28T02:13:43Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
+	wikibase:sitelinks "1"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6618 a wikibase:Item .
+
+<https://warriors.huijiwiki.com/wiki/%E6%9D%BE%E9%BC%A0%E6%98%9F/%E7%8C%AB%E6%AD%A6%E5%A3%AB%EF%BC%9A%E6%A3%AE%E6%9E%97%E6%97%8F%E7%BE%A4> a schema:Article ;
+	schema:about wd:Q6618 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "松鼠星/猫武士：森林族群"@zh .
+
+wd:Q6618 wdt:P3 wd:Q622 ;
+	wdt:P78 wd:Q679 ;
+	wdt:P98 wd:Q6553 ;
+	wdt:P76 wd:Q627 ;
+	wdt:P83 wd:Q688 ;
+	p:P3 wds:Q6618-60BB464B-4FEA-4A93-8524-B30E6F70C420 .
+
+wds:Q6618-60BB464B-4FEA-4A93-8524-B30E6F70C420 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q622 .
+
+wd:Q6618 p:P78 wds:Q6618-5701061A-B2AD-4D34-9D96-8474DD4851D6 .
+
+wds:Q6618-5701061A-B2AD-4D34-9D96-8474DD4851D6 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 wd:Q679 .
+
+wd:Q6618 p:P98 wds:Q6618-CBB91B26-A1EB-4B72-9FA9-CE2E2CF76209 .
+
+wds:Q6618-CBB91B26-A1EB-4B72-9FA9-CE2E2CF76209 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P98 wd:Q6553 ;
+	pq:P163 wd:Q3123 .
+
+wd:Q6618 p:P76 wds:Q6618-1FBF78A0-F15F-47DC-802F-E2CD4763BCBC .
+
+wds:Q6618-1FBF78A0-F15F-47DC-802F-E2CD4763BCBC a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q627 ;
+	prov:wasDerivedFrom wdref:0b970d227b3b5a093334f40e381d8b587481cb7d .
+
+wd:Q6618 p:P83 wds:Q6618-d1e0d0df-4c8f-89ce-f86b-32c9ef52a582 .
+
+wds:Q6618-d1e0d0df-4c8f-89ce-f86b-32c9ef52a582 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P83 wd:Q688 ;
+	pq:P21 wd:Q627 ;
+	prov:wasDerivedFrom wdref:0b970d227b3b5a093334f40e381d8b587481cb7d .
+
+wd:Q6618 rdfs:label "松鼠星"@zh-tw ;
+	skos:prefLabel "松鼠星"@zh-tw ;
+	schema:name "松鼠星"@zh-tw ;
+	rdfs:label "Squirrelstar"@en ;
+	skos:prefLabel "Squirrelstar"@en ;
+	schema:name "Squirrelstar"@en ;
+	rdfs:label "松鼠星"@zh-hans ;
+	skos:prefLabel "松鼠星"@zh-hans ;
+	schema:name "松鼠星"@zh-hans ;
+	schema:description "《貓戰士：森林部族》宇宙的雷族母貓，對應自《午夜追蹤》登場的同名角色"@zh-tw,
+		"ThunderClan she-cat from the Warrior Cats: Clans of the Forest universe, counterpart of the same-named character first appearing in Midnight"@en,
+		"《猫武士：森林族群》宇宙的雷族母猫，对应自《午夜追踪》登场的同名角色"@zh-hans .
+
+data:Q6619 a schema:Dataset ;
+	schema:about wd:Q6619 ;
+	schema:version "143696"^^xsd:integer ;
+	schema:dateModified "2026-10-28T02:14:48Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
+	wikibase:sitelinks "1"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6619 a wikibase:Item .
+
+<https://warriors.huijiwiki.com/wiki/%E8%97%A4%E6%B1%A0/%E7%8C%AB%E6%AD%A6%E5%A3%AB%EF%BC%9A%E6%A3%AE%E6%9E%97%E6%97%8F%E7%BE%A4> a schema:Article ;
+	schema:about wd:Q6619 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "藤池/猫武士：森林族群"@zh .
+
+wd:Q6619 wdt:P3 wd:Q622 ;
+	wdt:P78 wd:Q679 ;
+	wdt:P98 wd:Q6553 ;
+	wdt:P76 wd:Q627 ;
+	wdt:P83 wd:Q686 ;
+	p:P3 wds:Q6619-736E6ED6-E2A8-4C42-81DE-6BC2475FE018 .
+
+wds:Q6619-736E6ED6-E2A8-4C42-81DE-6BC2475FE018 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q622 .
+
+wd:Q6619 p:P78 wds:Q6619-8DF88789-65D4-48A4-BC1F-D1E535514BBD .
+
+wds:Q6619-8DF88789-65D4-48A4-BC1F-D1E535514BBD a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 wd:Q679 .
+
+wd:Q6619 p:P98 wds:Q6619-9AA34317-BBCA-4321-87AB-B65CBB587F1C .
+
+wds:Q6619-9AA34317-BBCA-4321-87AB-B65CBB587F1C a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P98 wd:Q6553 ;
+	pq:P163 wd:Q3161 .
+
+wd:Q6619 p:P76 wds:Q6619-AC1A725C-A490-4FF3-91D0-742458A2F375 .
+
+wds:Q6619-AC1A725C-A490-4FF3-91D0-742458A2F375 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q627 ;
+	prov:wasDerivedFrom wdref:0b970d227b3b5a093334f40e381d8b587481cb7d .
+
+wd:Q6619 p:P83 wds:Q6619-a9186a61-4aa6-697a-7fe2-52cc34af76e1 .
+
+wds:Q6619-a9186a61-4aa6-697a-7fe2-52cc34af76e1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P83 wd:Q686 ;
+	pq:P21 wd:Q627 ;
+	prov:wasDerivedFrom wdref:0b970d227b3b5a093334f40e381d8b587481cb7d .
+
+wd:Q6619 rdfs:label "藤池"@zh-tw ;
+	skos:prefLabel "藤池"@zh-tw ;
+	schema:name "藤池"@zh-tw ;
+	rdfs:label "Ivypool"@en ;
+	skos:prefLabel "Ivypool"@en ;
+	schema:name "Ivypool"@en ;
+	rdfs:label "藤池"@zh-hans ;
+	skos:prefLabel "藤池"@zh-hans ;
+	schema:name "藤池"@zh-hans ;
+	schema:description "《貓戰士：森林部族》宇宙的雷族母貓，對應自《拂曉之光》登場的同名角色"@zh-tw,
+		"ThunderClan she-cat from the Warrior Cats: Clans of the Forest universe, counterpart of the same-named character first appearing in Sunrise"@en,
+		"《猫武士：森林族群》宇宙的雷族母猫，对应自《拂晓之光》登场的同名角色"@zh-hans .
+
+data:Q6620 a schema:Dataset ;
+	schema:about wd:Q6620 ;
+	schema:version "143698"^^xsd:integer ;
+	schema:dateModified "2026-10-28T02:17:44Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
+	wikibase:sitelinks "1"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6620 a wikibase:Item .
+
+<https://warriors.huijiwiki.com/wiki/%E8%A4%90%E7%9A%AE/%E7%8C%AB%E6%AD%A6%E5%A3%AB%EF%BC%9A%E6%A3%AE%E6%9E%97%E6%97%8F%E7%BE%A4> a schema:Article ;
+	schema:about wd:Q6620 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "褐皮/猫武士：森林族群"@zh .
+
+wd:Q6620 wdt:P3 wd:Q622 ;
+	wdt:P78 wd:Q679 ;
+	wdt:P98 wd:Q6553 ;
+	wdt:P76 wd:Q628 ;
+	wdt:P83 wd:Q692 ;
+	p:P3 wds:Q6620-6BF8FAFF-9917-4FD9-9F68-97FDCA603EF4 .
+
+wds:Q6620-6BF8FAFF-9917-4FD9-9F68-97FDCA603EF4 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q622 .
+
+wd:Q6620 p:P78 wds:Q6620-74214432-B9CD-4C30-96FD-9F8ACE1D359D .
+
+wds:Q6620-74214432-B9CD-4C30-96FD-9F8ACE1D359D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 wd:Q679 .
+
+wd:Q6620 p:P98 wds:Q6620-027F0508-0840-4A8E-8D10-EAB14D1E0472 .
+
+wds:Q6620-027F0508-0840-4A8E-8D10-EAB14D1E0472 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P98 wd:Q6553 ;
+	pq:P163 wd:Q2647 .
+
+wd:Q6620 p:P76 wds:Q6620-401D23D0-037C-47E7-8AEB-7FFB56E25D48 .
+
+wds:Q6620-401D23D0-037C-47E7-8AEB-7FFB56E25D48 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q628 ;
+	prov:wasDerivedFrom wdref:0b970d227b3b5a093334f40e381d8b587481cb7d .
+
+wd:Q6620 p:P83 wds:Q6620-ab44e847-4e98-60cb-3019-e328fe9cfcb7 .
+
+wds:Q6620-ab44e847-4e98-60cb-3019-e328fe9cfcb7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P83 wd:Q692 ;
+	pq:P21 wd:Q628 ;
+	prov:wasDerivedFrom wdref:0b970d227b3b5a093334f40e381d8b587481cb7d .
+
+wd:Q6620 rdfs:label "褐皮"@zh-tw ;
+	skos:prefLabel "褐皮"@zh-tw ;
+	schema:name "褐皮"@zh-tw ;
+	rdfs:label "Tawnypelt"@en ;
+	skos:prefLabel "Tawnypelt"@en ;
+	schema:name "Tawnypelt"@en ;
+	rdfs:label "褐皮"@zh-hans ;
+	skos:prefLabel "褐皮"@zh-hans ;
+	schema:name "褐皮"@zh-hans ;
+	schema:description "《貓戰士：森林部族》宇宙的影族母貓，對應自《秘密之森》登場的同名角色"@zh-tw,
+		"ShadowClan she-cat from the Warrior Cats: Clans of the Forest universe, counterpart of the same-named character first appearing in Forest of Secrets"@en,
+		"《猫武士：森林族群》宇宙的影族母猫，对应自《疑云重重》登场的同名角色"@zh-hans .
+
+data:Q6621 a schema:Dataset ;
+	schema:about wd:Q6621 ;
+	schema:version "143697"^^xsd:integer ;
+	schema:dateModified "2026-10-28T02:16:37Z"^^xsd:dateTime ;
+	wikibase:statements "5"^^xsd:integer ;
+	wikibase:sitelinks "1"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6621 a wikibase:Item .
+
+<https://warriors.huijiwiki.com/wiki/%E9%B8%A6%E7%BE%BD/%E7%8C%AB%E6%AD%A6%E5%A3%AB%EF%BC%9A%E6%A3%AE%E6%9E%97%E6%97%8F%E7%BE%A4> a schema:Article ;
+	schema:about wd:Q6621 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "鸦羽/猫武士：森林族群"@zh .
+
+wd:Q6621 wdt:P3 wd:Q622 ;
+	wdt:P78 wd:Q678 ;
+	wdt:P98 wd:Q6553 ;
+	wdt:P76 wd:Q631 ;
+	wdt:P83 wd:Q692 ;
+	p:P3 wds:Q6621-1E51F03C-6DD9-4B4A-BF23-464F61010A40 .
+
+wds:Q6621-1E51F03C-6DD9-4B4A-BF23-464F61010A40 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q622 .
+
+wd:Q6621 p:P78 wds:Q6621-44F1A623-9B41-49BF-ACDC-50D1B5AEB1D8 .
+
+wds:Q6621-44F1A623-9B41-49BF-ACDC-50D1B5AEB1D8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 wd:Q678 .
+
+wd:Q6621 p:P98 wds:Q6621-C381E9F4-6162-42AB-BA10-83A0794F5A2B .
+
+wds:Q6621-C381E9F4-6162-42AB-BA10-83A0794F5A2B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P98 wd:Q6553 ;
+	pq:P163 wd:Q3351 .
+
+wd:Q6621 p:P76 wds:Q6621-C40FB4B2-3F9E-401F-9C06-12222B9C69D6 .
+
+wds:Q6621-C40FB4B2-3F9E-401F-9C06-12222B9C69D6 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P76 wd:Q631 ;
+	prov:wasDerivedFrom wdref:0b970d227b3b5a093334f40e381d8b587481cb7d .
+
+wd:Q6621 p:P83 wds:Q6621-0610b76f-45e3-6f1b-643a-a780a723069c .
+
+wds:Q6621-0610b76f-45e3-6f1b-643a-a780a723069c a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P83 wd:Q692 ;
+	pq:P21 wd:Q631 ;
+	prov:wasDerivedFrom wdref:0b970d227b3b5a093334f40e381d8b587481cb7d .
+
+wd:Q6621 rdfs:label "鴉羽"@zh-tw ;
+	skos:prefLabel "鴉羽"@zh-tw ;
+	schema:name "鴉羽"@zh-tw ;
+	rdfs:label "Crowfeather"@en ;
+	skos:prefLabel "Crowfeather"@en ;
+	schema:name "Crowfeather"@en ;
+	rdfs:label "鸦羽"@zh-hans ;
+	skos:prefLabel "鸦羽"@zh-hans ;
+	schema:name "鸦羽"@zh-hans ;
+	schema:description "《貓戰士：森林部族》宇宙的風族公貓，對應自《午夜追蹤》登場的同名角色"@zh-tw,
+		"WindClan tom from the Warrior Cats: Clans of the Forest universe, counterpart of the same-named character first appearing in Midnight"@en,
+		"《猫武士：森林族群》宇宙的风族公猫，对应自《午夜追踪》登场的同名角色"@zh-hans .
+
+data:Q6622 a schema:Dataset ;
+	schema:about wd:Q6622 ;
+	schema:version "143701"^^xsd:integer ;
+	schema:dateModified "2026-10-28T02:22:32Z"^^xsd:dateTime ;
+	wikibase:statements "3"^^xsd:integer ;
+	wikibase:sitelinks "1"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6622 a wikibase:Item .
+
+<https://warriors.huijiwiki.com/wiki/%E8%8A%B1%E6%A5%B8%E6%8E%8C/%E7%8C%AB%E6%AD%A6%E5%A3%AB%EF%BC%9A%E6%A3%AE%E6%9E%97%E6%97%8F%E7%BE%A4> a schema:Article ;
+	schema:about wd:Q6622 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "花楸掌/猫武士：森林族群"@zh .
+
+wd:Q6622 wdt:P3 wd:Q622 ;
+	wdt:P78 wd:Q678 ;
+	wdt:P98 wd:Q6553 ;
+	p:P3 wds:Q6622-20498441-0C08-4749-BB59-6AE8107AFE43 .
+
+wds:Q6622-20498441-0C08-4749-BB59-6AE8107AFE43 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q622 .
+
+wd:Q6622 p:P78 wds:Q6622-25452856-AC27-49E4-97ED-15EE91B8BC9C .
+
+wds:Q6622-25452856-AC27-49E4-97ED-15EE91B8BC9C a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 wd:Q678 .
+
+wd:Q6622 p:P98 wds:Q6622-3DDB9B9D-F654-46A5-A5F4-BDBC48AE2AE4 .
+
+wds:Q6622-3DDB9B9D-F654-46A5-A5F4-BDBC48AE2AE4 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P98 wd:Q6553 ;
+	pq:P163 wd:Q2692 .
+
+wd:Q6622 rdfs:label "花楸星"@zh-tw ;
+	skos:prefLabel "花楸星"@zh-tw ;
+	schema:name "花楸星"@zh-tw ;
+	rdfs:label "Rowanstar"@en ;
+	skos:prefLabel "Rowanstar"@en ;
+	schema:name "Rowanstar"@en ;
+	rdfs:label "花楸星"@zh-hans ;
+	skos:prefLabel "花楸星"@zh-hans ;
+	schema:name "花楸星"@zh-hans ;
+	schema:description "《貓戰士：森林部族》宇宙的影族公貓，對應自《危險小徑》登場的同名角色"@zh-tw,
+		"ShadowClan tom from the Warrior Cats: Clans of the Forest universe, counterpart of the same-named character first appearing in A Dangerous Path"@en,
+		"《猫武士：森林族群》宇宙的影族公猫，对应自《险路惊魂》登场的同名角色"@zh-hans .
+
+data:Q6623 a schema:Dataset ;
+	schema:about wd:Q6623 ;
+	schema:version "143700"^^xsd:integer ;
+	schema:dateModified "2026-10-28T02:21:17Z"^^xsd:dateTime ;
+	wikibase:statements "3"^^xsd:integer ;
+	wikibase:sitelinks "1"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6623 a wikibase:Item .
+
+<https://warriors.huijiwiki.com/wiki/%E6%96%AD%E6%98%9F/%E7%8C%AB%E6%AD%A6%E5%A3%AB%EF%BC%9A%E6%A3%AE%E6%9E%97%E6%97%8F%E7%BE%A4> a schema:Article ;
+	schema:about wd:Q6623 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "断星/猫武士：森林族群"@zh .
+
+wd:Q6623 wdt:P3 wd:Q622 ;
+	wdt:P78 wd:Q678 ;
+	wdt:P98 wd:Q6553 ;
+	p:P3 wds:Q6623-D93B7CF5-01A0-4431-8837-BC1E8B3EAD7B .
+
+wds:Q6623-D93B7CF5-01A0-4431-8837-BC1E8B3EAD7B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q622 .
+
+wd:Q6623 p:P78 wds:Q6623-0626F736-9B0A-400B-A643-4474C6B94E11 .
+
+wds:Q6623-0626F736-9B0A-400B-A643-4474C6B94E11 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 wd:Q678 .
+
+wd:Q6623 p:P98 wds:Q6623-BAB40189-EC2C-41BD-8E99-27F123516668 .
+
+wds:Q6623-BAB40189-EC2C-41BD-8E99-27F123516668 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P98 wd:Q6553 ;
+	pq:P163 wd:Q2583 .
+
+wd:Q6623 rdfs:label "碎星"@zh-tw ;
+	skos:prefLabel "碎星"@zh-tw ;
+	schema:name "碎星"@zh-tw ;
+	rdfs:label "Brokenstar"@en ;
+	skos:prefLabel "Brokenstar"@en ;
+	schema:name "Brokenstar"@en ;
+	rdfs:label "断星"@zh-hans ;
+	skos:prefLabel "断星"@zh-hans ;
+	schema:name "断星"@zh-hans ;
+	schema:description "《貓戰士：森林部族》宇宙的影族公貓，對應自《荒野新生》登場的同名角色"@zh-tw,
+		"ShadowClan tom from the Warrior Cats: Clans of the Forest universe, counterpart of the same-named character first appearing in Into the Wild"@en,
+		"《猫武士：森林族群》宇宙的影族公猫，对应自《呼唤野性》登场的同名角色"@zh-hans .
+
+data:Q6624 a schema:Dataset ;
+	schema:about wd:Q6624 ;
+	schema:version "143702"^^xsd:integer ;
+	schema:dateModified "2026-10-28T02:24:18Z"^^xsd:dateTime ;
+	wikibase:statements "3"^^xsd:integer ;
+	wikibase:sitelinks "1"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6624 a wikibase:Item .
+
+<https://warriors.huijiwiki.com/wiki/%E5%B2%A9%E7%9F%B3_(%E5%B0%96%E7%9F%B3%E5%B7%AB%E5%B8%88)/%E7%8C%AB%E6%AD%A6%E5%A3%AB%EF%BC%9A%E6%A3%AE%E6%9E%97%E6%97%8F%E7%BE%A4> a schema:Article ;
+	schema:about wd:Q6624 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "岩石 (尖石巫师)/猫武士：森林族群"@zh .
+
+wd:Q6624 wdt:P3 wd:Q622 ;
+	wdt:P78 wd:Q678 ;
+	wdt:P98 wd:Q6553 ;
+	p:P3 wds:Q6624-DD3830AB-D7A9-4860-A2BE-C3130A86B40F .
+
+wds:Q6624-DD3830AB-D7A9-4860-A2BE-C3130A86B40F a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q622 .
+
+wd:Q6624 p:P78 wds:Q6624-F4468678-6F15-4182-AA55-6538916D57B7 .
+
+wds:Q6624-F4468678-6F15-4182-AA55-6538916D57B7 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 wd:Q678 .
+
+wd:Q6624 p:P98 wds:Q6624-C1E70C79-66EE-403E-818F-49C31643A74D .
+
+wds:Q6624-C1E70C79-66EE-403E-818F-49C31643A74D a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P98 wd:Q6553 ;
+	pq:P163 wd:Q3362 .
+
+wd:Q6624 rdfs:label "磐石"@zh-tw ;
+	skos:prefLabel "磐石"@zh-tw ;
+	schema:name "磐石"@zh-tw ;
+	rdfs:label "Rock"@en ;
+	skos:prefLabel "Rock"@en ;
+	schema:name "Rock"@en ;
+	rdfs:label "岩石"@zh-hans ;
+	skos:prefLabel "岩石"@zh-hans ;
+	schema:name "岩石"@zh-hans ;
+	schema:description "《貓戰士：森林部族》宇宙的公貓，對應自《洶湧暗河》登場的同名角色"@zh-tw,
+		"a tom from the Warrior Cats: Clans of the Forest universe, counterpart of the same-named character first appearing in Dark River"@en,
+		"《猫武士：森林族群》宇宙的公猫，对应自《暗河汹涌》登场的同名角色"@zh-hans .
+
+data:Q6625 a schema:Dataset ;
+	schema:about wd:Q6625 ;
+	schema:version "143712"^^xsd:integer ;
+	schema:dateModified "2026-10-28T02:37:07Z"^^xsd:dateTime ;
+	wikibase:statements "3"^^xsd:integer ;
+	wikibase:sitelinks "1"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6625 a wikibase:Item .
+
+<https://warriors.huijiwiki.com/wiki/%E7%8B%97%E7%BE%A4%E9%A6%96%E9%A2%86/%E7%8C%AB%E6%AD%A6%E5%A3%AB%EF%BC%9A%E6%A3%AE%E6%9E%97%E6%97%8F%E7%BE%A4> a schema:Article ;
+	schema:about wd:Q6625 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "狗群首领/猫武士：森林族群"@zh .
+
+wd:Q6625 wdt:P3 wd:Q4252 ;
+	wdt:P78 wd:Q678 ;
+	wdt:P98 wd:Q6553 ;
+	p:P3 wds:Q6625-bb7a7df9-4013-a9d3-b083-aca8c1ba1202 .
+
+wds:Q6625-bb7a7df9-4013-a9d3-b083-aca8c1ba1202 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q4252 .
+
+wd:Q6625 p:P78 wds:Q6625-a8c383aa-47ca-bb79-55bd-313b1a8fa75f .
+
+wds:Q6625-a8c383aa-47ca-bb79-55bd-313b1a8fa75f a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 wd:Q678 .
+
+wd:Q6625 p:P98 wds:Q6625-839bd896-46d9-f46b-a16c-80d095c19797 .
+
+wds:Q6625-839bd896-46d9-f46b-a16c-80d095c19797 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P98 wd:Q6553 ;
+	pq:P163 wd:Q4345 .
+
+wd:Q6625 rdfs:label "狗群首領"@zh-tw ;
+	skos:prefLabel "狗群首領"@zh-tw ;
+	schema:name "狗群首領"@zh-tw ;
+	rdfs:label "Pack leader"@en ;
+	skos:prefLabel "Pack leader"@en ;
+	schema:name "Pack leader"@en ;
+	rdfs:label "狗群首领"@zh-hans ;
+	skos:prefLabel "狗群首领"@zh-hans ;
+	schema:name "狗群首领"@zh-hans ;
+	schema:description "《貓戰士：森林部族》宇宙的公看門狗，對應自《危險小徑》登場的同名角色"@zh-tw,
+		"male guard dog from the Warrior Cats: Clans of the Forest universe, counterpart of the same-named character first appearing in A Dangerous Path"@en,
+		"《猫武士：森林族群》宇宙的雄性看门狗，对应自《险路惊魂》登场的同名角色"@zh-hans .
+
+data:Q6626 a schema:Dataset ;
+	schema:about wd:Q6626 ;
+	schema:version "143736"^^xsd:integer ;
+	schema:dateModified "2026-10-28T02:54:20Z"^^xsd:dateTime ;
+	wikibase:statements "3"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6626 a wikibase:Item .
+
+<https://warriors.fandom.com/wiki/Mouthclaw%27s_Legacy> a schema:Article ;
+	schema:about wd:Q6626 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://warriors.fandom.com/> ;
+	schema:name "Mouthclaw's Legacy"@en .
+
+<https://warriors.huijiwiki.com/wiki/%E5%98%B4%E6%8E%8C%E4%B9%8B%E9%81%97> a schema:Article ;
+	schema:about wd:Q6626 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "嘴掌之遗"@zh .
+
+wd:Q6626 wdt:P3 wd:Q6627 ;
+	wdt:P78 wd:Q678 ;
+	wdt:P98 wd:Q6553 ;
+	p:P3 wds:Q6626-52c3d90e-473e-c03e-2f24-3762d0d6acae .
+
+wds:Q6626-52c3d90e-473e-c03e-2f24-3762d0d6acae a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q6627 .
+
+wd:Q6626 p:P78 wds:Q6626-53ef4536-4a77-5de6-9064-9f17037f07c4 .
+
+wds:Q6626-53ef4536-4a77-5de6-9064-9f17037f07c4 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 wd:Q678 .
+
+wd:Q6626 p:P98 wds:Q6626-51fb381c-4d7f-69fa-c188-69e2493df3c2 .
+
+wds:Q6626-51fb381c-4d7f-69fa-c188-69e2493df3c2 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P98 wd:Q6553 .
+
+wd:Q6626 rdfs:label "嘴爪之遺"@zh-tw ;
+	skos:prefLabel "嘴爪之遺"@zh-tw ;
+	schema:name "嘴爪之遺"@zh-tw ;
+	rdfs:label "Mouthclaw's Legacy"@en ;
+	skos:prefLabel "Mouthclaw's Legacy"@en ;
+	schema:name "Mouthclaw's Legacy"@en ;
+	rdfs:label "嘴掌之遗"@zh-hans ;
+	skos:prefLabel "嘴掌之遗"@zh-hans ;
+	schema:name "嘴掌之遗"@zh-hans ;
+	schema:description "公蛇，自《貓戰士：森林部族》登場的角色"@zh-tw,
+		"male snake, first appeared in Warrior Cats: Clans of the Forest"@en,
+		"公蛇，自《猫武士：森林族群》登场的角色"@zh-hans .
+
+data:Q6627 a schema:Dataset ;
+	schema:about wd:Q6627 ;
+	schema:version "143726"^^xsd:integer ;
+	schema:dateModified "2026-10-28T02:47:58Z"^^xsd:dateTime ;
+	wikibase:statements "2"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6627 a wikibase:Item ;
+	wdt:P4 wd:Q624 ;
+	wdt:P87 wd:Q4260 ;
+	p:P4 wds:Q6627-b55a6b90-49f6-ebf9-8848-2bce597d0d95 .
+
+wds:Q6627-b55a6b90-49f6-ebf9-8848-2bce597d0d95 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P4 wd:Q624 .
+
+wd:Q6627 p:P87 wds:Q6627-9b6a5bc3-42dd-4d4b-0c24-5ecca6566e27 .
+
+wds:Q6627-9b6a5bc3-42dd-4d4b-0c24-5ecca6566e27 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P87 wd:Q4260 .
+
+wd:Q6627 rdfs:label "虛構蛇人物"@zh-tw ;
+	skos:prefLabel "虛構蛇人物"@zh-tw ;
+	schema:name "虛構蛇人物"@zh-tw ;
+	rdfs:label "fictional snake character"@en ;
+	skos:prefLabel "fictional snake character"@en ;
+	schema:name "fictional snake character"@en ;
+	rdfs:label "虚构蛇人物"@zh-hans ;
+	skos:prefLabel "虚构蛇人物"@zh-hans ;
+	schema:name "虚构蛇人物"@zh-hans ;
+	schema:description "虛構的蛇角色"@zh-tw,
+		"虚构的蛇角色"@zh-hans .
+
+data:Q6628 a schema:Dataset ;
+	schema:about wd:Q6628 ;
+	schema:version "143759"^^xsd:integer ;
+	schema:dateModified "2026-10-28T03:03:05Z"^^xsd:dateTime ;
+	wikibase:statements "3"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6628 a wikibase:Item .
+
+<https://warriors.fandom.com/wiki/Ruthless_Reynard> a schema:Article ;
+	schema:about wd:Q6628 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://warriors.fandom.com/> ;
+	schema:name "Ruthless Reynard"@en .
+
+<https://warriors.huijiwiki.com/wiki/%E6%97%A0%E6%83%85%E7%9A%84%E9%9B%B7%E7%BA%B3%E5%BE%B7> a schema:Article ;
+	schema:about wd:Q6628 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "无情的雷纳德"@zh .
+
+wd:Q6628 wdt:P3 wd:Q4622 ;
+	wdt:P78 wd:Q678 ;
+	wdt:P98 wd:Q6553 ;
+	p:P3 wds:Q6628-2c34a2b7-4029-633d-5fd8-cbbe234154d1 .
+
+wds:Q6628-2c34a2b7-4029-633d-5fd8-cbbe234154d1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q4622 .
+
+wd:Q6628 p:P78 wds:Q6628-099ef252-4141-834f-41d2-0c8356cb4082 .
+
+wds:Q6628-099ef252-4141-834f-41d2-0c8356cb4082 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 wd:Q678 .
+
+wd:Q6628 p:P98 wds:Q6628-d655def1-47ad-0bbf-5b1f-6ed8842151d1 .
+
+wds:Q6628-d655def1-47ad-0bbf-5b1f-6ed8842151d1 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P98 wd:Q6553 .
+
+wd:Q6628 rdfs:label "無情的雷納德"@zh-tw ;
+	skos:prefLabel "無情的雷納德"@zh-tw ;
+	schema:name "無情的雷納德"@zh-tw ;
+	rdfs:label "Ruthless Reynard"@en ;
+	skos:prefLabel "Ruthless Reynard"@en ;
+	schema:name "Ruthless Reynard"@en ;
+	rdfs:label "无情的雷纳德"@zh-hans ;
+	skos:prefLabel "无情的雷纳德"@zh-hans ;
+	schema:name "无情的雷纳德"@zh-hans ;
+	schema:description "公狐，自《貓戰士：森林部族》登場的角色"@zh-tw,
+		"male fox, first appeared in Warrior Cats: Clans of the Forest"@en,
+		"公狐，自《猫武士：森林族群》登场的角色"@zh-hans .
+
+data:Q6629 a schema:Dataset ;
+	schema:about wd:Q6629 ;
+	schema:version "143760"^^xsd:integer ;
+	schema:dateModified "2026-10-28T03:04:30Z"^^xsd:dateTime ;
+	wikibase:statements "3"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6629 a wikibase:Item .
+
+<https://warriors.fandom.com/wiki/Brutal_Brock> a schema:Article ;
+	schema:about wd:Q6629 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://warriors.fandom.com/> ;
+	schema:name "Brutal Brock"@en .
+
+<https://warriors.huijiwiki.com/wiki/%E6%AE%8B%E6%9A%B4%E7%9A%84%E5%B8%83%E7%BD%97%E5%85%8B> a schema:Article ;
+	schema:about wd:Q6629 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "残暴的布罗克"@zh .
+
+wd:Q6629 wdt:P3 wd:Q3547 ;
+	wdt:P78 wd:Q678 ;
+	wdt:P98 wd:Q6553 ;
+	p:P3 wds:Q6629-44237A7C-87A2-42BC-82F1-51B4973F2646 .
+
+wds:Q6629-44237A7C-87A2-42BC-82F1-51B4973F2646 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q3547 .
+
+wd:Q6629 p:P78 wds:Q6629-FFE6ADF8-AD1B-46F4-A361-4497EF5D3C8B .
+
+wds:Q6629-FFE6ADF8-AD1B-46F4-A361-4497EF5D3C8B a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 wd:Q678 .
+
+wd:Q6629 p:P98 wds:Q6629-25B7B365-6CBD-46A4-9C3C-B12D2987C098 .
+
+wds:Q6629-25B7B365-6CBD-46A4-9C3C-B12D2987C098 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P98 wd:Q6553 .
+
+wd:Q6629 rdfs:label "殘暴的布羅克"@zh-tw ;
+	skos:prefLabel "殘暴的布羅克"@zh-tw ;
+	schema:name "殘暴的布羅克"@zh-tw ;
+	rdfs:label "Brutal Brock"@en ;
+	skos:prefLabel "Brutal Brock"@en ;
+	schema:name "Brutal Brock"@en ;
+	rdfs:label "残暴的布罗克"@zh-hans ;
+	skos:prefLabel "残暴的布罗克"@zh-hans ;
+	schema:name "残暴的布罗克"@zh-hans ;
+	schema:description "公獾，自《貓戰士：森林部族》登場的角色"@zh-tw,
+		"male badger, first appeared in Warrior Cats: Clans of the Forest"@en,
+		"公獾，自《猫武士：森林族群》登场的角色"@zh-hans .
