@@ -31,7 +31,7 @@ wikibase:Dump a schema:Dataset,
 		owl:Ontology ;
 	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
 	schema:softwareVersion "1.0.0" ;
-	schema:dateModified "2026-11-07T01:30:02Z"^^xsd:dateTime ;
+	schema:dateModified "2026-11-14T01:30:03Z"^^xsd:dateTime ;
 	owl:imports <http://wikiba.se/ontology-1.0.owl> .
 
 data:P2 a schema:Dataset ;
@@ -2509,8 +2509,8 @@ wdref:3da9f528c39599ce253d269f8ea4e9cf3524552e a wikibase:Reference ;
 
 data:P3 a schema:Dataset ;
 	schema:about wd:P3 ;
-	schema:version "143728"^^xsd:integer ;
-	schema:dateModified "2026-10-28T02:48:30Z"^^xsd:dateTime ;
+	schema:version "143802"^^xsd:integer ;
+	schema:dateModified "2026-11-11T05:25:23Z"^^xsd:dateTime ;
 	wikibase:statements "12"^^xsd:integer .
 
 wd:P3 a wikibase:Property ;
@@ -2651,7 +2651,8 @@ wds:P3-5D61EC93-5A24-4C4E-A720-96D98101EDB4 a wikibase:Statement,
 		wd:Q4269,
 		wd:Q4627,
 		wd:Q4626,
-		wd:Q6627 ;
+		wd:Q6627,
+		wd:Q6632 ;
 	prov:wasDerivedFrom wdref:dd9ee0a820ab64bbc87dd0b0670dafa0b0d94f2f .
 
 wd:P3 p:P3 wds:P3-DD1E97E4-018D-4570-A72C-8111C0549D3D .
@@ -591152,8 +591153,8 @@ wd:Q3564 rdfs:label "Path of a Warrior"@en ;
 
 data:Q3565 a schema:Dataset ;
 	schema:about wd:Q3565 ;
-	schema:version "139171"^^xsd:integer ;
-	schema:dateModified "2026-08-14T02:43:17Z"^^xsd:dateTime ;
+	schema:version "143784"^^xsd:integer ;
+	schema:dateModified "2026-11-10T21:30:17Z"^^xsd:dateTime ;
 	wikibase:statements "154"^^xsd:integer ;
 	wikibase:sitelinks "8"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -591172,11 +591173,11 @@ wd:Q3565 a wikibase:Item .
 	schema:isPartOf <https://wojownicy.fandom.com/> ;
 	schema:name "Dług Rudego Ogona"@pl .
 
-<https://lgdc.fandom.com/fr/wiki/Redtail%27s_Debt> a schema:Article ;
+<https://lgdc.fandom.com/fr/wiki/La_dette_de_Plume_Rousse> a schema:Article ;
 	schema:about wd:Q3565 ;
 	schema:inLanguage "fr" ;
 	schema:isPartOf <https://lgdc.fandom.com/> ;
-	schema:name "Redtail's Debt"@fr .
+	schema:name "La dette de Plume Rousse"@fr .
 
 <https://warriors.huijiwiki.com/wiki/%E7%BA%A2%E5%B0%BE%E7%9A%84%E6%81%A9%E5%80%BA> a schema:Article ;
 	schema:about wd:Q3565 ;
@@ -861034,3 +861035,100 @@ wd:Q6630 rdfs:label "楓影"@zh-tw ;
 	schema:description "《貓戰士：森林部族》宇宙的黑暗森林母貓，對應自《星夜私語》登場的同名角色"@zh-tw,
 		"Dark Forest she-cat from the Warrior Cats: Clans of the Forest universe, counterpart of the same-named character first appearing in Night Whispers"@en,
 		"《猫武士：森林族群》宇宙的黑森林母猫，对应自《暗夜密语》登场的同名角色"@zh-hans .
+
+data:Q6631 a schema:Dataset ;
+	schema:about wd:Q6631 ;
+	schema:version "143804"^^xsd:integer ;
+	schema:dateModified "2026-11-11T05:56:33Z"^^xsd:dateTime ;
+	wikibase:statements "3"^^xsd:integer ;
+	wikibase:sitelinks "2"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6631 a wikibase:Item .
+
+<https://warriors.fandom.com/wiki/Hunter%27s_Bane> a schema:Article ;
+	schema:about wd:Q6631 ;
+	schema:inLanguage "en" ;
+	schema:isPartOf <https://warriors.fandom.com/> ;
+	schema:name "Hunter's Bane"@en .
+
+<https://warriors.huijiwiki.com/wiki/%E7%8C%8E%E6%89%8B%E4%B9%8B%E7%A5%B8> a schema:Article ;
+	schema:about wd:Q6631 ;
+	schema:inLanguage "zh" ;
+	schema:isPartOf <https://warriors.huijiwiki.com/> ;
+	schema:name "猎手之祸"@zh .
+
+wd:Q6631 wdt:P3 wd:Q6632 ;
+	wdt:P98 wd:Q6553 ;
+	wdt:P78 _:c3065962953877fe1051f69719b8ad8e ;
+	p:P3 wds:Q6631-e6fb6772-486b-9981-c0d1-d0b903543e62 .
+
+wds:Q6631-e6fb6772-486b-9981-c0d1-d0b903543e62 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q6632 .
+
+wd:Q6631 p:P98 wds:Q6631-f25301da-426c-7299-f15b-790d20db5677 .
+
+wds:Q6631-f25301da-426c-7299-f15b-790d20db5677 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P98 wd:Q6553 .
+
+wd:Q6631 p:P78 wds:Q6631-41ecc2bc-4108-b4f5-8d48-d0ddcc2504b8 .
+
+wds:Q6631-41ecc2bc-4108-b4f5-8d48-d0ddcc2504b8 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P78 _:7d0deb419a76a5f3700fe6b982cd3b07 .
+
+wd:Q6631 rdfs:label "獵手之禍"@zh-tw ;
+	skos:prefLabel "獵手之禍"@zh-tw ;
+	schema:name "獵手之禍"@zh-tw ;
+	rdfs:label "Hunter's Bane"@en ;
+	skos:prefLabel "Hunter's Bane"@en ;
+	schema:name "Hunter's Bane"@en ;
+	rdfs:label "猎手之祸"@zh-hans ;
+	skos:prefLabel "猎手之祸"@zh-hans ;
+	schema:name "猎手之祸"@zh-hans ;
+	schema:description "兔，自《貓戰士：森林部族》登場的角色"@zh-tw,
+		"a rabbit, first appeared in Warrior Cats: Clans of the Forest"@en,
+		"兔，自《猫武士：森林族群》登场的角色"@zh-hans .
+
+data:Q6632 a schema:Dataset ;
+	schema:about wd:Q6632 ;
+	schema:version "143798"^^xsd:integer ;
+	schema:dateModified "2026-11-11T05:24:41Z"^^xsd:dateTime ;
+	wikibase:statements "2"^^xsd:integer ;
+	wikibase:sitelinks "0"^^xsd:integer ;
+	wikibase:identifiers "0"^^xsd:integer .
+
+wd:Q6632 a wikibase:Item ;
+	wdt:P3 wd:Q624 ;
+	wdt:P87 wd:Q6168 ;
+	p:P3 wds:Q6632-9161c891-434f-6126-ab9b-cd2c8c4e4e6b .
+
+wds:Q6632-9161c891-434f-6126-ab9b-cd2c8c4e4e6b a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P3 wd:Q624 .
+
+wd:Q6632 p:P87 wds:Q6632-05988bcd-4fad-16c7-85cb-dde1c3ab497b .
+
+wds:Q6632-05988bcd-4fad-16c7-85cb-dde1c3ab497b a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	ps:P87 wd:Q6168 .
+
+wd:Q6632 rdfs:label "虛構兔人物"@zh-tw ;
+	skos:prefLabel "虛構兔人物"@zh-tw ;
+	schema:name "虛構兔人物"@zh-tw ;
+	rdfs:label "fictional rabbit character"@en ;
+	skos:prefLabel "fictional rabbit character"@en ;
+	schema:name "fictional rabbit character"@en ;
+	rdfs:label "虚构兔人物"@zh-hans ;
+	skos:prefLabel "虚构兔人物"@zh-hans ;
+	schema:name "虚构兔人物"@zh-hans ;
+	schema:description "虛構的兔角色"@zh-tw,
+		"虚构的兔角色"@zh-hans ;
+	skos:altLabel "rabbit character"@en .
