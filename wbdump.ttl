@@ -31,7 +31,7 @@ wikibase:Dump a schema:Dataset,
 		owl:Ontology ;
 	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
 	schema:softwareVersion "1.0.0" ;
-	schema:dateModified "2026-11-14T01:30:03Z"^^xsd:dateTime ;
+	schema:dateModified "2026-11-21T01:30:03Z"^^xsd:dateTime ;
 	owl:imports <http://wikiba.se/ontology-1.0.owl> .
 
 data:P2 a schema:Dataset ;
@@ -617738,8 +617738,8 @@ _:b6d0c779bbfee543cede0bb2ea479680 a owl:Restriction ;
 
 data:Q3639 a schema:Dataset ;
 	schema:about wd:Q3639 ;
-	schema:version "143352"^^xsd:integer ;
-	schema:dateModified "2026-10-06T21:30:51Z"^^xsd:dateTime ;
+	schema:version "143807"^^xsd:integer ;
+	schema:dateModified "2026-11-16T21:30:19Z"^^xsd:dateTime ;
 	wikibase:statements "5"^^xsd:integer ;
 	wikibase:sitelinks "7"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -617770,11 +617770,11 @@ wd:Q3639 a wikibase:Item .
 	schema:isPartOf <https://lgdc.fandom.com/> ;
 	schema:name "Jack"@fr .
 
-<https://warrior-cats.fandom.com/de/wiki/Jack> a schema:Article ;
+<https://warrior-cats.fandom.com/de/wiki/Jack_(Eichhornschweifs_Hoffnung)> a schema:Article ;
 	schema:about wd:Q3639 ;
 	schema:inLanguage "de" ;
 	schema:isPartOf <https://warrior-cats.fandom.com/> ;
-	schema:name "Jack"@de .
+	schema:name "Jack (Eichhornschweifs Hoffnung)"@de .
 
 <https://wojownicy.fandom.com/pl/wiki/Jacu%C5%9B> a schema:Article ;
 	schema:about wd:Q3639 ;
@@ -815426,9 +815426,9 @@ wd:Q6133 rdfs:label "疾撲細語"@zh-tw ;
 
 data:Q6134 a schema:Dataset ;
 	schema:about wd:Q6134 ;
-	schema:version "141642"^^xsd:integer ;
-	schema:dateModified "2026-08-21T12:36:52Z"^^xsd:dateTime ;
-	wikibase:statements "41"^^xsd:integer ;
+	schema:version "143806"^^xsd:integer ;
+	schema:dateModified "2026-11-14T15:03:36Z"^^xsd:dateTime ;
+	wikibase:statements "40"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -815463,7 +815463,6 @@ wd:Q6134 wdt:P3 wd:Q622 ;
 		wd:Q688,
 		wd:Q685 ;
 	wdt:P84 "Galestar"@en,
-		"飚星"@zh-cn,
 		"飈星"@zh-tw,
 		"Galepaw"@en,
 		"飚爪"@zh-cn,
@@ -815653,14 +815652,6 @@ wds:Q6134-8ddb0f29-46ba-371a-780d-3625b81fcb8d a wikibase:Statement,
 	pq:P110 "gale" ;
 	pq:P111 "star" ;
 	pq:P92 wd:Q6315 .
-
-wd:Q6134 p:P84 wds:Q6134-b15ee729-49d4-457e-858a-f6f0f500c983 .
-
-wds:Q6134-b15ee729-49d4-457e-858a-f6f0f500c983 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P84 "飚星"@zh-cn ;
-	pq:P102 wd:Q4865 .
 
 wd:Q6134 p:P84 wds:Q6134-2ee7e7dd-49d8-ee24-0dc3-9e36b815ba39 .
 
@@ -815920,9 +815911,9 @@ wdref:f3bd683b0fda1195971634147da28f60636dd472 a wikibase:Reference ;
 
 data:Q6135 a schema:Dataset ;
 	schema:about wd:Q6135 ;
-	schema:version "141600"^^xsd:integer ;
-	schema:dateModified "2026-08-21T12:26:00Z"^^xsd:dateTime ;
-	wikibase:statements "39"^^xsd:integer ;
+	schema:version "143805"^^xsd:integer ;
+	schema:dateModified "2026-11-14T15:03:02Z"^^xsd:dateTime ;
+	wikibase:statements "38"^^xsd:integer ;
 	wikibase:sitelinks "2"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
@@ -815959,7 +815950,6 @@ wd:Q6135 wdt:P3 wd:Q622 ;
 		wd:Q688,
 		wd:Q682 ;
 	wdt:P84 "Stripestar"@en,
-		"条星"@zh-cn,
 		"紋星"@zh-tw,
 		"Stripepaw"@en,
 		"条爪"@zh-cn,
@@ -816171,14 +816161,6 @@ wds:Q6135-9bba6579-4ab6-a674-1afb-1f9c47140a21 a wikibase:Statement,
 	pq:P111 "star" ;
 	pq:P92 wd:Q6315 ;
 	pq:P93 wd:Q6345 .
-
-wd:Q6135 p:P84 wds:Q6135-c60ef08a-42a5-6f42-4378-a994f66e5cf4 .
-
-wds:Q6135-c60ef08a-42a5-6f42-4378-a994f66e5cf4 a wikibase:Statement,
-		wikibase:BestRank ;
-	wikibase:rank wikibase:NormalRank ;
-	ps:P84 "条星"@zh-cn ;
-	pq:P102 wd:Q4865 .
 
 wd:Q6135 p:P84 wds:Q6135-b21820fa-468f-cc49-8e17-cc0cebccd98a .
 
@@ -846583,19 +846565,19 @@ wd:Q6418 rdfs:label "小躍"@zh-tw ;
 
 data:Q6419 a schema:Dataset ;
 	schema:about wd:Q6419 ;
-	schema:version "135857"^^xsd:integer ;
-	schema:dateModified "2026-01-28T02:46:34Z"^^xsd:dateTime ;
+	schema:version "143814"^^xsd:integer ;
+	schema:dateModified "2026-11-20T21:30:19Z"^^xsd:dateTime ;
 	wikibase:statements "2"^^xsd:integer ;
 	wikibase:sitelinks "1"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
 
 wd:Q6419 a wikibase:Item .
 
-<https://warriors.fandom.com/wiki/Super_Edition_20> a schema:Article ;
+<https://warriors.fandom.com/wiki/Stormfur%27s_Rescue> a schema:Article ;
 	schema:about wd:Q6419 ;
 	schema:inLanguage "en" ;
 	schema:isPartOf <https://warriors.fandom.com/> ;
-	schema:name "Super Edition 20"@en .
+	schema:name "Stormfur's Rescue"@en .
 
 wd:Q6419 wdt:P3 wd:Q46 ;
 	wdt:P50 wd:Q126 ;
@@ -846615,19 +846597,22 @@ wds:Q6419-f913ece4-4694-91d0-0b3e-bd0b03ce8025 a wikibase:Statement,
 	pq:P53 "20" ;
 	pq:P48 wd:Q6312 .
 
-wd:Q6419 rdfs:label "長篇外傳20"@zh-tw ;
-	skos:prefLabel "長篇外傳20"@zh-tw ;
-	schema:name "長篇外傳20"@zh-tw ;
-	rdfs:label "Super Edition 20"@en ;
-	skos:prefLabel "Super Edition 20"@en ;
-	schema:name "Super Edition 20"@en ;
-	rdfs:label "长篇外传20"@zh-hans ;
-	skos:prefLabel "长篇外传20"@zh-hans ;
-	schema:name "长篇外传20"@zh-hans ;
+wd:Q6419 rdfs:label "暴毛的救援"@zh-tw ;
+	skos:prefLabel "暴毛的救援"@zh-tw ;
+	schema:name "暴毛的救援"@zh-tw ;
+	rdfs:label "Stormfur’s Rescue"@en ;
+	skos:prefLabel "Stormfur’s Rescue"@en ;
+	schema:name "Stormfur’s Rescue"@en ;
+	rdfs:label "暴毛的救援"@zh-hans ;
+	skos:prefLabel "暴毛的救援"@zh-hans ;
+	schema:name "暴毛的救援"@zh-hans ;
 	schema:description "《貓戰士》長篇外傳第二十冊"@zh-tw,
 		"the twenty book of Super Edition arc"@en,
 		"《猫武士》长篇外传第二十册"@zh-hans ;
-	skos:altLabel "SE 20"@en .
+	skos:altLabel "SE 20"@en,
+		"Super Edition 20"@en,
+		"长篇外传20"@zh-hans,
+		"長篇外傳20"@zh-tw .
 
 data:Q6420 a schema:Dataset ;
 	schema:about wd:Q6420 ;
