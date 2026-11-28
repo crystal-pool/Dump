@@ -31,7 +31,7 @@ wikibase:Dump a schema:Dataset,
 		owl:Ontology ;
 	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
 	schema:softwareVersion "1.0.0" ;
-	schema:dateModified "2026-11-21T01:30:03Z"^^xsd:dateTime ;
+	schema:dateModified "2026-11-28T01:30:02Z"^^xsd:dateTime ;
 	owl:imports <http://wikiba.se/ontology-1.0.owl> .
 
 data:P2 a schema:Dataset ;
@@ -413160,8 +413160,8 @@ wdref:46e1495b193ac3d0d9c00da5b036f3380a6db943 a wikibase:Reference ;
 
 data:Q2822 a schema:Dataset ;
 	schema:about wd:Q2822 ;
-	schema:version "135399"^^xsd:integer ;
-	schema:dateModified "2025-09-11T11:17:46Z"^^xsd:dateTime ;
+	schema:version "143816"^^xsd:integer ;
+	schema:dateModified "2026-11-23T21:30:29Z"^^xsd:dateTime ;
 	wikibase:statements "44"^^xsd:integer ;
 	wikibase:sitelinks "12"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -413234,11 +413234,11 @@ wd:Q2822 a wikibase:Item .
 	schema:isPartOf <https://warriors.fandom.com/> ;
 	schema:name "StellaDiTuono"@it .
 
-<https://warriors-svensk.fandom.com/sv/wiki/%C3%85ska> a schema:Article ;
+<https://warriors-svensk.fandom.com/sv/wiki/%C3%85skan> a schema:Article ;
 	schema:about wd:Q2822 ;
 	schema:inLanguage "sv" ;
 	schema:isPartOf <https://warriors-svensk.fandom.com/> ;
-	schema:name "Åska"@sv .
+	schema:name "Åskan"@sv .
 
 wd:Q2822 wdt:P3 wd:Q622 ;
 	wdt:P78 wd:Q678 ;
@@ -846565,8 +846565,8 @@ wd:Q6418 rdfs:label "小躍"@zh-tw ;
 
 data:Q6419 a schema:Dataset ;
 	schema:about wd:Q6419 ;
-	schema:version "143814"^^xsd:integer ;
-	schema:dateModified "2026-11-20T21:30:19Z"^^xsd:dateTime ;
+	schema:version "143815"^^xsd:integer ;
+	schema:dateModified "2026-11-23T07:06:41Z"^^xsd:dateTime ;
 	wikibase:statements "2"^^xsd:integer ;
 	wikibase:sitelinks "1"^^xsd:integer ;
 	wikibase:identifiers "0"^^xsd:integer .
@@ -846610,7 +846610,7 @@ wd:Q6419 rdfs:label "暴毛的救援"@zh-tw ;
 		"the twenty book of Super Edition arc"@en,
 		"《猫武士》长篇外传第二十册"@zh-hans ;
 	skos:altLabel "SE 20"@en,
-		"Super Edition 20"@en,
+		"SR"@en,
 		"长篇外传20"@zh-hans,
 		"長篇外傳20"@zh-tw .
 
